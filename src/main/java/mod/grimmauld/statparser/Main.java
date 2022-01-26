@@ -28,6 +28,7 @@ public class Main {
 		return TOWER_MANAGER.chimpsViable.stream()
 			.filter(towerInstance -> towerInstance.cost < ROUND_MANAGER.startingCash)
 			.flatMap(towerOne -> TOWER_MANAGER.chimpsViable.stream()
+				.filter(towerOne::compatibleWith)
 				.filter(towerTwo -> towerOne.getPrice(TOWER_MANAGER) + towerTwo.getPrice(TOWER_MANAGER) < ROUND_MANAGER.totalCash)
 				.map(towerTwo -> UnorderedPair.of(towerOne, towerTwo)))
 			.distinct();

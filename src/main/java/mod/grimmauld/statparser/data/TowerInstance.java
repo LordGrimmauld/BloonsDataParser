@@ -10,6 +10,8 @@ public class TowerInstance {
 	public String name;
 	public String baseId;
 	public String towerSet;
+	public int[] tiers;
+	public int tier;
 
 	public Stream<Upgrade> getUpgrades(TowerManager manager) {
 		return manager.upgrades.stream()
@@ -37,5 +39,19 @@ public class TowerInstance {
 		if (baseId.equals("BananaFarm"))
 			return false;
 		return !towerSet.equals("Hero") || appliedUpgrades.size() >= 19;
+	}
+
+	public boolean compatibleWith(TowerInstance other) {
+		if (!this.baseId.equals(other.baseId))
+			return true;
+		if (this.tier != 5 || other.tier != 5)
+			return true;
+		if (this.tiers.length != 3 || other.tiers.length != 3)
+			throw new AssertionError("Found tower with weird paths"); // this should never happen
+		if (this.tiers[0] == 5 && other.tiers[0] == 5)
+			return false;
+		if (this.tiers[1] == 5 && other.tiers[1] == 5)
+			return false;
+		return this.tiers[2] != 5 || other.tiers[2] != 5;
 	}
 }
