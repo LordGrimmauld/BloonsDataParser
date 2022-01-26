@@ -1,0 +1,17 @@
+{
+  "cost": 4250,
+  "xpCost": 2600,
+  "icon": {
+    "GUID": "61e4bd72df2a144c89895034f5e300cb",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Laser Cannon",
+  "IsParagon": false,
+  "name": "Laser Cannon",
+  "ImplementationType": null
+}

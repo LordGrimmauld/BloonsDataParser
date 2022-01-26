@@ -1,0 +1,17 @@
+{
+  "cost": 200,
+  "xpCost": 950,
+  "icon": {
+    "GUID": "c3818bcf489484d5a83ffdd914c30d44",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Banana Salvage",
+  "IsParagon": false,
+  "name": "Banana Salvage",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 5100,
+  "xpCost": 14000,
+  "icon": {
+    "GUID": "57ee31b95ecb64082b8dddd1af96eed8",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Rocket Storm",
+  "IsParagon": false,
+  "name": "Rocket Storm",
+  "ImplementationType": null
+}

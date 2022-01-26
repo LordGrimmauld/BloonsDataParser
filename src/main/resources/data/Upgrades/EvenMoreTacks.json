@@ -1,0 +1,17 @@
+{
+  "cost": 100,
+  "xpCost": 490,
+  "icon": {
+    "GUID": "ae76b84d213d46c43899f584173fba26",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Even More Tacks",
+  "IsParagon": false,
+  "name": "Even More Tacks",
+  "ImplementationType": null
+}

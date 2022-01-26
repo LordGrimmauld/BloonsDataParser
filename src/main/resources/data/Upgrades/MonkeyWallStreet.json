@@ -1,0 +1,17 @@
+{
+  "cost": 60000,
+  "xpCost": 50000,
+  "icon": {
+    "GUID": "cad0f24368a7149dc89db3213d0c5bf6",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Monkey Wall Street",
+  "IsParagon": false,
+  "name": "Monkey Wall Street",
+  "ImplementationType": null
+}

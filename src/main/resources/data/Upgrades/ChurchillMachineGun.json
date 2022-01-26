@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 3181,
+  "icon": null,
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Churchill Machine Gun",
+  "IsParagon": false,
+  "name": "Churchill Machine Gun",
+  "ImplementationType": null
+}

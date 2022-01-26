@@ -1,0 +1,17 @@
+{
+  "cost": 13500,
+  "xpCost": 14000,
+  "icon": {
+    "GUID": "c101127fbd522584dbcce02cdb22afdb",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Overclock",
+  "IsParagon": false,
+  "name": "Overclock",
+  "ImplementationType": null
+}

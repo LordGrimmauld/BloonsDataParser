@@ -1,0 +1,17 @@
+{
+  "cost": 1300,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "6beffb183eb5e6940a2ab87122755fee",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Glaive Ricochet",
+  "IsParagon": false,
+  "name": "Glaive Ricochet",
+  "ImplementationType": null
+}

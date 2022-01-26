@@ -1,0 +1,17 @@
+{
+  "cost": 450,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "2ac79ca0163eaed4a8b077b32199eeb5",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Oversize Nails",
+  "IsParagon": false,
+  "name": "Oversize Nails",
+  "ImplementationType": null
+}

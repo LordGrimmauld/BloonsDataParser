@@ -1,0 +1,17 @@
+{
+  "cost": 55000,
+  "xpCost": 37500,
+  "icon": {
+    "GUID": "45f867cddc7cd6848b14d829ebdceff2",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Crush",
+  "IsParagon": false,
+  "name": "Bloon Crush",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 90000,
+  "xpCost": 85000,
+  "icon": {
+    "GUID": "67cf17c39be6fae41aee6044d72f4969",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "The Anti-Bloon",
+  "IsParagon": false,
+  "name": "The Anti-Bloon",
+  "ImplementationType": null
+}

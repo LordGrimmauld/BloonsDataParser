@@ -1,0 +1,17 @@
+{
+  "cost": 12000,
+  "xpCost": 15000,
+  "icon": {
+    "GUID": "a5d1b0e45cba8114fa2fa88c46521e8d",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Support Chinook",
+  "IsParagon": false,
+  "name": "Support Chinook",
+  "ImplementationType": null
+}

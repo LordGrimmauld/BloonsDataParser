@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 16380,
+  "icon": null,
+  "path": 0,
+  "tier": 10,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Attack Speed 2",
+  "IsParagon": true,
+  "name": "Attack Speed 2",
+  "ImplementationType": null
+}

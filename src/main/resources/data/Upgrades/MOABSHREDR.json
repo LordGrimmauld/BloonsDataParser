@@ -1,0 +1,17 @@
+{
+  "cost": 2500,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "593b0d7cbe39f4789b1ce7bbbc8174e2",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "MOAB SHREDR",
+  "IsParagon": false,
+  "name": "MOAB SHREDR",
+  "ImplementationType": null
+}

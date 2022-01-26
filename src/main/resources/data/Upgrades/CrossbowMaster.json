@@ -1,0 +1,17 @@
+{
+  "cost": 25000,
+  "xpCost": 35000,
+  "icon": {
+    "GUID": "af3a03367d1284c4fab1d920bdad607d",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Crossbow Master",
+  "IsParagon": false,
+  "name": "Crossbow Master",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 1000,
+  "xpCost": 2000,
+  "icon": {
+    "GUID": "0e1d170cdd6673a438eee5c9c4a96ddf",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Lead to Gold",
+  "IsParagon": false,
+  "name": "Lead to Gold",
+  "ImplementationType": null
+}

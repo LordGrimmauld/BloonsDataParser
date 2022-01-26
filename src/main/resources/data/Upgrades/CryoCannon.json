@@ -1,0 +1,17 @@
+{
+  "cost": 1950,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "f42b00cb111c7b74684d45996c8645d7",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Cryo Cannon",
+  "IsParagon": false,
+  "name": "Cryo Cannon",
+  "ImplementationType": null
+}

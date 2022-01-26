@@ -1,0 +1,17 @@
+{
+  "cost": 34000,
+  "xpCost": 37500,
+  "icon": {
+    "GUID": "eb9ce0a7945b4423eb42c9cd095c1e85",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Cripple MOAB",
+  "IsParagon": false,
+  "name": "Cripple MOAB",
+  "ImplementationType": null
+}

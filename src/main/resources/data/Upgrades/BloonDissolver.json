@@ -1,0 +1,17 @@
+{
+  "cost": 2500,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "838ca846f046b0c4e8891e42e31ef201",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Dissolver",
+  "IsParagon": false,
+  "name": "Bloon Dissolver",
+  "ImplementationType": null
+}

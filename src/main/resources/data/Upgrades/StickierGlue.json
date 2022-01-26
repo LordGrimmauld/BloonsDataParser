@@ -1,0 +1,17 @@
+{
+  "cost": 120,
+  "xpCost": 130,
+  "icon": {
+    "GUID": "131ab8a3494022545ac78670a22bcd26",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Stickier Glue",
+  "IsParagon": false,
+  "name": "Stickier Glue",
+  "ImplementationType": null
+}

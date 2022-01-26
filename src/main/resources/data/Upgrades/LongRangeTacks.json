@@ -1,0 +1,17 @@
+{
+  "cost": 100,
+  "xpCost": 140,
+  "icon": {
+    "GUID": "0428621355455f8438359a88bb254b5d",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Long Range Tacks",
+  "IsParagon": false,
+  "name": "Long Range Tacks",
+  "ImplementationType": null
+}

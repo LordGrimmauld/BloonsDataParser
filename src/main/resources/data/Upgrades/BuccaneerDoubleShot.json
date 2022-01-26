@@ -1,0 +1,17 @@
+{
+  "cost": 550,
+  "xpCost": 700,
+  "icon": {
+    "GUID": "23124f8c84c649b4db949db077048c93",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Double Shot",
+  "IsParagon": false,
+  "name": "Buccaneer-Double Shot",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 450,
+  "xpCost": 700,
+  "icon": {
+    "GUID": "eba7e841af119794c890489e13c757ad",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Acid Pool",
+  "IsParagon": false,
+  "name": "Acid Pool",
+  "ImplementationType": null
+}

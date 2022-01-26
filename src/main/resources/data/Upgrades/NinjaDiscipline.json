@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "f031c71583161471880cbae84edff731",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Ninja Discipline",
+  "IsParagon": false,
+  "name": "Ninja Discipline",
+  "ImplementationType": null
+}

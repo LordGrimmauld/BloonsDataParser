@@ -1,0 +1,17 @@
+{
+  "cost": 200,
+  "xpCost": 140,
+  "icon": {
+    "GUID": "93dbf3f2e81984fdcba207a7f51a29d9",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Increased Accuracy",
+  "IsParagon": false,
+  "name": "Increased Accuracy",
+  "ImplementationType": null
+}

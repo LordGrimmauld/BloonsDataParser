@@ -1,0 +1,17 @@
+{
+  "cost": 1500,
+  "xpCost": 1000,
+  "icon": {
+    "GUID": "f33569226695a40d79bf3ed73313625c",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Jungle Drums",
+  "IsParagon": false,
+  "name": "Jungle Drums",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 130,
+  "icon": {
+    "GUID": "f10676b15e2044a29939e96013a7bc23",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Fast Firing",
+  "IsParagon": false,
+  "name": "Fast Firing",
+  "ImplementationType": null
+}

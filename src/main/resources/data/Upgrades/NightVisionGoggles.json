@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 200,
+  "icon": {
+    "GUID": "ca1975fa03a8c4eaba2e75012723c6be",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Night Vision Goggles",
+  "IsParagon": false,
+  "name": "Night Vision Goggles",
+  "ImplementationType": null
+}

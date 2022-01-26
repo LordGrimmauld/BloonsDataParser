@@ -1,0 +1,17 @@
+{
+  "cost": 54000,
+  "xpCost": 35000,
+  "icon": {
+    "GUID": "bd17a13d8a30a40c3b7922621ba2c002",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Wizard Lord Phoenix",
+  "IsParagon": false,
+  "name": "Wizard Lord Phoenix",
+  "ImplementationType": null
+}

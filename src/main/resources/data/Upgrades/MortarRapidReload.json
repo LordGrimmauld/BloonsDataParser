@@ -1,0 +1,17 @@
+{
+  "cost": 500,
+  "xpCost": 600,
+  "icon": {
+    "GUID": "9dda163f7082e44518c58a77d49c9318",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Mortar Rapid Reload",
+  "IsParagon": false,
+  "name": "Mortar Rapid Reload",
+  "ImplementationType": null
+}

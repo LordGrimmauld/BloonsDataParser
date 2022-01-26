@@ -1,0 +1,17 @@
+{
+  "cost": 22000,
+  "xpCost": 35000,
+  "icon": {
+    "GUID": "f10101da2d1a543108cb9a0b0abd87be",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Grand Saboteur",
+  "IsParagon": false,
+  "name": "Grand Saboteur",
+  "ImplementationType": null
+}

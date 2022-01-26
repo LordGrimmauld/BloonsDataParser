@@ -1,0 +1,17 @@
+{
+  "cost": 1600,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "6993afca13b796643b35641e30e683ff",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bionc Boomerang",
+  "IsParagon": false,
+  "name": "Bionc Boomerang",
+  "ImplementationType": null
+}

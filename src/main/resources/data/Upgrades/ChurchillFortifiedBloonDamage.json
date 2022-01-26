@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 28010,
+  "icon": null,
+  "path": 0,
+  "tier": 14,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Churchill Fortified Bloon Damage",
+  "IsParagon": true,
+  "name": "Churchill Fortified Bloon Damage",
+  "ImplementationType": null
+}

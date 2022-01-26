@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 550,
+  "icon": {
+    "GUID": "6524993f309b54d43add144993de7958",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "Smart Spikes",
+  "LocsKey": "Smart Spikes",
+  "IsParagon": false,
+  "name": "Directed Spikes",
+  "ImplementationType": null
+}

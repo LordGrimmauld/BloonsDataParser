@@ -1,0 +1,17 @@
+{
+  "cost": 190,
+  "xpCost": 400,
+  "icon": {
+    "GUID": "7cf908000e877724da98b6e7fd6ad5fd",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Very Quick Shots",
+  "IsParagon": false,
+  "name": "Very Quick Shots",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 350,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "7d85fd5d303abdc429ec3e8aeccaac09",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Faster Shooting",
+  "IsParagon": false,
+  "name": "Buccaneer-Faster Shooting",
+  "ImplementationType": null
+}

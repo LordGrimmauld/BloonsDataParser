@@ -1,0 +1,17 @@
+{
+  "cost": 30000,
+  "xpCost": 40000,
+  "icon": {
+    "GUID": "eb2f97f1a8ef9404d9a8a76257a8773b",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Special Poperations",
+  "IsParagon": false,
+  "name": "Special Poperations",
+  "ImplementationType": null
+}

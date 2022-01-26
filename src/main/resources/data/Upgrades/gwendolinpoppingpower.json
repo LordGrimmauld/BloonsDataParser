@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 16650,
+  "icon": null,
+  "path": 0,
+  "tier": 12,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "gwendolin popping power",
+  "IsParagon": true,
+  "name": "gwendolin popping power",
+  "ImplementationType": null
+}

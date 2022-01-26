@@ -1,0 +1,17 @@
+{
+  "cost": 1300,
+  "xpCost": 3000,
+  "icon": {
+    "GUID": "a684579e567e0c14da3c34eb034da833",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Kylie Boomerang",
+  "IsParagon": false,
+  "name": "Kylie Boomerang",
+  "ImplementationType": null
+}

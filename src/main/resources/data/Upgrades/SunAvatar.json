@@ -1,0 +1,17 @@
+{
+  "cost": 22000,
+  "xpCost": 7000,
+  "icon": {
+    "GUID": "349e26a7177707840b25ed118ed9df65",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Sun Avatar",
+  "IsParagon": false,
+  "name": "Sun Avatar",
+  "ImplementationType": null
+}

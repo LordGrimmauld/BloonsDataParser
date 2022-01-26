@@ -1,0 +1,17 @@
+{
+  "cost": 650,
+  "xpCost": 750,
+  "icon": {
+    "GUID": "e55f0e132df675f46b8d3c71c5528c18",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Lots More Darts",
+  "IsParagon": false,
+  "name": "Lots More Darts",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 35000,
+  "xpCost": 25000,
+  "icon": {
+    "GUID": "f4357548f43468c4b8253c7cae8686b6",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bomb Blitz",
+  "IsParagon": false,
+  "name": "Bomb Blitz",
+  "ImplementationType": null
+}

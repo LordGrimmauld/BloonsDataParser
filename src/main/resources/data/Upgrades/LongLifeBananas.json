@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 200,
+  "icon": {
+    "GUID": "6b0d36eec19aa4044a665659a69e042e",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Long Life Bananas",
+  "IsParagon": false,
+  "name": "Long Life Bananas",
+  "ImplementationType": null
+}

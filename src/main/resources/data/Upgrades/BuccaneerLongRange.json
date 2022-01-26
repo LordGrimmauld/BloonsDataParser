@@ -1,0 +1,17 @@
+{
+  "cost": 180,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "4f942da2a575e304496331c736cce6e8",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Long Range",
+  "IsParagon": false,
+  "name": "Buccaneer-Long Range",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 3600,
+  "xpCost": 10000,
+  "icon": {
+    "GUID": "7e33cc7d302523344886a73d57fe85c6",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Impact",
+  "IsParagon": false,
+  "name": "Bloon Impact",
+  "ImplementationType": null
+}

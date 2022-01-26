@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "c1bd0924b6d0e4a7a971ea551eb73336",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Focused Firing",
+  "IsParagon": false,
+  "name": "Focused Firing",
+  "ImplementationType": null
+}

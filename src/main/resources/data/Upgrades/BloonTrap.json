@@ -1,0 +1,17 @@
+{
+  "cost": 3500,
+  "xpCost": 11000,
+  "icon": {
+    "GUID": "dc5d21f63f63bff40a8798a2b666a5aa",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Trap",
+  "IsParagon": false,
+  "name": "Bloon Trap",
+  "ImplementationType": null
+}

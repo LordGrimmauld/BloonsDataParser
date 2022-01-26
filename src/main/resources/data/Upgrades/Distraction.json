@@ -1,0 +1,17 @@
+{
+  "cost": 350,
+  "xpCost": 200,
+  "icon": {
+    "GUID": "44d5605a0f6dd4626803d0cad894b4d3",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Distraction",
+  "IsParagon": false,
+  "name": "Distraction",
+  "ImplementationType": null
+}

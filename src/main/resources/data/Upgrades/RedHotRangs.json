@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 490,
+  "icon": {
+    "GUID": "059d1ecc930ebca4db38c755b98241fc",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Red Hot Rangs",
+  "IsParagon": false,
+  "name": "Red Hot Rangs",
+  "ImplementationType": null
+}

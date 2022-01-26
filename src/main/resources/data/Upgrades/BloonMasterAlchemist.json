@@ -1,0 +1,17 @@
+{
+  "cost": 40000,
+  "xpCost": 24000,
+  "icon": {
+    "GUID": "c1d3a7b25af9abb469083251f11618ee",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Master Alchemist",
+  "IsParagon": false,
+  "name": "Bloon Master Alchemist",
+  "ImplementationType": null
+}

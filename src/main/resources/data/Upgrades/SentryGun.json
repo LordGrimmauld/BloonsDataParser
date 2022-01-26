@@ -1,0 +1,17 @@
+{
+  "cost": 500,
+  "xpCost": 160,
+  "icon": {
+    "GUID": "c84121884c8800b4fa567f9c93659b00",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Sentry Gun",
+  "IsParagon": false,
+  "name": "Sentry Gun",
+  "ImplementationType": null
+}

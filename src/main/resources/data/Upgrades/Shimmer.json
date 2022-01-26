@@ -1,0 +1,17 @@
+{
+  "cost": 1700,
+  "xpCost": 2200,
+  "icon": {
+    "GUID": "3f078943acee04c8284d8d8d87c5b9ba",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Shimmer",
+  "IsParagon": false,
+  "name": "Shimmer",
+  "ImplementationType": null
+}

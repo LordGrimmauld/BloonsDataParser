@@ -1,0 +1,17 @@
+{
+  "cost": 250,
+  "xpCost": 140,
+  "icon": {
+    "GUID": "f81c684e52f40674f84c474c1785d17c",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Larger Potions",
+  "IsParagon": false,
+  "name": "Larger Potions",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 500,
+  "xpCost": 750,
+  "icon": {
+    "GUID": "056bc4d2792d643adb29d495f48c67bc",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Monkey Commerce",
+  "IsParagon": false,
+  "name": "Monkey Commerce",
+  "ImplementationType": null
+}

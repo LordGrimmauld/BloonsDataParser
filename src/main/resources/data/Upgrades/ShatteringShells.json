@@ -1,0 +1,17 @@
+{
+  "cost": 11000,
+  "xpCost": 12000,
+  "icon": {
+    "GUID": "3da5e3e2661304c2188445b45170f935",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Shattering Shells",
+  "IsParagon": false,
+  "name": "Shattering Shells",
+  "ImplementationType": null
+}

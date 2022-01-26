@@ -1,0 +1,17 @@
+{
+  "cost": 175,
+  "xpCost": 120,
+  "icon": {
+    "GUID": "aa0cb2e090ae15a478243899824ad4b1",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Faster Throwing",
+  "IsParagon": false,
+  "name": "Faster Throwing",
+  "ImplementationType": null
+}

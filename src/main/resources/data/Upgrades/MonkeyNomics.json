@@ -1,0 +1,17 @@
+{
+  "cost": 100000,
+  "xpCost": 50000,
+  "icon": {
+    "GUID": "12ea41b0e22d44e748b0fbaa6e05ef52",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Monkey-Nomics",
+  "IsParagon": false,
+  "name": "Monkey-Nomics",
+  "ImplementationType": null
+}

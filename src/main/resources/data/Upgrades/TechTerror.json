@@ -1,0 +1,17 @@
+{
+  "cost": 19000,
+  "xpCost": 35000,
+  "icon": {
+    "GUID": "a96e6ce0ea141404bbe4364a8163cebd",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Tech Terror",
+  "IsParagon": false,
+  "name": "Tech Terror",
+  "ImplementationType": null
+}

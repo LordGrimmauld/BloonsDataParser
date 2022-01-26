@@ -1,0 +1,17 @@
+{
+  "cost": 600,
+  "xpCost": 600,
+  "icon": {
+    "GUID": "6444a0be496d24f8ba915b257cc763ad",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "White Hot Spikes",
+  "IsParagon": false,
+  "name": "White Hot Spikes",
+  "ImplementationType": null
+}

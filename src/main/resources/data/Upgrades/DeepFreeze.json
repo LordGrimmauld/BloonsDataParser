@@ -1,0 +1,17 @@
+{
+  "cost": 350,
+  "xpCost": 500,
+  "icon": {
+    "GUID": "77e70f89f900b944ea3f32e7feaae075",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Deep Freeze",
+  "IsParagon": false,
+  "name": "Deep Freeze",
+  "ImplementationType": null
+}

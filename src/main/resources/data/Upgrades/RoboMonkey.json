@@ -1,0 +1,17 @@
+{
+  "cost": 8400,
+  "xpCost": 6000,
+  "icon": {
+    "GUID": "e2bdaec3ca44ace41b051b67913443aa",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Robo Monkey",
+  "IsParagon": false,
+  "name": "Robo Monkey",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 60000,
+  "xpCost": 47500,
+  "icon": {
+    "GUID": "ee4f71c7f61c65441aab5487f3e7b216",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Dark Champion",
+  "IsParagon": false,
+  "name": "Dark Champion",
+  "ImplementationType": null
+}

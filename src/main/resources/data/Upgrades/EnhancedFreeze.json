@@ -1,0 +1,17 @@
+{
+  "cost": 225,
+  "xpCost": 160,
+  "icon": {
+    "GUID": "5a411761168cbab4e9f0e7783c13b296",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Enhanced Freeze",
+  "IsParagon": false,
+  "name": "Enhanced Freeze",
+  "ImplementationType": null
+}

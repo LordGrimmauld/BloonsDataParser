@@ -1,0 +1,17 @@
+{
+  "cost": 2300,
+  "xpCost": 2400,
+  "icon": {
+    "GUID": "9bb621a6562de4e87ae982c7c14028f6",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Spiked Balls",
+  "IsParagon": false,
+  "name": "Spiked Balls",
+  "ImplementationType": null
+}

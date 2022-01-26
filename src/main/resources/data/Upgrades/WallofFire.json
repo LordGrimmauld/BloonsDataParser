@@ -1,0 +1,17 @@
+{
+  "cost": 900,
+  "xpCost": 700,
+  "icon": {
+    "GUID": "387db174c97954e9eb6a332dfe650c86",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Wall of Fire",
+  "IsParagon": false,
+  "name": "Wall of Fire",
+  "ImplementationType": null
+}

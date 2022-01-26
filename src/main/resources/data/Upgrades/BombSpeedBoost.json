@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 1000,
+  "icon": null,
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bomb Speed Boost",
+  "IsParagon": false,
+  "name": "Bomb Speed Boost",
+  "ImplementationType": null
+}

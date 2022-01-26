@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 2000,
+  "icon": {
+    "GUID": "eb48da83126dc714f90c1f3bbea4a15b",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Triple Shot",
+  "IsParagon": false,
+  "name": "Triple Shot",
+  "ImplementationType": null
+}

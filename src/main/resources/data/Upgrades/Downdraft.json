@@ -1,0 +1,17 @@
+{
+  "cost": 3000,
+  "xpCost": 3300,
+  "icon": {
+    "GUID": "2f1fb60b19487824d8ef28edf9234e16",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Downdraft",
+  "IsParagon": false,
+  "name": "Downdraft",
+  "ImplementationType": null
+}

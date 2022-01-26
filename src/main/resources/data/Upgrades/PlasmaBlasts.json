@@ -1,0 +1,17 @@
+{
+  "cost": 4500,
+  "xpCost": 2200,
+  "icon": {
+    "GUID": "2cd9586391a2f4540b085350278e9a1a",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Plasma Blasts",
+  "IsParagon": false,
+  "name": "Plasma Blasts",
+  "ImplementationType": null
+}

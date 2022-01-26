@@ -1,0 +1,17 @@
+{
+  "cost": 150000,
+  "xpCost": 32500,
+  "icon": {
+    "GUID": "5891d308599174537af1958629f952a9",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Super Mines",
+  "IsParagon": false,
+  "name": "Super Mines",
+  "ImplementationType": null
+}

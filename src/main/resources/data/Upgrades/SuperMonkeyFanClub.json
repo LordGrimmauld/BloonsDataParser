@@ -1,0 +1,17 @@
+{
+  "cost": 8000,
+  "xpCost": 9500,
+  "icon": {
+    "GUID": "8b5fb5b0bb91eb64fa9394b1b03cc4c7",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Super Monkey Fan Club",
+  "IsParagon": false,
+  "name": "Super Monkey Fan Club",
+  "ImplementationType": null
+}

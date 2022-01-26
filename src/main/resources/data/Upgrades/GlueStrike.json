@@ -1,0 +1,17 @@
+{
+  "cost": 3500,
+  "xpCost": 8500,
+  "icon": {
+    "GUID": "e4ffa069eaac7cd449ee36115a089e9b",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Glue Strike",
+  "IsParagon": false,
+  "name": "Glue Strike",
+  "ImplementationType": null
+}

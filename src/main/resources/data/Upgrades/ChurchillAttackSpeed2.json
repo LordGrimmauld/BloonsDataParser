@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 30472,
+  "icon": null,
+  "path": 0,
+  "tier": 15,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Churchill Attack Speed 2",
+  "IsParagon": true,
+  "name": "Churchill Attack Speed 2",
+  "ImplementationType": null
+}

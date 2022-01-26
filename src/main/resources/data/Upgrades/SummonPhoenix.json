@@ -1,0 +1,17 @@
+{
+  "cost": 4000,
+  "xpCost": 13000,
+  "icon": {
+    "GUID": "340a93d8d262f4cddb567bbc40407680",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Summon Phoenix",
+  "IsParagon": false,
+  "name": "Summon Phoenix",
+  "ImplementationType": null
+}

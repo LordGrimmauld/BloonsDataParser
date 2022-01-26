@@ -1,0 +1,17 @@
+{
+  "cost": 32000,
+  "xpCost": 45000,
+  "icon": {
+    "GUID": "3307f2ed223704b48a0059220eb8aab1",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Pre-emptive Strike",
+  "IsParagon": false,
+  "name": "Pre-emptive Strike",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 950,
+  "xpCost": 2000,
+  "icon": {
+    "GUID": "18e9ce413fd874b4694d0b32e0e544c2",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Druid of the Jungle",
+  "IsParagon": false,
+  "name": "Druid of the Jungle",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 5500,
+  "xpCost": 12500,
+  "icon": {
+    "GUID": "705d95702be594da883ef3d8e3e38e39",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Artillery Battery",
+  "IsParagon": false,
+  "name": "Artillery Battery",
+  "ImplementationType": null
+}

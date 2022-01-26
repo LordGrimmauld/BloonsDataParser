@@ -1,0 +1,17 @@
+{
+  "cost": 450,
+  "xpCost": 130,
+  "icon": {
+    "GUID": "11b0e7fbda9d3ba45b7584d9ca009280",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Barbed Darts",
+  "IsParagon": false,
+  "name": "Barbed Darts",
+  "ImplementationType": null
+}

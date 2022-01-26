@@ -1,0 +1,17 @@
+{
+  "cost": 3000,
+  "xpCost": 8500,
+  "icon": {
+    "GUID": "9f60bea8e8fb9834d92f70fdc8a73eb5",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Snowstorm",
+  "IsParagon": false,
+  "name": "Snowstorm",
+  "ImplementationType": null
+}

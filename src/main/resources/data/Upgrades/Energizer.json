@@ -1,0 +1,17 @@
+{
+  "cost": 32000,
+  "xpCost": 33000,
+  "icon": {
+    "GUID": "0490eb3c57a68874d8f5dd0b618dd063",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Energizer",
+  "IsParagon": false,
+  "name": "Energizer",
+  "ImplementationType": null
+}

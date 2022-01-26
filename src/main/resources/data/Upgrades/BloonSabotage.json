@@ -1,0 +1,17 @@
+{
+  "cost": 5200,
+  "xpCost": 14000,
+  "icon": {
+    "GUID": "b49ee8f6b866e47fe9d0c4c94b825fa4",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloon Sabotage",
+  "IsParagon": false,
+  "name": "Bloon Sabotage",
+  "ImplementationType": null
+}

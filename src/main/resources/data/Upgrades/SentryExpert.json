@@ -1,0 +1,17 @@
+{
+  "cost": 2500,
+  "xpCost": 9500,
+  "icon": {
+    "GUID": "19ca3a277f52bea4e841622b19b615a4",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Sentry Expert",
+  "IsParagon": false,
+  "name": "Sentry Expert",
+  "ImplementationType": null
+}

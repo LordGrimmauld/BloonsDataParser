@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 1425,
+  "icon": null,
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "4 PatFusty attack+",
+  "IsParagon": false,
+  "name": "4 PatFusty attack+",
+  "ImplementationType": null
+}

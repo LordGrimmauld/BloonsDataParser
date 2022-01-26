@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 35397,
+  "icon": null,
+  "path": 0,
+  "tier": 17,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Churchill Tank Shell Damage",
+  "IsParagon": true,
+  "name": "Churchill Tank Shell Damage",
+  "ImplementationType": null
+}

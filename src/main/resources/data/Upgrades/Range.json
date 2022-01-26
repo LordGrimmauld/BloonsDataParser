@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 14400,
+  "icon": null,
+  "path": 0,
+  "tier": 11,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Range",
+  "IsParagon": true,
+  "name": "Range",
+  "ImplementationType": null
+}

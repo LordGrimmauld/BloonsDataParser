@@ -1,0 +1,17 @@
+{
+  "cost": 600,
+  "xpCost": 2400,
+  "icon": {
+    "GUID": "f48c449b32b1ea4478030506cbeb3407",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Hot Shots",
+  "IsParagon": false,
+  "name": "Hot Shots",
+  "ImplementationType": null
+}

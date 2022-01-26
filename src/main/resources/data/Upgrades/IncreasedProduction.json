@@ -1,0 +1,17 @@
+{
+  "cost": 500,
+  "xpCost": 200,
+  "icon": {
+    "GUID": "4afe2201d990348498c356144c5711b2",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Increased Production",
+  "IsParagon": false,
+  "name": "Increased Production",
+  "ImplementationType": null
+}

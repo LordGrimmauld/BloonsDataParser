@@ -1,0 +1,17 @@
+{
+  "cost": 1100,
+  "xpCost": 2750,
+  "icon": {
+    "GUID": "f96e8327ca3253a4ca9a99daa2584908",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Triple Guns",
+  "IsParagon": false,
+  "name": "Triple Guns",
+  "ImplementationType": null
+}

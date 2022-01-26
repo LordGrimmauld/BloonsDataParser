@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 500,
+  "icon": {
+    "GUID": "8458532a8969543e88d2c42680e9ac43",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Caltrops",
+  "IsParagon": false,
+  "name": "Caltrops",
+  "ImplementationType": null
+}

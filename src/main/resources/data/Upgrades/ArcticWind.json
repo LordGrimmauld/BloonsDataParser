@@ -1,0 +1,17 @@
+{
+  "cost": 2900,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "14e1a804a8cd54c498317f9cf1853e9d",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Arctic Wind",
+  "IsParagon": false,
+  "name": "Arctic Wind",
+  "ImplementationType": null
+}

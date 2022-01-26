@@ -1,0 +1,17 @@
+{
+  "cost": 3000,
+  "xpCost": 550,
+  "icon": {
+    "GUID": "13a708ba16d83884aa770fb651bf3e04",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Knockback",
+  "IsParagon": false,
+  "name": "Knockback",
+  "ImplementationType": null
+}

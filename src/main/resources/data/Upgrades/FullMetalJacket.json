@@ -1,0 +1,17 @@
+{
+  "cost": 350,
+  "xpCost": 120,
+  "icon": {
+    "GUID": "cb20cc6653eea4d15a70864c4004fc60",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Full Metal Jacket",
+  "IsParagon": false,
+  "name": "Full Metal Jacket",
+  "ImplementationType": null
+}

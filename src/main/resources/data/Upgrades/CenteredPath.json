@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 600,
+  "icon": {
+    "GUID": "b5f0602fb06bdaa43b7a14cd1d8cccbe",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Centered Path",
+  "IsParagon": false,
+  "name": "Centered Path",
+  "ImplementationType": null
+}

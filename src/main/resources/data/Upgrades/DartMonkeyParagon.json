@@ -1,0 +1,17 @@
+{
+  "cost": 350000,
+  "xpCost": 500000,
+  "icon": {
+    "GUID": "358c9f1db6699454e99f0e60eb7826e8",
+    "IsValid": true
+  },
+  "path": -1,
+  "tier": 5,
+  "locked": 0,
+  "confirmation": "Paragon",
+  "localizedNameOverride": "",
+  "LocsKey": "DartMonkey Paragon",
+  "IsParagon": true,
+  "name": "DartMonkey Paragon",
+  "ImplementationType": null
+}

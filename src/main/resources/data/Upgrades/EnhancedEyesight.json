@@ -1,0 +1,17 @@
+{
+  "cost": 200,
+  "xpCost": 450,
+  "icon": {
+    "GUID": "328baefd769f2e24db83b4748940e324",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Enhanced Eyesight",
+  "IsParagon": false,
+  "name": "Enhanced Eyesight",
+  "ImplementationType": null
+}

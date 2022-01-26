@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 16470,
+  "icon": null,
+  "path": 0,
+  "tier": 18,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "ObynGreenfoot-19-Damage+",
+  "IsParagon": true,
+  "name": "ObynGreenfoot-19-Damage+",
+  "ImplementationType": null
+}

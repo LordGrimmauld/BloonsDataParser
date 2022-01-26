@@ -1,0 +1,17 @@
+{
+  "cost": 2200,
+  "xpCost": 8250,
+  "icon": {
+    "GUID": "8d0d65605f073fa42ba9f2fac1895bb0",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Embrittlement",
+  "IsParagon": false,
+  "name": "Embrittlement",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 2000,
+  "xpCost": 9000,
+  "icon": {
+    "GUID": "7cb7827558e2c2b4c95f6e0492f14571",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Icicles",
+  "IsParagon": false,
+  "name": "Icicles",
+  "ImplementationType": null
+}

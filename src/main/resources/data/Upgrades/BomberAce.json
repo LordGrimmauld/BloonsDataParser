@@ -1,0 +1,17 @@
+{
+  "cost": 900,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "e0814250547b6e043913370f1b01d5a6",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bomber Ace",
+  "IsParagon": false,
+  "name": "Bomber Ace",
+  "ImplementationType": null
+}

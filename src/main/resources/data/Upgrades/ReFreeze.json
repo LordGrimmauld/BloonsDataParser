@@ -1,0 +1,17 @@
+{
+  "cost": 225,
+  "xpCost": 500,
+  "icon": {
+    "GUID": "e7ef3fc013a83354daf2f9501aa72822",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Re-Freeze",
+  "IsParagon": false,
+  "name": "Re-Freeze",
+  "ImplementationType": null
+}

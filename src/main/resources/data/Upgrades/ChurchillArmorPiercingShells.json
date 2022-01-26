@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 787,
+  "icon": null,
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Churchill Armor Piercing Shells",
+  "IsParagon": false,
+  "name": "Churchill Armor Piercing Shells",
+  "ImplementationType": null
+}

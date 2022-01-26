@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 500,
+  "icon": {
+    "GUID": "a73dd0322d66e456389e96eff30a8fb1",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Monkey Sense",
+  "IsParagon": false,
+  "name": "Monkey Sense",
+  "ImplementationType": null
+}

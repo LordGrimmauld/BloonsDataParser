@@ -1,0 +1,17 @@
+{
+  "cost": 450,
+  "xpCost": 600,
+  "icon": {
+    "GUID": "26fe9f61258b148c8a1c268a64501969",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Shrapnel Shot",
+  "IsParagon": false,
+  "name": "Shrapnel Shot",
+  "ImplementationType": null
+}

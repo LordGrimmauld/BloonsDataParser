@@ -1,0 +1,17 @@
+{
+  "cost": 1300,
+  "xpCost": 2300,
+  "icon": {
+    "GUID": "7cbe341de4d5b451fbaf8e584d110259",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Arcane Mastery",
+  "IsParagon": false,
+  "name": "Arcane Mastery",
+  "ImplementationType": null
+}

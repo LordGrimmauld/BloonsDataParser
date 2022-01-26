@@ -1,0 +1,17 @@
+{
+  "cost": 5100,
+  "xpCost": 12000,
+  "icon": {
+    "GUID": "2839dd76ceecd024291cf9c489473e30",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Ball Lightning",
+  "IsParagon": false,
+  "name": "Ball Lightning",
+  "ImplementationType": null
+}

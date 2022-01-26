@@ -1,0 +1,17 @@
+{
+  "cost": 800,
+  "xpCost": 1000,
+  "icon": {
+    "GUID": "5d6d757ef4de541e59100208d0f35f45",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Valuable Bananas",
+  "IsParagon": false,
+  "name": "Valuable Bananas",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 2950,
+  "xpCost": 3000,
+  "icon": {
+    "GUID": "134cfe5873978ec44ba2918f0e0de249",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Destroyer",
+  "IsParagon": false,
+  "name": "Buccaneer-Destroyer",
+  "ImplementationType": null
+}

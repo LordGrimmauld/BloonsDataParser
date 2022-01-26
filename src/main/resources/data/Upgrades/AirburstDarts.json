@@ -1,0 +1,17 @@
+{
+  "cost": 1000,
+  "xpCost": 1000,
+  "icon": {
+    "GUID": "6ec2e2467ffe25a44b34fc4ee02a16a2",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Airburst Darts",
+  "IsParagon": false,
+  "name": "Airburst Darts",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 150,
+  "xpCost": 110,
+  "icon": {
+    "GUID": "322191c82f4774afb9bb2314bc90bc59",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Faster Swivel",
+  "IsParagon": false,
+  "name": "Faster Swivel",
+  "ImplementationType": null
+}

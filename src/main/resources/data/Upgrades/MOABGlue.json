@@ -1,0 +1,17 @@
+{
+  "cost": 3400,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "352fdb3487af05a448c09b73566c6fd1",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "MOAB Glue",
+  "IsParagon": false,
+  "name": "MOAB Glue",
+  "ImplementationType": null
+}

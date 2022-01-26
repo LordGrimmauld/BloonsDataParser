@@ -1,0 +1,17 @@
+{
+  "cost": 2750,
+  "xpCost": 16000,
+  "icon": {
+    "GUID": "27152c9256fe74b65b141d2dd65fca9d",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bloonjitsu",
+  "IsParagon": false,
+  "name": "Bloonjitsu",
+  "ImplementationType": null
+}

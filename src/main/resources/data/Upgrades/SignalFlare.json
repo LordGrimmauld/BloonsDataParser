@@ -1,0 +1,17 @@
+{
+  "cost": 700,
+  "xpCost": 2200,
+  "icon": {
+    "GUID": "875ed9a2739df4c0282955450dccd637",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Signal Flare",
+  "IsParagon": false,
+  "name": "Signal Flare",
+  "ImplementationType": null
+}

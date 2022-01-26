@@ -1,0 +1,17 @@
+{
+  "cost": 100,
+  "xpCost": 120,
+  "icon": {
+    "GUID": "1b78f23f3fb7f194ab55a09dea7522aa",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bigger Globs",
+  "IsParagon": false,
+  "name": "Bigger Globs",
+  "ImplementationType": null
+}

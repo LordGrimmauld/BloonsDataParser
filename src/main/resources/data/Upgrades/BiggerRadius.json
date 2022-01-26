@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 160,
+  "icon": {
+    "GUID": "019f27b37f8444080a92a3ae99f17ca6",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bigger Radius",
+  "IsParagon": false,
+  "name": "Bigger Radius",
+  "ImplementationType": null
+}

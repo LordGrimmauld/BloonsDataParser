@@ -1,0 +1,17 @@
+{
+  "cost": 100,
+  "xpCost": 160,
+  "icon": {
+    "GUID": "33c3bda036488b84aae69d8c962d8686",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Permafrost",
+  "IsParagon": false,
+  "name": "Permafrost",
+  "ImplementationType": null
+}

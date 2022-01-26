@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 23470,
+  "icon": null,
+  "path": 0,
+  "tier": 18,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Ezili Damage Over Time++",
+  "IsParagon": true,
+  "name": "Ezili Damage Over Time++",
+  "ImplementationType": null
+}

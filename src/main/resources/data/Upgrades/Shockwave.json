@@ -1,0 +1,17 @@
+{
+  "cost": 1100,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "e970d948811554b6e930f3f75b269450",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Shockwave",
+  "IsParagon": false,
+  "name": "Shockwave",
+  "ImplementationType": null
+}

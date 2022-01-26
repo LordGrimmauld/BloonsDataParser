@@ -1,0 +1,17 @@
+{
+  "cost": 600000,
+  "xpCost": 1000000,
+  "icon": {
+    "GUID": "60f5342aad677ed4184f14593341c971",
+    "IsValid": true
+  },
+  "path": -1,
+  "tier": 5,
+  "locked": 0,
+  "confirmation": "Paragon",
+  "localizedNameOverride": "",
+  "LocsKey": "NinjaMonkey Paragon",
+  "IsParagon": true,
+  "name": "NinjaMonkey Paragon",
+  "ImplementationType": null
+}

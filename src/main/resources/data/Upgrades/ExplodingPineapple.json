@@ -1,0 +1,17 @@
+{
+  "cost": 200,
+  "xpCost": 120,
+  "icon": {
+    "GUID": "79d96678a83f7344b91bea7f7a2c202f",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Exploding Pineapple",
+  "IsParagon": false,
+  "name": "Exploding Pineapple",
+  "ImplementationType": null
+}

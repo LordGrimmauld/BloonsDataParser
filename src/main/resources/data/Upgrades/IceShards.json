@@ -1,0 +1,17 @@
+{
+  "cost": 1500,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "db425e770169e914ea40c87dbb36f15b",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Ice Shards",
+  "IsParagon": false,
+  "name": "Ice Shards",
+  "ImplementationType": null
+}

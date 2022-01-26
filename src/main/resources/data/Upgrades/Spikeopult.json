@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 2100,
+  "icon": {
+    "GUID": "b47a0c63869552a4f81028ebee02dee6",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Spike-o-pult",
+  "IsParagon": false,
+  "name": "Spike-o-pult",
+  "ImplementationType": null
+}

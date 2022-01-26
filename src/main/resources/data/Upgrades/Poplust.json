@@ -1,0 +1,17 @@
+{
+  "cost": 2500,
+  "xpCost": 14000,
+  "icon": {
+    "GUID": "8e33758532b331f4e9af29a700a2ead6",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Poplust",
+  "IsParagon": false,
+  "name": "Poplust",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 1200,
+  "xpCost": 650,
+  "icon": {
+    "GUID": "a887780edab5f4f848691eef7db5c7f0",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Powerful Darts",
+  "IsParagon": false,
+  "name": "Powerful Darts",
+  "ImplementationType": null
+}

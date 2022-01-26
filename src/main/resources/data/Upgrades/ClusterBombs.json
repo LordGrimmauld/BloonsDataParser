@@ -1,0 +1,17 @@
+{
+  "cost": 800,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "2b37f0773a732c24da86b93b0d054851",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Cluster Bombs",
+  "IsParagon": false,
+  "name": "Cluster Bombs",
+  "ImplementationType": null
+}

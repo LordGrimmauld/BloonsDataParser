@@ -1,0 +1,17 @@
+{
+  "cost": 1400,
+  "xpCost": 2100,
+  "icon": {
+    "GUID": "28984e353b78f4e749ce0afe3144ab49",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Long Life Spikes",
+  "IsParagon": false,
+  "name": "Long Life Spikes",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 19600,
+  "xpCost": 20000,
+  "icon": {
+    "GUID": "d65f4d02c2b39e643851858acda5c844",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Apache Dartship",
+  "IsParagon": false,
+  "name": "Apache Dartship",
+  "ImplementationType": null
+}

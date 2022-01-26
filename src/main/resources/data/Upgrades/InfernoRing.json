@@ -1,0 +1,17 @@
+{
+  "cost": 45500,
+  "xpCost": 32500,
+  "icon": {
+    "GUID": "9b21dae158217c147a55b44b637b85fd",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Inferno Ring",
+  "IsParagon": false,
+  "name": "Inferno Ring",
+  "ImplementationType": null
+}

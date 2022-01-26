@@ -1,0 +1,17 @@
+{
+  "cost": 7200,
+  "xpCost": 11000,
+  "icon": {
+    "GUID": "6bf4a5374359e4c78a7c4fde6ba35781",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Supply Drop",
+  "IsParagon": false,
+  "name": "Supply Drop",
+  "ImplementationType": null
+}

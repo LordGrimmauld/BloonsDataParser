@@ -1,0 +1,17 @@
+{
+  "cost": 3500,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "29c919704f6128f4196af7eea0248139",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "MOAB Shove",
+  "IsParagon": false,
+  "name": "MOAB Shove",
+  "ImplementationType": null
+}

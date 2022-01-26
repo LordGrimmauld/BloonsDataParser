@@ -1,0 +1,17 @@
+{
+  "cost": 2200,
+  "xpCost": 3000,
+  "icon": {
+    "GUID": "e6d363146284ea74c86c8759f56c8a1b",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Neva-Miss Targeting",
+  "IsParagon": false,
+  "name": "Neva-Miss Targeting",
+  "ImplementationType": null
+}

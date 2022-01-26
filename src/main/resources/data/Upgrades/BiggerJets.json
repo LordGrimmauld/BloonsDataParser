@@ -1,0 +1,17 @@
+{
+  "cost": 300,
+  "xpCost": 150,
+  "icon": {
+    "GUID": "ea478ef7627726d4aaa1ae775726644c",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bigger Jets",
+  "IsParagon": false,
+  "name": "Bigger Jets",
+  "ImplementationType": null
+}

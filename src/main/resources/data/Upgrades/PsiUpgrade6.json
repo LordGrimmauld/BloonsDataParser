@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 4920,
+  "icon": null,
+  "path": 0,
+  "tier": 5,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Psi Upgrade 6",
+  "IsParagon": true,
+  "name": "Psi Upgrade 6",
+  "ImplementationType": null
+}

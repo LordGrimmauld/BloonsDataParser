@@ -1,0 +1,17 @@
+{
+  "cost": 3000,
+  "xpCost": 8500,
+  "icon": {
+    "GUID": "ed2720fcb177be9408b577f727e9df68",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "M.O.A.R Glaives",
+  "IsParagon": false,
+  "name": "M.O.A.R Glaives",
+  "ImplementationType": null
+}

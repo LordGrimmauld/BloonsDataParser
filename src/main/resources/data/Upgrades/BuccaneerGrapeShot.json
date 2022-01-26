@@ -1,0 +1,17 @@
+{
+  "cost": 550,
+  "xpCost": 200,
+  "icon": {
+    "GUID": "da4bd565fc5106f4e9084fa5faaca35f",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Grape Shot",
+  "IsParagon": false,
+  "name": "Buccaneer-Grape Shot",
+  "ImplementationType": null
+}

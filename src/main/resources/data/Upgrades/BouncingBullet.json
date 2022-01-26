@@ -1,0 +1,17 @@
+{
+  "cost": 3200,
+  "xpCost": 2500,
+  "icon": {
+    "GUID": "e770eeae8063e44a0b2bda18de3bbf82",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Bouncing Bullet",
+  "IsParagon": false,
+  "name": "Bouncing Bullet",
+  "ImplementationType": null
+}

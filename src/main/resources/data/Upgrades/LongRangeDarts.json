@@ -1,0 +1,17 @@
+{
+  "cost": 90,
+  "xpCost": 50,
+  "icon": {
+    "GUID": "9e57ff2ad70b83e4fb0e2a75a941e80d",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 0,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Long Range Darts",
+  "IsParagon": false,
+  "name": "Long Range Darts",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 400,
+  "xpCost": 600,
+  "icon": {
+    "GUID": "af8dd5884f980544a9901412646aec0b",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 1,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Stronger Glue",
+  "IsParagon": false,
+  "name": "Stronger Glue",
+  "ImplementationType": null
+}

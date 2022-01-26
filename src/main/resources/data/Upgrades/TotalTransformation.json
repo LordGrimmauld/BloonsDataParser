@@ -1,0 +1,17 @@
+{
+  "cost": 45000,
+  "xpCost": 28000,
+  "icon": {
+    "GUID": "a5a5fc6d8efee5e4dba92b5f9732103e",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Total Transformation",
+  "IsParagon": false,
+  "name": "Total Transformation",
+  "ImplementationType": null
+}

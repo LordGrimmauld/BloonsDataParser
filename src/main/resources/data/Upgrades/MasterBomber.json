@@ -1,0 +1,17 @@
+{
+  "cost": 40000,
+  "xpCost": 37500,
+  "icon": {
+    "GUID": "d7cef80f9874b4fce9f61cdff64b3a1c",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 4,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Master Bomber",
+  "IsParagon": false,
+  "name": "Master Bomber",
+  "ImplementationType": null
+}

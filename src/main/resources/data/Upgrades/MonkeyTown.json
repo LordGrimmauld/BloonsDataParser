@@ -1,0 +1,17 @@
+{
+  "cost": 10000,
+  "xpCost": 3000,
+  "icon": {
+    "GUID": "74a90c190908a44ca9cf31d51e26edff",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Monkey Town",
+  "IsParagon": false,
+  "name": "Monkey Town",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 900,
+  "xpCost": 2700,
+  "icon": {
+    "GUID": "40577fc673f02d0469cf38e005092009",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Cannon Ship",
+  "IsParagon": false,
+  "name": "Buccaneer-Cannon Ship",
+  "ImplementationType": null
+}

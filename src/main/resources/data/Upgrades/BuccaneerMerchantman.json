@@ -1,0 +1,17 @@
+{
+  "cost": 2300,
+  "xpCost": 3100,
+  "icon": {
+    "GUID": "a5a03704d4accd542a39454eba688fb5",
+    "IsValid": true
+  },
+  "path": 2,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Buccaneer-Merchantman",
+  "IsParagon": false,
+  "name": "Buccaneer-Merchantman",
+  "ImplementationType": null
+}

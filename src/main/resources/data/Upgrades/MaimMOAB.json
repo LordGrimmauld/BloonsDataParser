@@ -1,0 +1,17 @@
+{
+  "cost": 5000,
+  "xpCost": 10500,
+  "icon": {
+    "GUID": "cee9c5b1ce7084425ad042eafb5baeb0",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Maim MOAB",
+  "IsParagon": false,
+  "name": "Maim MOAB",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 1800,
+  "xpCost": 7500,
+  "icon": {
+    "GUID": "6e7dec7330a5def4bb0611d2acd517e5",
+    "IsValid": true
+  },
+  "path": 0,
+  "tier": 3,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Juggernaut",
+  "IsParagon": false,
+  "name": "Juggernaut",
+  "ImplementationType": null
+}

@@ -1,0 +1,17 @@
+{
+  "cost": 5250,
+  "xpCost": 2700,
+  "icon": {
+    "GUID": "54f56e6354086462686f96d7ce8fe165",
+    "IsValid": true
+  },
+  "path": 1,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Hydra Rocket Pods",
+  "IsParagon": false,
+  "name": "Hydra Rocket Pods",
+  "ImplementationType": null
+}

@@ -1,0 +1,14 @@
+{
+  "cost": 0,
+  "xpCost": 460,
+  "icon": null,
+  "path": 0,
+  "tier": 2,
+  "locked": 0,
+  "confirmation": "",
+  "localizedNameOverride": "",
+  "LocsKey": "Etienne Upgrade 3",
+  "IsParagon": false,
+  "name": "Etienne Upgrade 3",
+  "ImplementationType": null
+}

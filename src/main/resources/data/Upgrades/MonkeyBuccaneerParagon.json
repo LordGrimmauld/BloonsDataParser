@@ -1,0 +1,17 @@
+{
+  "cost": 500000,
+  "xpCost": 500000,
+  "icon": {
+    "GUID": "6c06a261636dfb54ba0127b687fac485",
+    "IsValid": true
+  },
+  "path": -1,
+  "tier": 5,
+  "locked": 0,
+  "confirmation": "Paragon",
+  "localizedNameOverride": "",
+  "LocsKey": "MonkeyBuccaneer Paragon",
+  "IsParagon": true,
+  "name": "MonkeyBuccaneer Paragon",
+  "ImplementationType": null
+}
