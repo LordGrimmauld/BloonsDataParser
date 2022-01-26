@@ -1,0 +1,1778 @@
+{
+  "display": "6d84ccf789a772f44bafc81df5847a65",
+  "baseId": "GlueGunner",
+  "cost": 275.0,
+  "radius": 6.0,
+  "radiusSquared": 36.0,
+  "range": 46.0,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 5,
+  "tiers": [
+    0,
+    5,
+    1
+  ],
+  "towerSet": "Primary",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[GlueGunnerIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "a4f4bd1129d242c4b8d4532938b1e1f4",
+    "IsValid": true
+  },
+  "instaIcon": {
+    "GUID": "6a47a9b044395479aad85c769be9b785",
+    "IsValid": true
+  },
+  "mods": [
+    {
+      "mod": "MoreSplattyGlue",
+      "target": "",
+      "name": "Glue Splatter",
+      "ImplementationType": null
+    },
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "IncreasedLifespan",
+      "target": "",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "FastGlue",
+      "target": "WeaponModel_Weapon",
+      "name": "GlueGunnerUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_SellEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "d2bcad0f16bb76e408a107e13b2c0da3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlacementEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "823809b31a6cbab4cab5efc530f919f7",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffectTier5",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_GlueGunner-051",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": 0.1,
+          "animationOffsetFrames": 5,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": -2.32,
+          "ejectY": 15.61,
+          "ejectZ": 8.73,
+          "projectile": {
+            "display": "e67d0eb1f64b594439d3e95ac5194cad",
+            "id": "Projectile",
+            "maxPierce": 1.0,
+            "pierce": 5.0,
+            "scale": 1.0,
+            "ignoreBlockers": false,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "tag": "Moabs",
+                "disableWhenSupportMutatorIDs": [],
+                "name": "FilterOutTagModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "glueLevel": 1,
+                "name": "FilterGlueLevelModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterGlueLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "lifespanFrames": 26,
+                "speedFrames": 5.00000048,
+                "collisionPass": 0,
+                "Speed": 300.0,
+                "Lifespan": 0.43,
+                "name": "TravelStraitModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "overlays": {
+                  "Red": {
+                    "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "RedRegrow": {
+                    "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Blue": {
+                    "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "BlueRegrow": {
+                    "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Green": {
+                    "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "GreenRegrow": {
+                    "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Yellow": {
+                    "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "YellowRegrow": {
+                    "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Pink": {
+                    "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "PinkRegrow": {
+                    "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "White": {
+                    "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "WhiteRegrow": {
+                    "assetPath": "875893577309e544aa29b57e5376e758",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Moab": {
+                    "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Bfb": {
+                    "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Zomg": {
+                    "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Ddt": {
+                    "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Bad": {
+                    "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Bloonarius": {
+                    "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Lych": {
+                    "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "MiniLych": {
+                    "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  }
+                },
+                "effectModel": null,
+                "lifespanFrames": 1439,
+                "layers": 3,
+                "overlayLayer": 0,
+                "glueLevel": 1,
+                "isUnique": true,
+                "dontRefreshDuration": false,
+                "cascadeMutators": false,
+                "removeMutatorIfNotMatching": false,
+                "mutationId": "Glue",
+                "mutationFilter": "",
+                "collisionPass": -1,
+                "Lifespan": 24.0,
+                "Multiplier": 0.5,
+                "Mutator": {
+                  "mutationId": "Glue",
+                  "overlays": {
+                    "Red": {
+                      "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "RedRegrow": {
+                      "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Blue": {
+                      "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "BlueRegrow": {
+                      "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Green": {
+                      "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "GreenRegrow": {
+                      "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Yellow": {
+                      "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "YellowRegrow": {
+                      "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Pink": {
+                      "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "PinkRegrow": {
+                      "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "White": {
+                      "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "WhiteRegrow": {
+                      "assetPath": "875893577309e544aa29b57e5376e758",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Moab": {
+                      "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Bfb": {
+                      "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Zomg": {
+                      "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Ddt": {
+                      "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Bad": {
+                      "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Bloonarius": {
+                      "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Lych": {
+                      "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "MiniLych": {
+                      "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    }
+                  },
+                  "overlayLayer": 0,
+                  "slowModifierForTagModels": {
+                    "IsValid": false
+                  },
+                  "dontRefreshDuration": false,
+                  "didMutatorAffectBloon": false,
+                  "multiplier": 0.5,
+                  "filters": [],
+                  "id": "Glue",
+                  "isExclusiveInMutationList": false,
+                  "priority": 1,
+                  "glueLevel": 1,
+                  "isFreeze": false,
+                  "dontCopy": false,
+                  "buffIndicator": null,
+                  "includesSubTowers": false,
+                  "saveId": null
+                },
+                "name": "SlowModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Slow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "projectile": {
+                  "display": null,
+                  "id": "Splat",
+                  "maxPierce": 0.0,
+                  "pierce": 5.0,
+                  "scale": 1.0,
+                  "ignoreBlockers": true,
+                  "usePointCollisionWithBloons": false,
+                  "canCollisionBeBlockedByMapLos": false,
+                  "filters": [
+                    {
+                      "isActive": true,
+                      "ignoreBroadPhase": false,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "tag": "Moabs",
+                      "disableWhenSupportMutatorIDs": [],
+                      "name": "FilterOutTagModel_Splat",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "glueLevel": 1,
+                      "name": "FilterGlueLevelModel_Splat",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterGlueLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "overlays": {
+                        "Red": {
+                          "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "RedRegrow": {
+                          "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Blue": {
+                          "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "BlueRegrow": {
+                          "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Green": {
+                          "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "GreenRegrow": {
+                          "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Yellow": {
+                          "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "YellowRegrow": {
+                          "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Pink": {
+                          "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "PinkRegrow": {
+                          "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "White": {
+                          "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "WhiteRegrow": {
+                          "assetPath": "875893577309e544aa29b57e5376e758",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Moab": {
+                          "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bfb": {
+                          "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Zomg": {
+                          "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Ddt": {
+                          "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bad": {
+                          "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bloonarius": {
+                          "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Lych": {
+                          "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "MiniLych": {
+                          "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        }
+                      },
+                      "effectModel": null,
+                      "lifespanFrames": 1439,
+                      "layers": 3,
+                      "overlayLayer": 0,
+                      "glueLevel": 1,
+                      "isUnique": true,
+                      "dontRefreshDuration": false,
+                      "cascadeMutators": false,
+                      "removeMutatorIfNotMatching": false,
+                      "mutationId": "Glue",
+                      "mutationFilter": "",
+                      "collisionPass": -1,
+                      "Lifespan": 24.0,
+                      "Multiplier": 0.5,
+                      "Mutator": {
+                        "mutationId": "Glue",
+                        "overlays": {
+                          "Red": {
+                            "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "RedRegrow": {
+                            "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Blue": {
+                            "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "BlueRegrow": {
+                            "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Green": {
+                            "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "GreenRegrow": {
+                            "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Yellow": {
+                            "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "YellowRegrow": {
+                            "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Pink": {
+                            "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "PinkRegrow": {
+                            "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "White": {
+                            "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "WhiteRegrow": {
+                            "assetPath": "875893577309e544aa29b57e5376e758",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Moab": {
+                            "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bfb": {
+                            "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Zomg": {
+                            "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Ddt": {
+                            "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bad": {
+                            "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bloonarius": {
+                            "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Lych": {
+                            "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "MiniLych": {
+                            "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          }
+                        },
+                        "overlayLayer": 0,
+                        "slowModifierForTagModels": {
+                          "IsValid": false
+                        },
+                        "dontRefreshDuration": false,
+                        "didMutatorAffectBloon": false,
+                        "multiplier": 0.5,
+                        "filters": [],
+                        "id": "Glue",
+                        "isExclusiveInMutationList": false,
+                        "priority": 1,
+                        "glueLevel": 1,
+                        "isFreeze": false,
+                        "dontCopy": false,
+                        "buffIndicator": null,
+                        "includesSubTowers": false,
+                        "saveId": null
+                      },
+                      "name": "SlowModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Slow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "rounds": 0,
+                      "lifespanFrames": 6,
+                      "useRoundTime": false,
+                      "endOfRoundClearBypassModel": null,
+                      "collisionPass": 0,
+                      "Lifespan": 0.1,
+                      "name": "AgeModel_Splat",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": true,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "tag": "Moabs",
+                          "disableWhenSupportMutatorIDs": [],
+                          "name": "FilterOutTagModel_Splat",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "glueLevel": 1,
+                          "name": "FilterGlueLevelModel_Splat",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterGlueLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPass": 0,
+                      "name": "ProjectileFilterModel_Splat",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "tag": "Moabs",
+                      "slowId": "Glue",
+                      "slowMultiplier": 1.0,
+                      "resetToUnmodified": true,
+                      "preventMutation": false,
+                      "lifespanOverride": 0.0,
+                      "collisionPass": 0,
+                      "name": "SlowModifierForTagModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.SlowModifierForTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": null,
+                      "layer": 0,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_ProjectileDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "collisionPasses": [
+                    -1,
+                    0
+                  ],
+                  "canCollideWithBloons": true,
+                  "radius": 13.0,
+                  "vsBlockerRadius": 0.0,
+                  "hasDamageModifiers": false,
+                  "dontUseCollisionChecker": false,
+                  "checkCollisionFrames": 0,
+                  "ignoreNonTargetable": false,
+                  "ignorePierceExhaustion": false,
+                  "saveId": null,
+                  "CappedPierce": 5.0,
+                  "name": "ProjectileModel_Splat",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "emission": {
+                  "behaviors": null,
+                  "name": "SingleEmissionModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "passOnCollidedWith": true,
+                "dontCreateAtBloon": false,
+                "passOnDirectionToContact": false,
+                "collisionPass": 0,
+                "name": "CreateProjectileOnContactModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateProjectileOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "tag": "Moabs",
+                    "disableWhenSupportMutatorIDs": [],
+                    "name": "FilterOutTagModel_Projectile",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "glueLevel": 1,
+                    "name": "FilterGlueLevelModel_Projectile",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterGlueLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "sound1": {
+                  "assetId": "d7c324a79970d8f44884af93ba4254c2",
+                  "name": "SoundModel_GlueSound1",
+                  "ImplementationType": null
+                },
+                "sound2": {
+                  "assetId": "1389f19f085a91e4ea6f44c92fa136c3",
+                  "name": "SoundModel_GlueSound2",
+                  "ImplementationType": null
+                },
+                "sound3": {
+                  "assetId": "928dbc5c8e0060746935b9940375bf47",
+                  "name": "SoundModel_GlueSound3",
+                  "ImplementationType": null
+                },
+                "sound4": {
+                  "assetId": "6a91355b7c6fdfa4e830208c7a1f470e",
+                  "name": "SoundModel_GlueSound4",
+                  "ImplementationType": null
+                },
+                "sound5": {
+                  "assetId": "8f58019e83eb4da40b576e4545201c55",
+                  "name": "SoundModel_GlueSound5",
+                  "ImplementationType": null
+                },
+                "collisionPass": 0,
+                "name": "CreateSoundOnProjectileCollisionModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileCollision, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "tag": "Moabs",
+                "slowId": "Glue",
+                "slowMultiplier": 1.0,
+                "resetToUnmodified": true,
+                "preventMutation": false,
+                "lifespanOverride": 0.0,
+                "collisionPass": 0,
+                "name": "SlowModifierForTagModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.SlowModifierForTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "effectModel": {
+                  "assetId": "f069b5dee0006fd428c879e5f3a63b97",
+                  "scale": 1.0,
+                  "lifespan": 1.2,
+                  "fullscreen": false,
+                  "useCenterPosition": false,
+                  "useTransformPosition": true,
+                  "useTransfromRotation": false,
+                  "destroyOnTransformDestroy": false,
+                  "alwaysUseAge": false,
+                  "useRoundTime": false,
+                  "name": "EffectModel_GlueSplatter",
+                  "ImplementationType": null
+                },
+                "collisionPass": 0,
+                "name": "CreateEffectOnContactModel_GlueSplatter",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "e67d0eb1f64b594439d3e95ac5194cad",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              -1,
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 5.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 1.0,
+            "name": "ProjectileModel_Projectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 20,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": null,
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 0.34,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "tag": "Moabs",
+              "disableWhenSupportMutatorIDs": [],
+              "name": "FilterOutTagModel_Attack",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "glueLevel": 1,
+              "name": "FilterGlueLevelModel_Attack",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterGlueLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 46.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "displayName": "Glue Storm",
+      "description": "Glue Storm ability pelts the whole screen over 10 seconds with glue.",
+      "icon": {
+        "GUID": "8464743226cb2734ab5bf0cf26617d00",
+        "IsValid": true
+      },
+      "behaviors": [
+        {
+          "lifespanFrames": 899,
+          "attacks": [
+            {
+              "weapons": [
+                {
+                  "animation": 1,
+                  "animationOffset": 0.0,
+                  "animationOffsetFrames": 0,
+                  "emission": {
+                    "behaviors": null,
+                    "name": "SingleEmissionModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ejectX": 0.0,
+                  "ejectY": 0.0,
+                  "ejectZ": 0.0,
+                  "projectile": {
+                    "display": null,
+                    "id": "Projectile",
+                    "maxPierce": 0.0,
+                    "pierce": 9999999.0,
+                    "scale": 1.0,
+                    "ignoreBlockers": true,
+                    "usePointCollisionWithBloons": false,
+                    "canCollisionBeBlockedByMapLos": false,
+                    "filters": [
+                      {
+                        "tag": "Moabs",
+                        "disableWhenSupportMutatorIDs": [],
+                        "name": "FilterOutTagModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "behaviors": [
+                      {
+                        "overlays": {
+                          "Red": {
+                            "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "RedRegrow": {
+                            "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Blue": {
+                            "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "BlueRegrow": {
+                            "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Green": {
+                            "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "GreenRegrow": {
+                            "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Yellow": {
+                            "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "YellowRegrow": {
+                            "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Pink": {
+                            "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "PinkRegrow": {
+                            "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "White": {
+                            "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "WhiteRegrow": {
+                            "assetPath": "875893577309e544aa29b57e5376e758",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Moab": {
+                            "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bfb": {
+                            "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Zomg": {
+                            "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Ddt": {
+                            "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bad": {
+                            "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Bloonarius": {
+                            "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "Lych": {
+                            "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          },
+                          "MiniLych": {
+                            "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                            "name": "AssetPathModel_",
+                            "ImplementationType": null
+                          }
+                        },
+                        "effectModel": null,
+                        "lifespanFrames": 2879,
+                        "layers": 9,
+                        "overlayLayer": 0,
+                        "glueLevel": 1,
+                        "isUnique": true,
+                        "dontRefreshDuration": false,
+                        "cascadeMutators": true,
+                        "removeMutatorIfNotMatching": false,
+                        "mutationId": "Glue",
+                        "mutationFilter": "",
+                        "collisionPass": -1,
+                        "Lifespan": 48.0,
+                        "Multiplier": 0.25,
+                        "Mutator": {
+                          "mutationId": "Glue",
+                          "overlays": {
+                            "Red": {
+                              "assetPath": "73cb96a881e503540b0eaa827e6fe760",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "RedRegrow": {
+                              "assetPath": "355ee2c3b6575024e84308a1e9327a1a",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Blue": {
+                              "assetPath": "e14ea7a87984faf42b1ef068763d9d3b",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "BlueRegrow": {
+                              "assetPath": "398aace8978c1db47b3ae7255ef699d1",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Green": {
+                              "assetPath": "3170f30ef7e08b14687c96a38bfea237",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "GreenRegrow": {
+                              "assetPath": "3bd0ab482bed8a047bf3a608aaff0be1",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Yellow": {
+                              "assetPath": "e7a08198414bc244ba3ed2a8c88f74c2",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "YellowRegrow": {
+                              "assetPath": "8ea25ec2c55c7e642b9006641e2e4f8d",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Pink": {
+                              "assetPath": "81beb81ccd8cb9547a67a619665e23d7",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "PinkRegrow": {
+                              "assetPath": "0381bc270c54f5b4789c9805cab38270",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "White": {
+                              "assetPath": "b6b9c1f67ec407e44b0ef38aead5ac45",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "WhiteRegrow": {
+                              "assetPath": "875893577309e544aa29b57e5376e758",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Moab": {
+                              "assetPath": "5bb9d356d42b3374db53ac09f1147f7d",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Bfb": {
+                              "assetPath": "c7808e359f9e14148a1de4a3bcddc893",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Zomg": {
+                              "assetPath": "d075da1d05d08ec4485e95a75d76a06d",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Ddt": {
+                              "assetPath": "5c62bc84b212885448ff5221e7eac970",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Bad": {
+                              "assetPath": "fc0f4830c7ef0514db33f96334b710be",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Bloonarius": {
+                              "assetPath": "ee69726ee70c8fc4986cb3f7643085c3",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "Lych": {
+                              "assetPath": "a54a9a6627cbc7d48874daa22e0b0a44",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            },
+                            "MiniLych": {
+                              "assetPath": "9146f60ce191caa42989ea8289ee1d71",
+                              "name": "AssetPathModel_",
+                              "ImplementationType": null
+                            }
+                          },
+                          "overlayLayer": 0,
+                          "slowModifierForTagModels": {
+                            "IsValid": false
+                          },
+                          "dontRefreshDuration": false,
+                          "didMutatorAffectBloon": false,
+                          "multiplier": 0.25,
+                          "filters": [],
+                          "id": "Glue",
+                          "isExclusiveInMutationList": false,
+                          "priority": 1,
+                          "glueLevel": 1,
+                          "isFreeze": false,
+                          "dontCopy": false,
+                          "buffIndicator": null,
+                          "includesSubTowers": false,
+                          "saveId": null
+                        },
+                        "name": "SlowModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Slow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "rounds": 0,
+                        "lifespanFrames": 3,
+                        "useRoundTime": false,
+                        "endOfRoundClearBypassModel": null,
+                        "collisionPass": 0,
+                        "Lifespan": 0.05,
+                        "name": "AgeModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "filters": [
+                          {
+                            "tag": "Moabs",
+                            "disableWhenSupportMutatorIDs": [],
+                            "name": "FilterOutTagModel_Projectile",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          }
+                        ],
+                        "collisionPass": 0,
+                        "name": "ProjectileFilterModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "sound1": {
+                          "assetId": "d7c324a79970d8f44884af93ba4254c2",
+                          "name": "SoundModel_GlueSound1",
+                          "ImplementationType": null
+                        },
+                        "sound2": {
+                          "assetId": "1389f19f085a91e4ea6f44c92fa136c3",
+                          "name": "SoundModel_GlueSound2",
+                          "ImplementationType": null
+                        },
+                        "sound3": {
+                          "assetId": "928dbc5c8e0060746935b9940375bf47",
+                          "name": "SoundModel_GlueSound3",
+                          "ImplementationType": null
+                        },
+                        "sound4": {
+                          "assetId": "6a91355b7c6fdfa4e830208c7a1f470e",
+                          "name": "SoundModel_GlueSound4",
+                          "ImplementationType": null
+                        },
+                        "sound5": {
+                          "assetId": "8f58019e83eb4da40b576e4545201c55",
+                          "name": "SoundModel_GlueSound5",
+                          "ImplementationType": null
+                        },
+                        "collisionPass": 0,
+                        "name": "CreateSoundOnProjectileCollisionModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileCollision, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "tag": "Moabs",
+                        "slowId": "Glue",
+                        "slowMultiplier": 1.0,
+                        "resetToUnmodified": true,
+                        "preventMutation": false,
+                        "lifespanOverride": 0.0,
+                        "collisionPass": 0,
+                        "name": "SlowModifierForTagModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.SlowModifierForTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "mutationId": "Glue:Regular:DamageBoost",
+                        "lifespan": 48.0,
+                        "lifespanFrames": 2879,
+                        "perHitDamageAddition": 2.0,
+                        "layers": 6,
+                        "isUnique": true,
+                        "lastAppliesFirst": false,
+                        "cascadeMutators": true,
+                        "collisionPass": 0,
+                        "mutator": {
+                          "perHitDamageAddition": 2.0,
+                          "id": "Glue:Regular:DamageBoost",
+                          "isExclusiveInMutationList": false,
+                          "priority": 1,
+                          "glueLevel": 0,
+                          "isFreeze": false,
+                          "dontCopy": false,
+                          "buffIndicator": null,
+                          "includesSubTowers": false,
+                          "saveId": null
+                        },
+                        "name": "AddBonusDamagePerHitToBloonModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBonusDamagePerHitToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "lifespan": 48.0,
+                        "lifespanFrames": 2879,
+                        "layers": 6,
+                        "mutationId": "EmbrilttlementDamageBoostSharp",
+                        "collisionPass": 0,
+                        "mutator": {
+                          "id": "EmbrilttlementDamageBoostSharp",
+                          "isExclusiveInMutationList": false,
+                          "priority": 1,
+                          "glueLevel": 0,
+                          "isFreeze": false,
+                          "dontCopy": false,
+                          "buffIndicator": null,
+                          "includesSubTowers": false,
+                          "saveId": null
+                        },
+                        "name": "RemoveDamageTypeModifierModel_RemoveSharpImmunity",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.RemoveDamageTypeModifier, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "display": null,
+                        "layer": 0,
+                        "positionOffset": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0,
+                          "MagnitudeSquared": 0.0,
+                          "Magnitude": 0.0,
+                          "Rotation": 0.0,
+                          "SimToDispRotation": 180.0
+                        },
+                        "scale": 1.0,
+                        "ignoreRotation": false,
+                        "animationChanges": null,
+                        "delayedReveal": 0.0,
+                        "name": "DisplayModel_ProjectileDisplay",
+                        "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "collisionPasses": [
+                      -1,
+                      0
+                    ],
+                    "canCollideWithBloons": true,
+                    "radius": 999.0,
+                    "vsBlockerRadius": 0.0,
+                    "hasDamageModifiers": false,
+                    "dontUseCollisionChecker": false,
+                    "checkCollisionFrames": 0,
+                    "ignoreNonTargetable": false,
+                    "ignorePierceExhaustion": false,
+                    "saveId": null,
+                    "CappedPierce": 9999999.0,
+                    "name": "ProjectileModel_Projectile",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "rateFrames": 119,
+                  "fireWithoutTarget": true,
+                  "fireBetweenRounds": false,
+                  "behaviors": null,
+                  "useAttackPosition": false,
+                  "startInCooldown": false,
+                  "customStartCooldown": 0.0,
+                  "customStartCooldownFrames": 0,
+                  "animateOnMainAttack": false,
+                  "Rate": 2.0,
+                  "name": "WeaponModel_Weapon",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "behaviors": [
+                {
+                  "name": "RotateToParentModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToParent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "display": "e4ac1f9f4acbc16459cb85355ea36dbb",
+                  "layer": 0,
+                  "positionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0,
+                    "Magnitude": 0.0,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  },
+                  "scale": 1.0,
+                  "ignoreRotation": false,
+                  "animationChanges": null,
+                  "delayedReveal": 0.0,
+                  "name": "DisplayModel_AttackDisplay",
+                  "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "range": 9999.0,
+              "targetProvider": null,
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "attackThroughWalls": false,
+              "fireWithoutTarget": true,
+              "framesBeforeRetarget": 0,
+              "addsToSharedGrid": false,
+              "sharedGridRange": 0.0,
+              "name": "AttackModel_Attack_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "processOnActivate": false,
+          "cancelIfNoTargets": false,
+          "turnOffExisting": false,
+          "endOnRoundEnd": false,
+          "endOnDefeatScreen": false,
+          "isOneShot": false,
+          "Lifespan": 15.0,
+          "name": "ActivateAttackModel_Ability",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.ActivateAttack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "sound": {
+            "assetId": "6605634fae7123749a6c3ea48aef9c8b",
+            "name": "SoundModel_ActivatedGlueStorm",
+            "ImplementationType": null
+          },
+          "heroSound": {
+            "assetId": "",
+            "name": "BlankSoundModel_",
+            "ImplementationType": null
+          },
+          "heroSound2": {
+            "assetId": "",
+            "name": "BlankSoundModel_",
+            "ImplementationType": null
+          },
+          "name": "CreateSoundOnAbilityModel_Ability",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateSoundOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "effectModel": {
+            "assetId": "7f4343bc022e2d047b060acd7064bdd4",
+            "scale": 1.0,
+            "lifespan": 11.0,
+            "fullscreen": true,
+            "useCenterPosition": true,
+            "useTransformPosition": false,
+            "useTransfromRotation": false,
+            "destroyOnTransformDestroy": false,
+            "alwaysUseAge": false,
+            "useRoundTime": false,
+            "name": "EffectModel_",
+            "ImplementationType": null
+          },
+          "randomRotation": false,
+          "centerEffect": false,
+          "destroyOnEnd": false,
+          "useAttackTransform": false,
+          "canSave": false,
+          "name": "CreateEffectOnAbilityModel_Ability_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateEffectOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "effectModel": {
+            "assetId": "c3d0c79b060c39643bef6047273f2c2b",
+            "scale": 1.0,
+            "lifespan": 11.5,
+            "fullscreen": false,
+            "useCenterPosition": false,
+            "useTransformPosition": true,
+            "useTransfromRotation": false,
+            "destroyOnTransformDestroy": false,
+            "alwaysUseAge": false,
+            "useRoundTime": false,
+            "name": "EffectModel_RadialPulse",
+            "ImplementationType": null
+          },
+          "randomRotation": true,
+          "centerEffect": false,
+          "destroyOnEnd": false,
+          "useAttackTransform": false,
+          "canSave": false,
+          "name": "CreateEffectOnAbilityModel_Ability_RadialPulse",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateEffectOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "activateOnPreLeak": false,
+      "activateOnLeak": false,
+      "addedViaUpgrade": "Glue Strike",
+      "cooldownFrames": 1799,
+      "livesCost": 0,
+      "maxActivationsPerRound": -1,
+      "animation": -1,
+      "animationOffsetFrames": 0,
+      "enabled": true,
+      "canActivateBetweenRounds": false,
+      "resetCooldownOnTierUpgrade": false,
+      "disabledByAnotherTower": false,
+      "activateOnLivesLost": false,
+      "sharedCooldown": false,
+      "dontShowStacked": false,
+      "animateOnMainAttackDisplay": false,
+      "restrictAbilityAfterMaxRoundTimer": false,
+      "CooldownSpeedScale": 0.0,
+      "AnimationOffset": 0.0,
+      "IsPassive": false,
+      "Cooldown": 30.0,
+      "name": "AbilityModel_Ability",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Ability, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "6d84ccf789a772f44bafc81df5847a65",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 6.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": null,
+  "emoteSpriteLarge": null,
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "GlueGunner-052",
+      "upgrade": "Stronger Glue"
+    }
+  ],
+  "appliedUpgrades": [
+    "Bigger Globs",
+    "Glue Splatter",
+    "Glue Hose",
+    "Glue Strike",
+    "Glue Storm",
+    "Stickier Glue"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "Default",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "name": "GlueGunner-051",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

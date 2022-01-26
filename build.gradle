@@ -1,0 +1,134 @@
+import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
+
+plugins {
+    id 'java'
+    id 'com.github.gmazzo.buildconfig' version '3.0.1'
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group "mod.grimmauld.${appid}"
+mainClassName = "mod.grimmauld.${appid}.Main"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(16)
+println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://jitpack.io/'
+    }
+}
+
+sourceSets {
+    main.java.srcDir "src/main/java"
+    main.resources.srcDir 'src/main/resources'
+}
+
+configurations {
+    // configuration that holds jars to include in the jar
+    extraLibs
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:22.0.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    configurations.implementation.extendsFrom(configurations.extraLibs)
+    extraLibs 'com.google.code.gson:gson:2.8.9'
+    extraLibs 'commons-io:commons-io:2.11.0'
+    // implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
+    extraLibs('ch.qos.logback:logback-classic:1.2.10')
+    extraLibs group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes([
+                "Specification-Title"     : appid,
+                "Specification-Vendor"    : "Grimmauld",
+                "Specification-Version"   : "0.1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : "${version}",
+                "Implementation-Vendor"   : "Grimmauld",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                'Main-Class'              : mainClassName
+        ])
+    }
+    from {
+        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+def getGitHash = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'rev-parse', '--short', 'HEAD'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+def hasUnstaged = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'status', '--porcelain'
+        standardOutput = stdout
+    }
+    def result = stdout.toString().replaceAll("M gradlew", "").trim()
+    if (!result.isEmpty())
+        println("Found stageable results:\n${result}\n")
+    return !result.isEmpty()
+}
+
+def hasCommandInstalled = { cmd ->
+    if (!DefaultNativePlatform.currentOperatingSystem.isWindows())
+        return true
+    def stdout = new ByteArrayOutputStream()
+    def stderr = new ByteArrayOutputStream()
+    return exec {
+        ignoreExitValue = true
+        standardOutput = stdout
+        errorOutput = stderr
+        commandLine "where", cmd
+    }.getExitValue() == 0 && stdout.toString().trim().contains(cmd)
+}
+
+def getGitInfo = { ->
+    if (!hasCommandInstalled("git")) {
+        println("No git install found in PATH")
+        return "NOGIT"
+    }
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        standardOutput = stdout
+        commandLine "git", "--version"
+    }
+    println(stdout.toString().trim())
+    return "${getGitHash()}" + (hasUnstaged() ? "-modified" : "")
+}
+
+buildConfig {
+    buildConfigField 'String', 'APPID', "\"${appid}\""
+    buildConfigField 'String', 'VERSION', "\"${project.version}\""
+    def gitstage = getGitInfo()
+    println("Using git stage ${gitstage}")
+    buildConfigField "String", "GITHASH", "\"${gitstage}\""
+
+    version = project.version
+    packageName = project.group
+}

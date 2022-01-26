@@ -1,0 +1,876 @@
+{
+  "display": "2dc97e898ed1597469d8ef975ac5e7da",
+  "baseId": "StrikerJones",
+  "cost": 750.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
+  "range": 55.0,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 2,
+  "tiers": [
+    2,
+    0,
+    0
+  ],
+  "towerSet": "Hero",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[StrikerJonesIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "75968b08a69a1c1458d507d89ce79ac6",
+    "IsValid": true
+  },
+  "instaIcon": null,
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "QuickHands",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MoreSplody",
+      "target": "Explosion",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicReach",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicVelocity",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "SelfTaughtHeroes",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "Scholarships",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "AbilityDiscipline",
+      "target": "ArtillerySupport",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "EmpoweredHeroes",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BigBloonBlueprints",
+      "target": "BaseExplosion",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "WeakPoint",
+      "target": "",
+      "name": "StrikerJonesUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "effectModel": {
+        "assetId": "9e800b22f83685141bcb398b78331495",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "xpScale": 1.0,
+      "costPerXpToLevel": 1.0,
+      "name": "HeroModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Hero, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "placeAnimation": 4,
+      "upgradeAnimation": 3,
+      "name": "PlayAnimationIndexModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PlayAnimationIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_Sell",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "a651f96b36510ba47ad30bc0beb787b2",
+        "name": "SoundModel_UpgradeSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "b6494d72face5dc4e87d2a9d33675d7b",
+        "name": "SoundModel_UpgradeSound2",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "e771a4aef574a514493be11255010cf9",
+        "name": "SoundModel_UpgradeSound3",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "e3b4f5338a015214682d9b227cc0a02f",
+        "name": "SoundModel_UpgradeSound4",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "aaa7b9459b4f0b7488c516e4f95df22b",
+        "name": "SoundModel_UpgradeSound5",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "a65b26a9544465943862dd5a0fab3011",
+        "name": "SoundModel_UpgradeSound6",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "d48cf5bbf9622084686d96e256e4b774",
+        "name": "SoundModel_UpgradeSound7",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "466315af3c0dade45ad21243626a9ef5",
+        "name": "SoundModel_UpgradeSound8",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "18eab577f670b7c47990ff25a905c2d1",
+        "name": "SoundModel_BloonLeakSound01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "a59dee3fd1865e64bbd922004962d235",
+        "name": "SoundModel_BloonLeakSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonLeakModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonLeak, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "moabSound": {
+        "assetId": "483578ffa046fa943b24240b42b03ac4",
+        "name": "SoundModel_MoabWarningSound",
+        "ImplementationType": null
+      },
+      "bfbSound": {
+        "assetId": "8257ed336459a1344a4dc10c419550fc",
+        "name": "SoundModel_BfbWarningSound",
+        "ImplementationType": null
+      },
+      "ddtSound": {
+        "assetId": "31a6a749ce8d0ee42b365e2f2b865512",
+        "name": "SoundModel_DdtWarningSound",
+        "ImplementationType": null
+      },
+      "zomgSound": {
+        "assetId": "a4ab213600551624eb3ba8cc5196ae36",
+        "name": "SoundModel_ZomgWarningSound",
+        "ImplementationType": null
+      },
+      "badSound": {
+        "assetId": "c5884d8702a530147bc98a2c95950963",
+        "name": "SoundModel_BadWarningSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonEnterTrackModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonEnterTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "940fc1b9035854444807f7e1061ad1f9",
+        "name": "SoundModel_SelectSound01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "dafd65252605bca4db7fa22564d49501",
+        "name": "SoundModel_SelectSound02",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "8d0c864b98ca3fe4bbea93ee99f0e9d0",
+        "name": "SoundModel_SelectSound03",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "b8609e0a64512fe428c1c7086c2c7564",
+        "name": "SoundModel_SelectSound04",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "e397b786d955332468e2f5184b5c250c",
+        "name": "SoundModel_SelectSound05",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "ab40fd563a5b679429163c92433282e3",
+        "name": "SoundModel_SelectSound06",
+        "ImplementationType": null
+      },
+      "altSound1": {
+        "assetId": "8409db7faa040c341a8ffd7c9ebc3d55",
+        "name": "SoundModel_AltSelectSound01",
+        "ImplementationType": null
+      },
+      "altSound2": {
+        "assetId": "af5e5ce23cfeca2429aa0405b3285fb1",
+        "name": "SoundModel_AltSelectSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSelectedModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSelected, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "7cae7bed0558f834dac74e64cd9bece0",
+        "name": "SoundModel_PlacementSound01",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "93fb4388654728d4185c17f3f76c380f",
+        "name": "SoundModel_PlacementSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "9e800b22f83685141bcb398b78331495",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_StrikerJones 2",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": 0.2,
+          "animationOffsetFrames": 11,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": -6.2,
+          "ejectY": 14.0,
+          "ejectZ": 12.0,
+          "projectile": {
+            "display": "3c27c2e53b36c6346a6dd2766052c9e5",
+            "id": "BaseProjectile",
+            "maxPierce": 1.0,
+            "pierce": 1.0,
+            "scale": 1.0,
+            "ignoreBlockers": false,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "lifespanFrames": 72,
+                "speedFrames": 3.75000024,
+                "collisionPass": 0,
+                "Speed": 225.0,
+                "Lifespan": 1.2,
+                "name": "TravelStraitModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "projectile": {
+                  "display": null,
+                  "id": "BaseExplosion",
+                  "maxPierce": 0.0,
+                  "pierce": 10.0,
+                  "scale": 1.0,
+                  "ignoreBlockers": true,
+                  "usePointCollisionWithBloons": false,
+                  "canCollisionBeBlockedByMapLos": false,
+                  "filters": [
+                    {
+                      "isActive": true,
+                      "ignoreBroadPhase": false,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "damage": 1.0,
+                      "maxDamage": 0.0,
+                      "distributeToChildren": true,
+                      "overrideDistributeBlocker": false,
+                      "createPopEffect": false,
+                      "immuneBloonProperties": 2,
+                      "collisionPass": 0,
+                      "CappedDamage": 1.0,
+                      "name": "DamageModel_BaseExplosion_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "rounds": 0,
+                      "lifespanFrames": 6,
+                      "useRoundTime": false,
+                      "endOfRoundClearBypassModel": null,
+                      "collisionPass": 0,
+                      "Lifespan": 0.1,
+                      "name": "AgeModel_BaseExplosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": true,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPass": 0,
+                      "name": "ProjectileFilterModel_BaseExplosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "sound1": {
+                        "assetId": "c3f64a62b08dc3e4eb885cc534d8362f",
+                        "name": "SoundModel_ExplosionSound01",
+                        "ImplementationType": null
+                      },
+                      "sound2": {
+                        "assetId": "644009e031551ad449a36fb19be7e80c",
+                        "name": "SoundModel_ExplosionSound02",
+                        "ImplementationType": null
+                      },
+                      "sound3": {
+                        "assetId": "bc84177cfa4a5e449b1e765818a66ca3",
+                        "name": "SoundModel_ExplosionSound03",
+                        "ImplementationType": null
+                      },
+                      "sound4": {
+                        "assetId": "902b4a026f80e504c9e49cef5acefb51",
+                        "name": "SoundModel_ExplosionSound04",
+                        "ImplementationType": null
+                      },
+                      "sound5": {
+                        "assetId": "a1b6610be487ea747981e9b59b4ef51c",
+                        "name": "SoundModel_ExplosionSound05",
+                        "ImplementationType": null
+                      },
+                      "collisionPass": 0,
+                      "name": "CreateSoundOnProjectileCollisionModel_BaseExplosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileCollision, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": null,
+                      "layer": 0,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_ProjectileDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "collisionPasses": [
+                    0
+                  ],
+                  "canCollideWithBloons": true,
+                  "radius": 19.0,
+                  "vsBlockerRadius": 0.0,
+                  "hasDamageModifiers": false,
+                  "dontUseCollisionChecker": false,
+                  "checkCollisionFrames": 0,
+                  "ignoreNonTargetable": false,
+                  "ignorePierceExhaustion": false,
+                  "saveId": null,
+                  "CappedPierce": 10.0,
+                  "name": "ProjectileModel_BaseExplosion",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "emission": {
+                  "behaviors": null,
+                  "name": "SingleEmissionModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "passOnCollidedWith": false,
+                "dontCreateAtBloon": false,
+                "passOnDirectionToContact": false,
+                "collisionPass": 0,
+                "name": "CreateProjectileOnContactModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateProjectileOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "effectModel": {
+                  "assetId": "687e8d737f9d8874d9197037d9971c59",
+                  "scale": 1.0,
+                  "lifespan": 2.0,
+                  "fullscreen": false,
+                  "useCenterPosition": false,
+                  "useTransformPosition": false,
+                  "useTransfromRotation": false,
+                  "destroyOnTransformDestroy": false,
+                  "alwaysUseAge": false,
+                  "useRoundTime": false,
+                  "name": "EffectModel_",
+                  "ImplementationType": null
+                },
+                "collisionPass": 0,
+                "name": "CreateEffectOnContactModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "mutationId": "CreateSoundOnBloonDegrade",
+                "lifespan": 0.05,
+                "layers": 1,
+                "lifespanFrames": 2,
+                "filter": null,
+                "filters": null,
+                "behaviors": [
+                  {
+                    "sound1": {
+                      "assetId": "fb623c3c1f9101844be298ff8579b3e1",
+                      "name": "SoundModel_MoabDestroyed01",
+                      "ImplementationType": null
+                    },
+                    "sound2": {
+                      "assetId": "368a83e94b7714a42a943d7cf925c168",
+                      "name": "SoundModel_MoabDestroyed02",
+                      "ImplementationType": null
+                    },
+                    "tag": "Moabs",
+                    "name": "CreateSoundOnBloonDegradeModel_BaseProjectileCreateSoundOnBloonDegrade",
+                    "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.CreateSoundOnBloonDegrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "overlays": {},
+                "overlayLayer": 0,
+                "isUnique": true,
+                "lastAppliesFirst": false,
+                "collideThisFrame": true,
+                "cascadeMutators": false,
+                "glueLevel": 0,
+                "applyOnlyIfDamaged": false,
+                "stackCount": 0,
+                "collisionPass": -1,
+                "name": "AddBehaviorToBloonModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "3c27c2e53b36c6346a6dd2766052c9e5",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              -1,
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 8.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 1.0,
+            "name": "ProjectileModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 71,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": [
+            {
+              "assetId": null,
+              "effectModel": {
+                "assetId": "e37ce8e800241ec47a9afbd1c0205b3b",
+                "scale": 1.0,
+                "lifespan": 1.0,
+                "fullscreen": false,
+                "useCenterPosition": false,
+                "useTransformPosition": false,
+                "useTransfromRotation": false,
+                "destroyOnTransformDestroy": false,
+                "alwaysUseAge": false,
+                "useRoundTime": false,
+                "name": "EffectModel_",
+                "ImplementationType": null
+              },
+              "lifespan": 0.0,
+              "fullscreen": false,
+              "rotateToWeapon": true,
+              "useEjectPoint": true,
+              "useEmittedFrom": false,
+              "useMainAttackRotation": false,
+              "name": "EjectEffectModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.EjectEffect, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "sound1": {
+                "assetId": "416861c932e1e3745b9764289316b886",
+                "name": "SoundModel_FireBallSound01",
+                "ImplementationType": null
+              },
+              "sound2": {
+                "assetId": "03c643afbb0fa3f499203b4d48f4b54e",
+                "name": "SoundModel_FireBallSound02",
+                "ImplementationType": null
+              },
+              "sound3": {
+                "assetId": "da754ff6ecff8cd4d8b9e67d83c7cc4f",
+                "name": "SoundModel_FireBallSound03",
+                "ImplementationType": null
+              },
+              "sound4": {
+                "assetId": "0d3ec56caedae7a4d918a75bc59c5df9",
+                "name": "SoundModel_FireBallSound04",
+                "ImplementationType": null
+              },
+              "sound5": {
+                "assetId": "a96adda00102fcd4aab3904c8e5bf250",
+                "name": "SoundModel_FireBallSound05",
+                "ImplementationType": null
+              },
+              "type": "",
+              "name": "CreateSoundOnProjectileCreatedModel_Weapon",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.CreateSoundOnProjectileCreated, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 1.2,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 55.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_BaseAttack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "2dc97e898ed1597469d8ef975ac5e7da",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 7.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": {
+    "GUID": "UiEmoteIcons[EmoteStrikerJones]",
+    "IsValid": true
+  },
+  "emoteSpriteLarge": {
+    "GUID": "ae7c454731e40624097148dcf3d7cf5e",
+    "IsValid": true
+  },
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "StrikerJones 3",
+      "upgrade": "Concussive Shell"
+    }
+  ],
+  "appliedUpgrades": [
+    "Blast Radius"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "Default",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "name": "StrikerJones 2",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

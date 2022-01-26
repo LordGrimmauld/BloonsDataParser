@@ -1,0 +1,2814 @@
+{
+  "display": "f6933c7c197b620488746d571d4e49cd",
+  "baseId": "BoomerangMonkey",
+  "cost": 325.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
+  "range": 49.45,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 5,
+  "tiers": [
+    2,
+    0,
+    5
+  ],
+  "towerSet": "Primary",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[BoomerangMonkeyIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "966785cfb630848448fb8bbe5e455228",
+    "IsValid": true
+  },
+  "instaIcon": {
+    "GUID": "b9984ebb414d6480eaf9702e98cb90d6",
+    "IsValid": true
+  },
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "LongTurbo",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HardPress",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "RecurringRangs",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_SellEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "d2bcad0f16bb76e408a107e13b2c0da3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlacementEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "823809b31a6cbab4cab5efc530f919f7",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffectTier5",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_BoomerangMonkey-205",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": -1.0,
+          "animationOffsetFrames": -59,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": -3.47,
+          "ejectY": 8.52,
+          "ejectZ": 7.0,
+          "projectile": {
+            "display": "26eb9a483ec69734687b61623776f9ba",
+            "id": "Projectile",
+            "maxPierce": 0.0,
+            "pierce": 27.0,
+            "scale": 1.0,
+            "ignoreBlockers": false,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "damage": 12.0,
+                "maxDamage": 0.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 0,
+                "collisionPass": 0,
+                "CappedDamage": 12.0,
+                "name": "DamageModel_Projectile_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "path": [
+                  {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0,
+                    "Magnitude": 0.0,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  },
+                  {
+                    "x": 0.0,
+                    "y": 80.8,
+                    "z": 0.0,
+                    "MagnitudeSquared": 6528.64063,
+                    "Magnitude": 80.8,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  }
+                ],
+                "easePath": [
+                  {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0,
+                    "Magnitude": 0.0,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  },
+                  {
+                    "x": 4.99905062,
+                    "y": -0.000365178537,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24.9905071,
+                    "Magnitude": 4.99905062,
+                    "Rotation": 90.00418,
+                    "SimToDispRotation": 89.99582
+                  },
+                  {
+                    "x": 9.828658,
+                    "y": -0.0029214283,
+                    "z": 0.0,
+                    "MagnitudeSquared": 96.60253,
+                    "Magnitude": 9.828659,
+                    "Rotation": 90.01703,
+                    "SimToDispRotation": 89.98297
+                  },
+                  {
+                    "x": 14.4917431,
+                    "y": -0.009859819,
+                    "z": 0.0,
+                    "MagnitudeSquared": 210.010712,
+                    "Magnitude": 14.4917459,
+                    "Rotation": 90.03899,
+                    "SimToDispRotation": 89.96101
+                  },
+                  {
+                    "x": 18.9912319,
+                    "y": -0.0233714264,
+                    "z": 0.0,
+                    "MagnitudeSquared": 360.66745,
+                    "Magnitude": 18.9912472,
+                    "Rotation": 90.07051,
+                    "SimToDispRotation": 89.92949
+                  },
+                  {
+                    "x": 23.3300381,
+                    "y": -0.04564732,
+                    "z": 0.0,
+                    "MagnitudeSquared": 544.2927,
+                    "Magnitude": 23.3300819,
+                    "Rotation": 90.11211,
+                    "SimToDispRotation": 89.8879
+                  },
+                  {
+                    "x": 27.5110874,
+                    "y": -0.07887855,
+                    "z": 0.0,
+                    "MagnitudeSquared": 756.86615,
+                    "Magnitude": 27.5112,
+                    "Rotation": 90.1642761,
+                    "SimToDispRotation": 89.8357239
+                  },
+                  {
+                    "x": 31.537302,
+                    "y": -0.125256225,
+                    "z": 0.0,
+                    "MagnitudeSquared": 994.6171,
+                    "Magnitude": 31.5375519,
+                    "Rotation": 90.22756,
+                    "SimToDispRotation": 89.7724457
+                  },
+                  {
+                    "x": 35.4116058,
+                    "y": -0.186971411,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1254.01672,
+                    "Magnitude": 35.4120979,
+                    "Rotation": 90.30252,
+                    "SimToDispRotation": 89.69749
+                  },
+                  {
+                    "x": 39.1369171,
+                    "y": -0.266215116,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1531.76917,
+                    "Magnitude": 39.13782,
+                    "Rotation": 90.3897247,
+                    "SimToDispRotation": 89.6102753
+                  },
+                  {
+                    "x": 42.71615,
+                    "y": -0.365178555,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1824.80261,
+                    "Magnitude": 42.71771,
+                    "Rotation": 90.48981,
+                    "SimToDispRotation": 89.5102
+                  },
+                  {
+                    "x": 46.1522331,
+                    "y": -0.4860526,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2130.265,
+                    "Magnitude": 46.1547928,
+                    "Rotation": 90.6033859,
+                    "SimToDispRotation": 89.3966141
+                  },
+                  {
+                    "x": 49.4480934,
+                    "y": -0.6310284,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2445.51221,
+                    "Magnitude": 49.45212,
+                    "Rotation": 90.73113,
+                    "SimToDispRotation": 89.26887
+                  },
+                  {
+                    "x": 52.60664,
+                    "y": -0.802297235,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2768.10229,
+                    "Magnitude": 52.61276,
+                    "Rotation": 90.87374,
+                    "SimToDispRotation": 89.12626
+                  },
+                  {
+                    "x": 55.6308136,
+                    "y": -1.0020498,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3095.7915,
+                    "Magnitude": 55.63984,
+                    "Rotation": 91.03193,
+                    "SimToDispRotation": 88.96807
+                  },
+                  {
+                    "x": 58.52351,
+                    "y": -1.23247766,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3426.52026,
+                    "Magnitude": 58.5364876,
+                    "Rotation": 91.20644,
+                    "SimToDispRotation": 88.79356
+                  },
+                  {
+                    "x": 61.2876663,
+                    "y": -1.49577129,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3758.41528,
+                    "Magnitude": 61.3059158,
+                    "Rotation": 91.39807,
+                    "SimToDispRotation": 88.60193
+                  },
+                  {
+                    "x": 63.9262047,
+                    "y": -1.7941221,
+                    "z": 0.0,
+                    "MagnitudeSquared": 4089.77856,
+                    "Magnitude": 63.9513779,
+                    "Rotation": 91.60761,
+                    "SimToDispRotation": 88.39239
+                  },
+                  {
+                    "x": 66.44205,
+                    "y": -2.129721,
+                    "z": 0.0,
+                    "MagnitudeSquared": 4419.081,
+                    "Magnitude": 66.4761658,
+                    "Rotation": 91.8359146,
+                    "SimToDispRotation": 88.1640854
+                  },
+                  {
+                    "x": 68.8381042,
+                    "y": -2.50475955,
+                    "z": 0.0,
+                    "MagnitudeSquared": 4744.9585,
+                    "Magnitude": 68.88366,
+                    "Rotation": 92.08386,
+                    "SimToDispRotation": 87.91614
+                  },
+                  {
+                    "x": 71.1173,
+                    "y": -2.92142844,
+                    "z": 0.0,
+                    "MagnitudeSquared": 5066.205,
+                    "Magnitude": 71.17728,
+                    "Rotation": 92.35233,
+                    "SimToDispRotation": 87.6476746
+                  },
+                  {
+                    "x": 73.28256,
+                    "y": -3.38191819,
+                    "z": 0.0,
+                    "MagnitudeSquared": 5381.77148,
+                    "Magnitude": 73.36056,
+                    "Rotation": 92.6422653,
+                    "SimToDispRotation": 87.3577347
+                  },
+                  {
+                    "x": 75.3368149,
+                    "y": -3.88842082,
+                    "z": 0.0,
+                    "MagnitudeSquared": 5690.75537,
+                    "Magnitude": 75.4370956,
+                    "Rotation": 92.9546356,
+                    "SimToDispRotation": 87.0453644
+                  },
+                  {
+                    "x": 77.28298,
+                    "y": -4.443127,
+                    "z": 0.0,
+                    "MagnitudeSquared": 5992.40039,
+                    "Magnitude": 77.4106,
+                    "Rotation": 93.2904053,
+                    "SimToDispRotation": 86.7095947
+                  },
+                  {
+                    "x": 79.12396,
+                    "y": -5.04822731,
+                    "z": 0.0,
+                    "MagnitudeSquared": 6286.086,
+                    "Magnitude": 79.28484,
+                    "Rotation": 93.65061,
+                    "SimToDispRotation": 86.34939
+                  },
+                  {
+                    "x": 80.8627,
+                    "y": -5.7059145,
+                    "z": 0.0,
+                    "MagnitudeSquared": 6571.334,
+                    "Magnitude": 81.06377,
+                    "Rotation": 94.03627,
+                    "SimToDispRotation": 85.96373
+                  },
+                  {
+                    "x": 82.5021,
+                    "y": -6.418378,
+                    "z": 0.0,
+                    "MagnitudeSquared": 6847.792,
+                    "Magnitude": 82.75139,
+                    "Rotation": 94.44845,
+                    "SimToDispRotation": 85.55155
+                  },
+                  {
+                    "x": 84.04511,
+                    "y": -7.187809,
+                    "z": 0.0,
+                    "MagnitudeSquared": 7115.24561,
+                    "Magnitude": 84.35191,
+                    "Rotation": 94.88823,
+                    "SimToDispRotation": 85.11177
+                  },
+                  {
+                    "x": 85.49463,
+                    "y": -8.016398,
+                    "z": 0.0,
+                    "MagnitudeSquared": 7373.594,
+                    "Magnitude": 85.86964,
+                    "Rotation": 95.3566742,
+                    "SimToDispRotation": 84.6433258
+                  },
+                  {
+                    "x": 86.85358,
+                    "y": -8.906339,
+                    "z": 0.0,
+                    "MagnitudeSquared": 7622.8667,
+                    "Magnitude": 87.30903,
+                    "Rotation": 95.85489,
+                    "SimToDispRotation": 84.14511
+                  },
+                  {
+                    "x": 88.1248856,
+                    "y": -9.859821,
+                    "z": 0.0,
+                    "MagnitudeSquared": 7863.212,
+                    "Magnitude": 88.67475,
+                    "Rotation": 96.38397,
+                    "SimToDispRotation": 83.61603
+                  },
+                  {
+                    "x": 89.31147,
+                    "y": -10.8790321,
+                    "z": 0.0,
+                    "MagnitudeSquared": 8094.892,
+                    "Magnitude": 89.97162,
+                    "Rotation": 96.9449844,
+                    "SimToDispRotation": 83.0550156
+                  },
+                  {
+                    "x": 90.41625,
+                    "y": -11.96617,
+                    "z": 0.0,
+                    "MagnitudeSquared": 8318.288,
+                    "Magnitude": 91.20465,
+                    "Rotation": 97.53902,
+                    "SimToDispRotation": 82.46098
+                  },
+                  {
+                    "x": 91.44217,
+                    "y": -13.1234226,
+                    "z": 0.0,
+                    "MagnitudeSquared": 8533.895,
+                    "Magnitude": 92.37908,
+                    "Rotation": 98.1671,
+                    "SimToDispRotation": 81.8329
+                  },
+                  {
+                    "x": 92.39212,
+                    "y": -14.3529768,
+                    "z": 0.0,
+                    "MagnitudeSquared": 8742.312,
+                    "Magnitude": 93.50033,
+                    "Rotation": 98.83023,
+                    "SimToDispRotation": 81.16977
+                  },
+                  {
+                    "x": 93.26903,
+                    "y": -15.65703,
+                    "z": 0.0,
+                    "MagnitudeSquared": 8944.254,
+                    "Magnitude": 94.5740662,
+                    "Rotation": 99.5293655,
+                    "SimToDispRotation": 80.4706345
+                  },
+                  {
+                    "x": 94.07583,
+                    "y": -17.0377674,
+                    "z": 0.0,
+                    "MagnitudeSquared": 9140.547,
+                    "Magnitude": 95.60621,
+                    "Rotation": 100.265381,
+                    "SimToDispRotation": 79.73462
+                  },
+                  {
+                    "x": 94.81544,
+                    "y": -18.4973869,
+                    "z": 0.0,
+                    "MagnitudeSquared": 9332.12,
+                    "Magnitude": 96.6029,
+                    "Rotation": 101.039085,
+                    "SimToDispRotation": 78.9609146
+                  },
+                  {
+                    "x": 95.4907761,
+                    "y": -20.0380764,
+                    "z": 0.0,
+                    "MagnitudeSquared": 9520.013,
+                    "Magnitude": 97.57055,
+                    "Rotation": 101.851166,
+                    "SimToDispRotation": 78.1488342
+                  },
+                  {
+                    "x": 96.10476,
+                    "y": -21.6620235,
+                    "z": 0.0,
+                    "MagnitudeSquared": 9705.368,
+                    "Magnitude": 98.51582,
+                    "Rotation": 102.7022,
+                    "SimToDispRotation": 77.2978
+                  },
+                  {
+                    "x": 96.6603241,
+                    "y": -23.3714275,
+                    "z": 0.0,
+                    "MagnitudeSquared": 9889.441,
+                    "Magnitude": 99.44567,
+                    "Rotation": 103.592628,
+                    "SimToDispRotation": 76.40737
+                  },
+                  {
+                    "x": 97.16037,
+                    "y": -25.1684666,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10073.59,
+                    "Magnitude": 100.367271,
+                    "Rotation": 104.522705,
+                    "SimToDispRotation": 75.4772949
+                  },
+                  {
+                    "x": 97.6078339,
+                    "y": -27.0553455,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10259.2813,
+                    "Magnitude": 101.288109,
+                    "Rotation": 105.492531,
+                    "SimToDispRotation": 74.50747
+                  },
+                  {
+                    "x": 98.00564,
+                    "y": -29.03425,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10448.0928,
+                    "Magnitude": 102.215912,
+                    "Rotation": 106.501968,
+                    "SimToDispRotation": 73.49803
+                  },
+                  {
+                    "x": 98.35669,
+                    "y": -31.1073666,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10641.7061,
+                    "Magnitude": 103.158646,
+                    "Rotation": 107.550652,
+                    "SimToDispRotation": 72.44935
+                  },
+                  {
+                    "x": 98.66393,
+                    "y": -33.2768936,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10841.9229,
+                    "Magnitude": 104.124557,
+                    "Rotation": 108.63797,
+                    "SimToDispRotation": 71.36203
+                  },
+                  {
+                    "x": 98.930275,
+                    "y": -35.5450172,
+                    "z": 0.0,
+                    "MagnitudeSquared": 11050.6475,
+                    "Magnitude": 105.122063,
+                    "Rotation": 109.763039,
+                    "SimToDispRotation": 70.23696
+                  },
+                  {
+                    "x": 99.15863,
+                    "y": -37.9139328,
+                    "z": 0.0,
+                    "MagnitudeSquared": 11269.9,
+                    "Magnitude": 106.15979,
+                    "Rotation": 110.924667,
+                    "SimToDispRotation": 69.07533
+                  },
+                  {
+                    "x": 99.35193,
+                    "y": -40.38582,
+                    "z": 0.0,
+                    "MagnitudeSquared": 11501.82,
+                    "Magnitude": 107.246536,
+                    "Rotation": 112.121376,
+                    "SimToDispRotation": 67.878624
+                  },
+                  {
+                    "x": 99.51309,
+                    "y": -42.9628868,
+                    "z": 0.0,
+                    "MagnitudeSquared": 11748.665,
+                    "Magnitude": 108.391258,
+                    "Rotation": 113.351357,
+                    "SimToDispRotation": 66.64864
+                  },
+                  {
+                    "x": 99.64505,
+                    "y": -45.647316,
+                    "z": 0.0,
+                    "MagnitudeSquared": 12012.8135,
+                    "Magnitude": 109.602982,
+                    "Rotation": 114.612473,
+                    "SimToDispRotation": 65.38753
+                  },
+                  {
+                    "x": 99.7507,
+                    "y": -48.4412956,
+                    "z": 0.0,
+                    "MagnitudeSquared": 12296.7617,
+                    "Magnitude": 110.890762,
+                    "Rotation": 115.9023,
+                    "SimToDispRotation": 64.0977
+                  },
+                  {
+                    "x": 99.83299,
+                    "y": -51.347023,
+                    "z": 0.0,
+                    "MagnitudeSquared": 12603.1426,
+                    "Magnitude": 112.263718,
+                    "Rotation": 117.218079,
+                    "SimToDispRotation": 62.7819176
+                  },
+                  {
+                    "x": 99.89484,
+                    "y": -54.3666763,
+                    "z": 0.0,
+                    "MagnitudeSquared": 12934.7139,
+                    "Magnitude": 113.730881,
+                    "Rotation": 118.556755,
+                    "SimToDispRotation": 61.44324
+                  },
+                  {
+                    "x": 99.93913,
+                    "y": -57.5024719,
+                    "z": 0.0,
+                    "MagnitudeSquared": 13294.3643,
+                    "Magnitude": 115.301186,
+                    "Rotation": 119.915054,
+                    "SimToDispRotation": 60.0849571
+                  },
+                  {
+                    "x": 99.9688339,
+                    "y": -60.75658,
+                    "z": 0.0,
+                    "MagnitudeSquared": 13685.13,
+                    "Magnitude": 116.983459,
+                    "Rotation": 121.289368,
+                    "SimToDispRotation": 58.71064
+                  },
+                  {
+                    "x": 99.9868546,
+                    "y": -64.13119,
+                    "z": 0.0,
+                    "MagnitudeSquared": 14110.18,
+                    "Magnitude": 118.786278,
+                    "Rotation": 122.675964,
+                    "SimToDispRotation": 57.3240433
+                  },
+                  {
+                    "x": 99.99611,
+                    "y": -67.62851,
+                    "z": 0.0,
+                    "MagnitudeSquared": 14572.8369,
+                    "Magnitude": 120.718,
+                    "Rotation": 124.07093,
+                    "SimToDispRotation": 55.92906
+                  },
+                  {
+                    "x": 99.99952,
+                    "y": -71.25071,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15076.5684,
+                    "Magnitude": 122.786674,
+                    "Rotation": 125.470276,
+                    "SimToDispRotation": 54.5297279
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.999,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000015,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0029,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.999,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.998,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.9971,
+                    "Magnitude": 124.999985,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.00001,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0029,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.9971,
+                    "Magnitude": 124.999985,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.00001,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.001,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.9971,
+                    "Magnitude": 124.999985,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.998,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.999,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000015,
+                    "y": -75.00001,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0039,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.00001,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0029,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.999,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.998,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.9971,
+                    "Magnitude": 124.999985,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0000153,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0039,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.999,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -74.99999,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.9971,
+                    "Magnitude": 124.999985,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.00001,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0029,
+                    "Magnitude": 125.000015,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99999,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15624.998,
+                    "Magnitude": 124.999992,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.000008,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.002,
+                    "Magnitude": 125.000008,
+                    "Rotation": 126.869888,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 100.0,
+                    "y": -75.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15625.0,
+                    "Magnitude": 125.0,
+                    "Rotation": 126.8699,
+                    "SimToDispRotation": 53.1301041
+                  },
+                  {
+                    "x": 99.99951,
+                    "y": -78.74929,
+                    "z": 0.0,
+                    "MagnitudeSquared": 16201.3535,
+                    "Magnitude": 127.284538,
+                    "Rotation": 128.220322,
+                    "SimToDispRotation": 51.779686
+                  },
+                  {
+                    "x": 99.99612,
+                    "y": -82.3715,
+                    "z": 0.0,
+                    "MagnitudeSquared": 16784.2871,
+                    "Magnitude": 129.554184,
+                    "Rotation": 129.479889,
+                    "SimToDispRotation": 50.52011
+                  },
+                  {
+                    "x": 99.9868546,
+                    "y": -85.8688049,
+                    "z": 0.0,
+                    "MagnitudeSquared": 17370.8223,
+                    "Magnitude": 131.798416,
+                    "Rotation": 130.656021,
+                    "SimToDispRotation": 49.3439865
+                  },
+                  {
+                    "x": 99.96884,
+                    "y": -89.24343,
+                    "z": 0.0,
+                    "MagnitudeSquared": 17958.16,
+                    "Magnitude": 134.008057,
+                    "Rotation": 131.755692,
+                    "SimToDispRotation": 48.2443161
+                  },
+                  {
+                    "x": 99.93913,
+                    "y": -92.49753,
+                    "z": 0.0,
+                    "MagnitudeSquared": 18543.623,
+                    "Magnitude": 136.174973,
+                    "Rotation": 132.785446,
+                    "SimToDispRotation": 47.2145462
+                  },
+                  {
+                    "x": 99.89482,
+                    "y": -95.63331,
+                    "z": 0.0,
+                    "MagnitudeSquared": 19124.7051,
+                    "Magnitude": 138.2921,
+                    "Rotation": 133.75145,
+                    "SimToDispRotation": 46.248558
+                  },
+                  {
+                    "x": 99.833,
+                    "y": -98.65298,
+                    "z": 0.0,
+                    "MagnitudeSquared": 19699.04,
+                    "Magnitude": 140.353271,
+                    "Rotation": 134.659378,
+                    "SimToDispRotation": 45.3406258
+                  },
+                  {
+                    "x": 99.7507,
+                    "y": -101.558693,
+                    "z": 0.0,
+                    "MagnitudeSquared": 20264.3711,
+                    "Magnitude": 142.352982,
+                    "Rotation": 135.514572,
+                    "SimToDispRotation": 44.48543
+                  },
+                  {
+                    "x": 99.64505,
+                    "y": -104.352684,
+                    "z": 0.0,
+                    "MagnitudeSquared": 20818.6172,
+                    "Magnitude": 144.286575,
+                    "Rotation": 136.321976,
+                    "SimToDispRotation": 43.6780243
+                  },
+                  {
+                    "x": 99.51309,
+                    "y": -107.037117,
+                    "z": 0.0,
+                    "MagnitudeSquared": 21359.8,
+                    "Magnitude": 146.149933,
+                    "Rotation": 137.0862,
+                    "SimToDispRotation": 42.9138031
+                  },
+                  {
+                    "x": 99.35192,
+                    "y": -109.614166,
+                    "z": 0.0,
+                    "MagnitudeSquared": 21886.07,
+                    "Magnitude": 147.9394,
+                    "Rotation": 137.811508,
+                    "SimToDispRotation": 42.1884842
+                  },
+                  {
+                    "x": 99.15863,
+                    "y": -112.086067,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22395.7188,
+                    "Magnitude": 149.652,
+                    "Rotation": 138.501938,
+                    "SimToDispRotation": 41.4980659
+                  },
+                  {
+                    "x": 98.93027,
+                    "y": -114.454979,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22887.14,
+                    "Magnitude": 151.284958,
+                    "Rotation": 139.161179,
+                    "SimToDispRotation": 40.8388138
+                  },
+                  {
+                    "x": 98.66394,
+                    "y": -116.723114,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23358.86,
+                    "Magnitude": 152.83606,
+                    "Rotation": 139.79277,
+                    "SimToDispRotation": 40.2072334
+                  },
+                  {
+                    "x": 98.35669,
+                    "y": -118.892632,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23809.4961,
+                    "Magnitude": 154.303253,
+                    "Rotation": 140.399963,
+                    "SimToDispRotation": 39.6000443
+                  },
+                  {
+                    "x": 98.00563,
+                    "y": -120.965744,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24237.8145,
+                    "Magnitude": 155.684982,
+                    "Rotation": 140.98584,
+                    "SimToDispRotation": 39.0141563
+                  },
+                  {
+                    "x": 97.6078339,
+                    "y": -122.944649,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24642.6758,
+                    "Magnitude": 156.979858,
+                    "Rotation": 141.553345,
+                    "SimToDispRotation": 38.4466553
+                  },
+                  {
+                    "x": 97.1603851,
+                    "y": -124.831543,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25023.0547,
+                    "Magnitude": 158.186768,
+                    "Rotation": 142.10524,
+                    "SimToDispRotation": 37.8947639
+                  },
+                  {
+                    "x": 96.66033,
+                    "y": -126.628586,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25378.02,
+                    "Magnitude": 159.3048,
+                    "Rotation": 142.644165,
+                    "SimToDispRotation": 37.35585
+                  },
+                  {
+                    "x": 96.10476,
+                    "y": -128.337967,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25706.7578,
+                    "Magnitude": 160.333267,
+                    "Rotation": 143.172623,
+                    "SimToDispRotation": 36.8273849
+                  },
+                  {
+                    "x": 95.49077,
+                    "y": -129.961914,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26008.5859,
+                    "Magnitude": 161.271774,
+                    "Rotation": 143.693054,
+                    "SimToDispRotation": 36.306942
+                  },
+                  {
+                    "x": 94.81543,
+                    "y": -131.502609,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26282.9023,
+                    "Magnitude": 162.120026,
+                    "Rotation": 144.207809,
+                    "SimToDispRotation": 35.7921944
+                  },
+                  {
+                    "x": 94.0758362,
+                    "y": -132.96225,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26529.2227,
+                    "Magnitude": 162.877945,
+                    "Rotation": 144.719147,
+                    "SimToDispRotation": 35.2808533
+                  },
+                  {
+                    "x": 93.26903,
+                    "y": -134.342957,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26747.14,
+                    "Magnitude": 163.545532,
+                    "Rotation": 145.229279,
+                    "SimToDispRotation": 34.77073
+                  },
+                  {
+                    "x": 92.39212,
+                    "y": -135.647034,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26936.4219,
+                    "Magnitude": 164.123184,
+                    "Rotation": 145.740372,
+                    "SimToDispRotation": 34.25962
+                  },
+                  {
+                    "x": 91.4421539,
+                    "y": -136.876572,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27096.8633,
+                    "Magnitude": 164.611252,
+                    "Rotation": 146.254578,
+                    "SimToDispRotation": 33.7454147
+                  },
+                  {
+                    "x": 90.41626,
+                    "y": -138.033844,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27228.4414,
+                    "Magnitude": 165.010422,
+                    "Rotation": 146.774017,
+                    "SimToDispRotation": 33.2259865
+                  },
+                  {
+                    "x": 89.31148,
+                    "y": -139.120972,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27331.1836,
+                    "Magnitude": 165.321457,
+                    "Rotation": 147.300766,
+                    "SimToDispRotation": 32.69924
+                  },
+                  {
+                    "x": 88.12488,
+                    "y": -140.140182,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27405.2656,
+                    "Magnitude": 165.545364,
+                    "Rotation": 147.836929,
+                    "SimToDispRotation": 32.1630669
+                  },
+                  {
+                    "x": 86.85358,
+                    "y": -141.093658,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27450.9648,
+                    "Magnitude": 165.683334,
+                    "Rotation": 148.384628,
+                    "SimToDispRotation": 31.6153679
+                  },
+                  {
+                    "x": 85.49463,
+                    "y": -141.983612,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27468.6777,
+                    "Magnitude": 165.736771,
+                    "Rotation": 148.946,
+                    "SimToDispRotation": 31.0540123
+                  },
+                  {
+                    "x": 84.045105,
+                    "y": -142.8122,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27458.9023,
+                    "Magnitude": 165.707275,
+                    "Rotation": 149.523163,
+                    "SimToDispRotation": 30.47685
+                  },
+                  {
+                    "x": 82.5021057,
+                    "y": -143.581619,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27422.28,
+                    "Magnitude": 165.596741,
+                    "Rotation": 150.1183,
+                    "SimToDispRotation": 29.88171
+                  },
+                  {
+                    "x": 80.8627,
+                    "y": -144.294083,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27359.5586,
+                    "Magnitude": 165.407257,
+                    "Rotation": 150.733643,
+                    "SimToDispRotation": 29.2663612
+                  },
+                  {
+                    "x": 79.1239548,
+                    "y": -144.951767,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27271.6152,
+                    "Magnitude": 165.1412,
+                    "Rotation": 151.37146,
+                    "SimToDispRotation": 28.6285381
+                  },
+                  {
+                    "x": 77.2829742,
+                    "y": -145.55687,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27159.46,
+                    "Magnitude": 164.80127,
+                    "Rotation": 152.034073,
+                    "SimToDispRotation": 27.96593
+                  },
+                  {
+                    "x": 75.3368149,
+                    "y": -146.111572,
+                    "z": 0.0,
+                    "MagnitudeSquared": 27024.2266,
+                    "Magnitude": 164.390472,
+                    "Rotation": 152.723846,
+                    "SimToDispRotation": 27.2761555
+                  },
+                  {
+                    "x": 73.28256,
+                    "y": -146.618073,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26867.1934,
+                    "Magnitude": 163.912155,
+                    "Rotation": 153.443237,
+                    "SimToDispRotation": 26.5567741
+                  },
+                  {
+                    "x": 71.1173,
+                    "y": -147.078568,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26689.7754,
+                    "Magnitude": 163.370056,
+                    "Rotation": 154.194717,
+                    "SimToDispRotation": 25.8052864
+                  },
+                  {
+                    "x": 68.8381042,
+                    "y": -147.495255,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26493.5352,
+                    "Magnitude": 162.768341,
+                    "Rotation": 154.980881,
+                    "SimToDispRotation": 25.0191212
+                  },
+                  {
+                    "x": 66.44205,
+                    "y": -147.87027,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26280.1621,
+                    "Magnitude": 162.111572,
+                    "Rotation": 155.804352,
+                    "SimToDispRotation": 24.195652
+                  },
+                  {
+                    "x": 63.9262,
+                    "y": -148.205872,
+                    "z": 0.0,
+                    "MagnitudeSquared": 26051.54,
+                    "Magnitude": 161.404892,
+                    "Rotation": 156.667831,
+                    "SimToDispRotation": 23.3321686
+                  },
+                  {
+                    "x": 61.2876663,
+                    "y": -148.504227,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25809.6836,
+                    "Magnitude": 160.653931,
+                    "Rotation": 157.574081,
+                    "SimToDispRotation": 22.42593
+                  },
+                  {
+                    "x": 58.52351,
+                    "y": -148.767517,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25556.7754,
+                    "Magnitude": 159.864868,
+                    "Rotation": 158.525864,
+                    "SimToDispRotation": 21.4741325
+                  },
+                  {
+                    "x": 55.6308022,
+                    "y": -148.99794,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25295.1719,
+                    "Magnitude": 159.044556,
+                    "Rotation": 159.526062,
+                    "SimToDispRotation": 20.4739342
+                  },
+                  {
+                    "x": 52.6066475,
+                    "y": -149.197708,
+                    "z": 0.0,
+                    "MagnitudeSquared": 25027.416,
+                    "Magnitude": 158.200562,
+                    "Rotation": 160.5775,
+                    "SimToDispRotation": 19.4224911
+                  },
+                  {
+                    "x": 49.44809,
+                    "y": -149.368973,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24756.2031,
+                    "Magnitude": 157.341034,
+                    "Rotation": 161.683044,
+                    "SimToDispRotation": 18.31695
+                  },
+                  {
+                    "x": 46.15224,
+                    "y": -149.513947,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24484.45,
+                    "Magnitude": 156.475082,
+                    "Rotation": 162.84549,
+                    "SimToDispRotation": 17.1545067
+                  },
+                  {
+                    "x": 42.7161522,
+                    "y": -149.634811,
+                    "z": 0.0,
+                    "MagnitudeSquared": 24215.2461,
+                    "Magnitude": 155.612488,
+                    "Rotation": 164.067581,
+                    "SimToDispRotation": 15.9324207
+                  },
+                  {
+                    "x": 39.13691,
+                    "y": -149.73378,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23951.9023,
+                    "Magnitude": 154.764023,
+                    "Rotation": 165.351929,
+                    "SimToDispRotation": 14.6480713
+                  },
+                  {
+                    "x": 35.4116058,
+                    "y": -149.813034,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23697.9277,
+                    "Magnitude": 153.941315,
+                    "Rotation": 166.700974,
+                    "SimToDispRotation": 13.2990236
+                  },
+                  {
+                    "x": 31.5373,
+                    "y": -149.874741,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23457.04,
+                    "Magnitude": 153.1569,
+                    "Rotation": 168.116943,
+                    "SimToDispRotation": 11.8830662
+                  },
+                  {
+                    "x": 27.511097,
+                    "y": -149.921112,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23233.2012,
+                    "Magnitude": 152.424408,
+                    "Rotation": 169.6017,
+                    "SimToDispRotation": 10.3983088
+                  },
+                  {
+                    "x": 23.33004,
+                    "y": -149.954346,
+                    "z": 0.0,
+                    "MagnitudeSquared": 23030.5977,
+                    "Magnitude": 151.758347,
+                    "Rotation": 171.156769,
+                    "SimToDispRotation": 8.843236
+                  },
+                  {
+                    "x": 18.9912243,
+                    "y": -149.976624,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22853.6543,
+                    "Magnitude": 151.174255,
+                    "Rotation": 172.783157,
+                    "SimToDispRotation": 7.21683455
+                  },
+                  {
+                    "x": 14.4917479,
+                    "y": -149.990143,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22707.0547,
+                    "Magnitude": 150.6886,
+                    "Rotation": 174.481323,
+                    "SimToDispRotation": 5.518674
+                  },
+                  {
+                    "x": 9.828655,
+                    "y": -149.997086,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22595.7266,
+                    "Magnitude": 150.318756,
+                    "Rotation": 176.251022,
+                    "SimToDispRotation": 3.74898338
+                  },
+                  {
+                    "x": 4.99905729,
+                    "y": -149.999634,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22524.88,
+                    "Magnitude": 150.082916,
+                    "Rotation": 178.0912,
+                    "SimToDispRotation": 1.90879738
+                  },
+                  {
+                    "x": 0.0,
+                    "y": -150.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22500.0,
+                    "Magnitude": 150.0,
+                    "Rotation": 180.0,
+                    "SimToDispRotation": 0.0
+                  }
+                ],
+                "speedFrames": 2.91666675,
+                "destroyAtEndOfPath": true,
+                "collisionPass": 0,
+                "Speed": 175.0,
+                "name": "FollowPathModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.FollowPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "interval": 0.3,
+                "intervalFrames": 18,
+                "collisionPass": 0,
+                "name": "ClearHitBloonsModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ClearHitBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "angle": -1440.0,
+                "rotationFrames": -24.0000019,
+                "collisionPass": 0,
+                "name": "RotateModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Rotate, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "26eb9a483ec69734687b61623776f9ba",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 10.5,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 27.0,
+            "name": "ProjectileModel_Projectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 35,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": [
+            {
+              "flipTowerDisplayX": true,
+              "flipTowerDisplayY": false,
+              "effectOnFlip": {
+                "assetId": "4120418e3ebc75f49a094e5aa4b0637c",
+                "scale": 1.0,
+                "lifespan": 1.0,
+                "fullscreen": false,
+                "useCenterPosition": false,
+                "useTransformPosition": false,
+                "useTransfromRotation": false,
+                "destroyOnTransformDestroy": false,
+                "alwaysUseAge": false,
+                "useRoundTime": false,
+                "name": "EffectModel_",
+                "ImplementationType": null
+              },
+              "name": "FlipFollowPathModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.FlipFollowPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 0.6,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 49.45,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": -1.0,
+          "animationOffsetFrames": -59,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": -3.47,
+          "ejectY": 8.52,
+          "ejectZ": 7.0,
+          "projectile": {
+            "display": "c24ac3c7fcda4b8449eecf13be451029",
+            "id": "Projectile",
+            "maxPierce": 0.0,
+            "pierce": 520.0,
+            "scale": 1.0,
+            "ignoreBlockers": true,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "damage": 1.0,
+                "maxDamage": 0.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 0,
+                "collisionPass": 0,
+                "CappedDamage": 1.0,
+                "name": "DamageModel_Projectile_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "interval": 0.1,
+                "intervalFrames": 6,
+                "collisionPass": 0,
+                "name": "ClearHitBloonsModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ClearHitBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "angle": -3000.0,
+                "rotationFrames": -50.0000038,
+                "collisionPass": 0,
+                "name": "RotateModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Rotate, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "pushAmount": 3.0,
+                "tag": "Moabs",
+                "multiplierBFB": 0.5,
+                "multiplierDDT": 0.25,
+                "multiplierZOMG": 0.25,
+                "collisionPass": 0,
+                "name": "PushBackModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.PushBack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "tag": "Moabs",
+                "tags": [
+                  "Moabs"
+                ],
+                "damageMultiplier": 1.0,
+                "damageAddative": 24.0,
+                "mustIncludeAllTags": false,
+                "applyOverMaxDamage": false,
+                "collisionPass": 0,
+                "name": "DamageModifierForTagModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.DamageModifierForTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "timeToTake": 1.26,
+                "curveSamples": [
+                  2.23517418E-05,
+                  0.124443538,
+                  0.265688717,
+                  0.415114433,
+                  0.564077258,
+                  0.703933656,
+                  0.8260401,
+                  0.9217532,
+                  0.9824295,
+                  1.00000429,
+                  1.00002909,
+                  1.00005209,
+                  1.00007331,
+                  1.00009286,
+                  1.00011086,
+                  1.0001272,
+                  1.0001421,
+                  1.00015557,
+                  1.00016749,
+                  1.0001781,
+                  1.0001874,
+                  1.0001955,
+                  1.00020242,
+                  1.00020814,
+                  1.00021279,
+                  1.00021636,
+                  1.00021887,
+                  1.00022054,
+                  1.00022137,
+                  1.00022125,
+                  1.00022042,
+                  1.00021887,
+                  1.00021672,
+                  1.00021386,
+                  1.0002104,
+                  1.00020647,
+                  1.00020206,
+                  1.00019729,
+                  1.00019217,
+                  1.00018668,
+                  1.000181,
+                  1.00017512,
+                  1.000169,
+                  1.000163,
+                  1.00015676,
+                  1.00015056,
+                  1.00014448,
+                  1.00013852,
+                  1.0001328,
+                  1.0001272,
+                  1.000122,
+                  1.000117,
+                  1.00011241,
+                  1.00010824,
+                  1.00010455,
+                  1.00010145,
+                  1.00009906,
+                  1.00009716,
+                  1.000096,
+                  1.00009561
+                ],
+                "filterCollisionWhileMoving": false,
+                "expireOnArrival": true,
+                "altSpeed": 0.0,
+                "stopOnTargetReached": false,
+                "curve": {},
+                "collisionPass": 0,
+                "name": "ArriveAtTargetModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ArriveAtTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "bloonId": "",
+                "bloonIds": [],
+                "bloonTag": "Moabs",
+                "bloonTags": [
+                  "Moabs"
+                ],
+                "excluding": false,
+                "overlays": {},
+                "effectModel": null,
+                "lifespanFrames": 14,
+                "layers": 1,
+                "overlayLayer": 0,
+                "glueLevel": 0,
+                "isUnique": true,
+                "dontRefreshDuration": true,
+                "cascadeMutators": true,
+                "removeMutatorIfNotMatching": false,
+                "mutationId": "Slow:MoabPressStun",
+                "mutationFilter": "",
+                "collisionPass": -1,
+                "Lifespan": 0.25,
+                "Multiplier": 0.0,
+                "Mutator": {
+                  "mutationId": "Slow:MoabPressStun",
+                  "overlays": {},
+                  "overlayLayer": 0,
+                  "slowModifierForTagModels": {
+                    "IsValid": false
+                  },
+                  "dontRefreshDuration": true,
+                  "didMutatorAffectBloon": false,
+                  "multiplier": 0.0,
+                  "filters": [],
+                  "id": "Slow:MoabPressStun",
+                  "isExclusiveInMutationList": true,
+                  "priority": 1,
+                  "glueLevel": 0,
+                  "isFreeze": false,
+                  "dontCopy": false,
+                  "buffIndicator": null,
+                  "includesSubTowers": false,
+                  "saveId": null
+                },
+                "name": "SlowForBloonModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.SlowForBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "projectile": {
+                  "display": null,
+                  "id": "Explosion",
+                  "maxPierce": 0.0,
+                  "pierce": 30.0,
+                  "scale": 1.0,
+                  "ignoreBlockers": true,
+                  "usePointCollisionWithBloons": false,
+                  "canCollisionBeBlockedByMapLos": false,
+                  "filters": [
+                    {
+                      "isActive": true,
+                      "ignoreBroadPhase": false,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "damage": 100.0,
+                      "maxDamage": 0.0,
+                      "distributeToChildren": true,
+                      "overrideDistributeBlocker": false,
+                      "createPopEffect": false,
+                      "immuneBloonProperties": 0,
+                      "collisionPass": 0,
+                      "CappedDamage": 100.0,
+                      "name": "DamageModel_Explosion_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "rounds": 0,
+                      "lifespanFrames": 6,
+                      "useRoundTime": false,
+                      "endOfRoundClearBypassModel": null,
+                      "collisionPass": 0,
+                      "Lifespan": 0.1,
+                      "name": "AgeModel_Explosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "mutationId": "Fire:Dot",
+                      "lifespan": 4.0,
+                      "layers": 9999999,
+                      "lifespanFrames": 239,
+                      "filter": null,
+                      "filters": null,
+                      "behaviors": [
+                        {
+                          "damage": 50.0,
+                          "payloadCount": 0,
+                          "immuneBloonProperties": 8,
+                          "intervalFrames": 59,
+                          "displayPath": null,
+                          "displayLifetime": 4.0,
+                          "triggerImmediate": false,
+                          "rotateEffectWithBloon": false,
+                          "initialDelay": 0.0,
+                          "initialDelayFrames": 0,
+                          "damageOnDestroy": false,
+                          "overrideDistributionBlocker": false,
+                          "damageModifierModels": null,
+                          "Interval": 1.0,
+                          "name": "DamageOverTimeModel_Fire:Dot",
+                          "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.DamageOverTime, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "overlays": {
+                        "Red": {
+                          "assetPath": "aa54a5e51b44d6c4f8c8b706a9ad81a6",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "RedRegrow": {
+                          "assetPath": "0e04f68b487126a4da9d49252b014e1e",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Blue": {
+                          "assetPath": "4dabc5cfaa9b2714fb15891fcf6aac19",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "BlueRegrow": {
+                          "assetPath": "e870094e020fc4c47a19b2505e7c2330",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Green": {
+                          "assetPath": "4dabc5cfaa9b2714fb15891fcf6aac19",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "GreenRegrow": {
+                          "assetPath": "e870094e020fc4c47a19b2505e7c2330",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Yellow": {
+                          "assetPath": "4dabc5cfaa9b2714fb15891fcf6aac19",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "YellowRegrow": {
+                          "assetPath": "e870094e020fc4c47a19b2505e7c2330",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Pink": {
+                          "assetPath": "4dabc5cfaa9b2714fb15891fcf6aac19",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "PinkRegrow": {
+                          "assetPath": "e870094e020fc4c47a19b2505e7c2330",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "White": {
+                          "assetPath": "aa54a5e51b44d6c4f8c8b706a9ad81a6",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "WhiteRegrow": {
+                          "assetPath": "0e04f68b487126a4da9d49252b014e1e",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Moab": {
+                          "assetPath": "deee1bbf21b6270498bc5dac9317aea5",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bfb": {
+                          "assetPath": "281edd00160a0834d86c957bcede421a",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Zomg": {
+                          "assetPath": "42399eba51435954d82e742c7bf89cad",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Ddt": {
+                          "assetPath": "61f14f10c06828f40822c143a1b296b3",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bad": {
+                          "assetPath": "9a294d16aec285e4985de9c9249d48be",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Bloonarius": {
+                          "assetPath": "f7201cb6269bcb44ba1f22bfdadcadc6",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "Lych": {
+                          "assetPath": "9342f08c35490d34c905a99673007e30",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        },
+                        "MiniLych": {
+                          "assetPath": "9b7d46879b30c604999c7e088c4ef384",
+                          "name": "AssetPathModel_",
+                          "ImplementationType": null
+                        }
+                      },
+                      "overlayLayer": 12,
+                      "isUnique": true,
+                      "lastAppliesFirst": false,
+                      "collideThisFrame": true,
+                      "cascadeMutators": false,
+                      "glueLevel": 0,
+                      "applyOnlyIfDamaged": false,
+                      "stackCount": 0,
+                      "collisionPass": -1,
+                      "name": "AddBehaviorToBloonModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "sound1": {
+                        "assetId": "c3f64a62b08dc3e4eb885cc534d8362f",
+                        "name": "SoundModel_ExplosionSound01",
+                        "ImplementationType": null
+                      },
+                      "sound2": {
+                        "assetId": "644009e031551ad449a36fb19be7e80c",
+                        "name": "SoundModel_ExplosionSound02",
+                        "ImplementationType": null
+                      },
+                      "sound3": {
+                        "assetId": "bc84177cfa4a5e449b1e765818a66ca3",
+                        "name": "SoundModel_ExplosionSound03",
+                        "ImplementationType": null
+                      },
+                      "sound4": {
+                        "assetId": "902b4a026f80e504c9e49cef5acefb51",
+                        "name": "SoundModel_ExplosionSound04",
+                        "ImplementationType": null
+                      },
+                      "sound5": {
+                        "assetId": "a1b6610be487ea747981e9b59b4ef51c",
+                        "name": "SoundModel_ExplosionSound05",
+                        "ImplementationType": null
+                      },
+                      "collisionPass": 0,
+                      "name": "CreateSoundOnProjectileExpireModel_Explosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": true,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPass": 0,
+                      "name": "ProjectileFilterModel_Explosion",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": null,
+                      "layer": 0,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_ProjectileDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "collisionPasses": [
+                    -1,
+                    0
+                  ],
+                  "canCollideWithBloons": true,
+                  "radius": 75.0,
+                  "vsBlockerRadius": 0.0,
+                  "hasDamageModifiers": false,
+                  "dontUseCollisionChecker": false,
+                  "checkCollisionFrames": 0,
+                  "ignoreNonTargetable": false,
+                  "ignorePierceExhaustion": false,
+                  "saveId": null,
+                  "CappedPierce": 30.0,
+                  "name": "ProjectileModel_Explosion",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "emission": {
+                  "behaviors": null,
+                  "name": "SingleEmissionModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "fraction": 1.0,
+                "durationfraction": 1.0,
+                "canCreateInBetweenRounds": false,
+                "collisionPass": 0,
+                "name": "CreateProjectileOnExhaustFractionModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateProjectileOnExhaustFraction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "assetId": "",
+                "lifespan": 1.0,
+                "fullscreen": false,
+                "fraction": 1.0,
+                "durationFraction": 1.0,
+                "randomRotation": false,
+                "effectModel": {
+                  "assetId": "3e6bf36670555d4408d6a9ca2e531d85",
+                  "scale": 1.0,
+                  "lifespan": 2.0,
+                  "fullscreen": false,
+                  "useCenterPosition": false,
+                  "useTransformPosition": false,
+                  "useTransfromRotation": false,
+                  "destroyOnTransformDestroy": false,
+                  "alwaysUseAge": false,
+                  "useRoundTime": false,
+                  "name": "EffectModel_",
+                  "ImplementationType": null
+                },
+                "collisionPass": 0,
+                "name": "CreateEffectOnExhaustFractionModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnExhaustFraction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "c24ac3c7fcda4b8449eecf13be451029",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              -1,
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 15.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": true,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 520.0,
+            "name": "ProjectileModel_Projectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 262,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": null,
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 4.375,
+          "name": "WeaponModel_MOABPress",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "moabTag": true,
+              "camoTag": false,
+              "growTag": false,
+              "fortifiedTag": false,
+              "tag": "Moabs",
+              "inclusive": false,
+              "name": "FilterWithTagModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterWithTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": false,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": false,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": false,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": false,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 100.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": true,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": false,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_MOABPressAttack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "f6933c7c197b620488746d571d4e49cd",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 7.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": null,
+  "emoteSpriteLarge": null,
+  "doesntRotate": false,
+  "upgrades": [],
+  "appliedUpgrades": [
+    "Improved Rangs",
+    "Glaives",
+    "Long Range Rangs",
+    "Red Hot Rangs",
+    "Kylie Boomerang",
+    "MOAB Press",
+    "MOAB Domination"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": {
+    "tower": "BoomerangMonkey-Paragon",
+    "upgrade": "BoomerangMonkey Paragon"
+  },
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "AmbidextrousRangs",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "name": "BoomerangMonkey-205",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

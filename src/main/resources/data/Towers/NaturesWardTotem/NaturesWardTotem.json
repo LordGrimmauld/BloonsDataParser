@@ -1,0 +1,310 @@
+{
+  "display": "4a0cf9277bdf2354ea066fc0a21f0933",
+  "baseId": "NaturesWardTotem",
+  "cost": 0.0,
+  "radius": 0.0,
+  "radiusSquared": 0.0,
+  "range": 32.0,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 0,
+  "tiers": [
+    0,
+    0,
+    0
+  ],
+  "towerSet": "Support",
+  "areaTypes": [
+    2
+  ],
+  "icon": null,
+  "portrait": {
+    "GUID": "f00bc9224369720458e7d57ff7e6b647",
+    "IsValid": true
+  },
+  "instaIcon": null,
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "AbilityDiscipline",
+      "target": "AbilityWallOfTrees",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BigBloonBlueprints",
+      "target": "BaseProjectile",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "EmpoweredHeroes",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicReach",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicVelocity",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "QuickHands",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "Scholarships",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "SelfTaughtHeroes",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "WeakPoint",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "expireOnRoundComplete": false,
+      "expireOnDefeatScreen": false,
+      "lifespanFrames": 899,
+      "Lifespan": 15.0,
+      "name": "TowerExpireModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "TowerExpireOnParentDestroyedModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpireOnParentDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "TowerExpireOnParentDestroyedModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpireOnParentDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "d385254f69c7c7d40aebde109bf83d77",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnExpireModel_NaturesWardTotem",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "IgnoreAllMutatorsTowerModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.IgnoreAllMutatorsTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "name": "SavedSubTowerModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SavedSubTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "zoneRadius": 32.0,
+      "mutationId": "ObynGreenfoot-Totem-Slow",
+      "isUnique": true,
+      "filters": null,
+      "speedScale": 0.4,
+      "speedChange": 0.0,
+      "bindRadiusToTowerRange": false,
+      "radiusOffset": 0.0,
+      "bloonTag": "Moabs",
+      "bloonTags": [
+        "Moabs"
+      ],
+      "inclusive": false,
+      "mutator": {
+        "id": "ObynGreenfoot-Totem-Slow",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": true,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "name": "SlowBloonsZoneModel_NonMoabs",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SlowBloonsZone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "zoneRadius": 32.0,
+      "mutationId": "ObynGreenfoot-Totem-Slow",
+      "isUnique": true,
+      "filters": null,
+      "speedScale": 0.7,
+      "speedChange": 0.0,
+      "bindRadiusToTowerRange": false,
+      "radiusOffset": 0.0,
+      "bloonTag": "Moabs",
+      "bloonTags": [
+        "Moabs"
+      ],
+      "inclusive": true,
+      "mutator": {
+        "id": "ObynGreenfoot-Totem-Slow",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": true,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "name": "SlowBloonsZoneModel_Moabs",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SlowBloonsZone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "9971be01b6883d849952e07c14b229a3",
+        "name": "SoundModel_PlacementSound01",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "347ed5162f7865148b9c2f7b0951b152",
+        "name": "SoundModel_PlacementSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_NaturesWardTotem",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [],
+      "behaviors": [
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 32.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_SharedAttack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "4a0cf9277bdf2354ea066fc0a21f0933",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 0.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": null,
+  "emoteSpriteLarge": null,
+  "doesntRotate": false,
+  "upgrades": [],
+  "appliedUpgrades": [],
+  "targetTypes": null,
+  "paragonUpgrade": null,
+  "isSubTower": true,
+  "isBakable": false,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "Default",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": true,
+  "TargetTypes": null,
+  "name": "NaturesWardTotem",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

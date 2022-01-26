@@ -1,0 +1,1617 @@
+{
+  "display": "bb044b724a1580f4b83937e5a1874e6b",
+  "baseId": "BoomerangMonkey",
+  "cost": 325.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
+  "range": 43.0,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 1,
+  "tiers": [
+    1,
+    0,
+    0
+  ],
+  "towerSet": "Primary",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[BoomerangMonkeyIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "b4d541c679710854a9da419dd61e926e",
+    "IsValid": true
+  },
+  "instaIcon": {
+    "GUID": "bd623dc213c9743859f8a1e2532e0a09",
+    "IsValid": true
+  },
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "LongTurbo",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HardPress",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "RecurringRangs",
+      "target": "",
+      "name": "BoomerangMonkeyUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_SellEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "d2bcad0f16bb76e408a107e13b2c0da3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlacementEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "0df55a1a5432bf54eb811f8e099c49c3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_BoomerangMonkey-100",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": -1.0,
+          "animationOffsetFrames": -59,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": -3.47,
+          "ejectY": 8.52,
+          "ejectZ": 7.0,
+          "projectile": {
+            "display": "842be402795e7334cbc77d33b6746bff",
+            "id": "Projectile",
+            "maxPierce": 0.0,
+            "pierce": 8.0,
+            "scale": 1.0,
+            "ignoreBlockers": false,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "damage": 1.0,
+                "maxDamage": 0.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 17,
+                "collisionPass": 0,
+                "CappedDamage": 1.0,
+                "name": "DamageModel_Projectile_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "path": [
+                  {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0,
+                    "Magnitude": 0.0,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  },
+                  {
+                    "x": 0.01508898,
+                    "y": 0.0416018963,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.00195839512,
+                    "Magnitude": 0.04425376,
+                    "Rotation": 19.9356747,
+                    "SimToDispRotation": 160.064331
+                  },
+                  {
+                    "x": 0.0589806139,
+                    "y": 0.1645906,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0305687785,
+                    "Magnitude": 0.174839288,
+                    "Rotation": 19.71501,
+                    "SimToDispRotation": 160.284988
+                  },
+                  {
+                    "x": 0.12961188,
+                    "y": 0.366240621,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.150931433,
+                    "Magnitude": 0.388498962,
+                    "Rotation": 19.4887772,
+                    "SimToDispRotation": 160.51123
+                  },
+                  {
+                    "x": 0.22491993,
+                    "y": 0.643826663,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.465101749,
+                    "Magnitude": 0.6819837,
+                    "Rotation": 19.25679,
+                    "SimToDispRotation": 160.74321
+                  },
+                  {
+                    "x": 0.342841685,
+                    "y": 0.994623,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1.10681534,
+                    "Magnitude": 1.052053,
+                    "Rotation": 19.0188217,
+                    "SimToDispRotation": 160.981186
+                  },
+                  {
+                    "x": 0.4813141,
+                    "y": 1.41590393,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2.236447,
+                    "Magnitude": 1.49547553,
+                    "Rotation": 18.7746525,
+                    "SimToDispRotation": 161.225342
+                  },
+                  {
+                    "x": 0.638274431,
+                    "y": 1.9049449,
+                    "z": 0.0,
+                    "MagnitudeSquared": 4.03620958,
+                    "Magnitude": 2.009032,
+                    "Rotation": 18.5240383,
+                    "SimToDispRotation": 161.475967
+                  },
+                  {
+                    "x": 0.8116595,
+                    "y": 2.45901966,
+                    "z": 0.0,
+                    "MagnitudeSquared": 6.705569,
+                    "Magnitude": 2.58951139,
+                    "Rotation": 18.266737,
+                    "SimToDispRotation": 161.733261
+                  },
+                  {
+                    "x": 0.9994066,
+                    "y": 3.07540274,
+                    "z": 0.0,
+                    "MagnitudeSquared": 10.4569159,
+                    "Magnitude": 3.23371553,
+                    "Rotation": 18.00249,
+                    "SimToDispRotation": 161.997513
+                  },
+                  {
+                    "x": 1.1994524,
+                    "y": 3.751369,
+                    "z": 0.0,
+                    "MagnitudeSquared": 15.5114555,
+                    "Magnitude": 3.93845844,
+                    "Rotation": 17.7310143,
+                    "SimToDispRotation": 162.268982
+                  },
+                  {
+                    "x": 1.40973389,
+                    "y": 4.484193,
+                    "z": 0.0,
+                    "MagnitudeSquared": 22.0953369,
+                    "Magnitude": 4.70056772,
+                    "Rotation": 17.4520283,
+                    "SimToDispRotation": 162.547974
+                  },
+                  {
+                    "x": 1.62818873,
+                    "y": 5.27114868,
+                    "z": 0.0,
+                    "MagnitudeSquared": 30.4360065,
+                    "Magnitude": 5.516884,
+                    "Rotation": 17.1652336,
+                    "SimToDispRotation": 162.834778
+                  },
+                  {
+                    "x": 1.85275352,
+                    "y": 6.10951138,
+                    "z": 0.0,
+                    "MagnitudeSquared": 40.7588272,
+                    "Magnitude": 6.384264,
+                    "Rotation": 16.870306,
+                    "SimToDispRotation": 163.1297
+                  },
+                  {
+                    "x": 2.081365,
+                    "y": 6.99655533,
+                    "z": 0.0,
+                    "MagnitudeSquared": 53.2838669,
+                    "Magnitude": 7.29958,
+                    "Rotation": 16.5669136,
+                    "SimToDispRotation": 163.433075
+                  },
+                  {
+                    "x": 2.311961,
+                    "y": 7.929555,
+                    "z": 0.0,
+                    "MagnitudeSquared": 68.22301,
+                    "Magnitude": 8.259722,
+                    "Rotation": 16.2547054,
+                    "SimToDispRotation": 163.745285
+                  },
+                  {
+                    "x": 2.54247761,
+                    "y": 8.905785,
+                    "z": 0.0,
+                    "MagnitudeSquared": 85.77719,
+                    "Magnitude": 9.261598,
+                    "Rotation": 15.9333067,
+                    "SimToDispRotation": 164.0667
+                  },
+                  {
+                    "x": 2.77085257,
+                    "y": 9.92252,
+                    "z": 0.0,
+                    "MagnitudeSquared": 106.134018,
+                    "Magnitude": 10.3021364,
+                    "Rotation": 15.6023312,
+                    "SimToDispRotation": 164.397675
+                  },
+                  {
+                    "x": 2.99502254,
+                    "y": 10.9770336,
+                    "z": 0.0,
+                    "MagnitudeSquared": 129.465424,
+                    "Magnitude": 11.3782873,
+                    "Rotation": 15.2613659,
+                    "SimToDispRotation": 164.738632
+                  },
+                  {
+                    "x": 3.21292448,
+                    "y": 12.0666027,
+                    "z": 0.0,
+                    "MagnitudeSquared": 155.925781,
+                    "Magnitude": 12.4870243,
+                    "Rotation": 14.9099751,
+                    "SimToDispRotation": 165.090027
+                  },
+                  {
+                    "x": 3.42249584,
+                    "y": 13.1884975,
+                    "z": 0.0,
+                    "MagnitudeSquared": 185.649933,
+                    "Magnitude": 13.6253414,
+                    "Rotation": 14.5477076,
+                    "SimToDispRotation": 165.452286
+                  },
+                  {
+                    "x": 3.621673,
+                    "y": 14.3399963,
+                    "z": 0.0,
+                    "MagnitudeSquared": 218.752014,
+                    "Magnitude": 14.7902679,
+                    "Rotation": 14.1740732,
+                    "SimToDispRotation": 165.825928
+                  },
+                  {
+                    "x": 3.80839372,
+                    "y": 15.5183725,
+                    "z": 0.0,
+                    "MagnitudeSquared": 255.323746,
+                    "Magnitude": 15.9788532,
+                    "Rotation": 13.7885637,
+                    "SimToDispRotation": 166.211441
+                  },
+                  {
+                    "x": 3.98059487,
+                    "y": 16.7209015,
+                    "z": 0.0,
+                    "MagnitudeSquared": 295.433655,
+                    "Magnitude": 17.1881828,
+                    "Rotation": 13.3906422,
+                    "SimToDispRotation": 166.60936
+                  },
+                  {
+                    "x": 4.136213,
+                    "y": 17.9448528,
+                    "z": 0.0,
+                    "MagnitudeSquared": 339.125977,
+                    "Magnitude": 18.4153728,
+                    "Rotation": 12.9797411,
+                    "SimToDispRotation": 167.020264
+                  },
+                  {
+                    "x": 4.273186,
+                    "y": 19.1875114,
+                    "z": 0.0,
+                    "MagnitudeSquared": 386.420715,
+                    "Magnitude": 19.6575871,
+                    "Rotation": 12.555254,
+                    "SimToDispRotation": 167.444748
+                  },
+                  {
+                    "x": 4.389449,
+                    "y": 20.4461422,
+                    "z": 0.0,
+                    "MagnitudeSquared": 437.312,
+                    "Magnitude": 20.9120064,
+                    "Rotation": 12.1165457,
+                    "SimToDispRotation": 167.883453
+                  },
+                  {
+                    "x": 4.48294163,
+                    "y": 21.7180252,
+                    "z": 0.0,
+                    "MagnitudeSquared": 491.769379,
+                    "Magnitude": 22.1758747,
+                    "Rotation": 11.6629477,
+                    "SimToDispRotation": 168.337051
+                  },
+                  {
+                    "x": 4.5516,
+                    "y": 23.0004311,
+                    "z": 0.0,
+                    "MagnitudeSquared": 549.7369,
+                    "Magnitude": 23.4464684,
+                    "Rotation": 11.1937485,
+                    "SimToDispRotation": 168.806259
+                  },
+                  {
+                    "x": 4.59336,
+                    "y": 24.2906361,
+                    "z": 0.0,
+                    "MagnitudeSquared": 611.1339,
+                    "Magnitude": 24.7211227,
+                    "Rotation": 10.7081919,
+                    "SimToDispRotation": 169.291809
+                  },
+                  {
+                    "x": 4.606159,
+                    "y": 25.5859165,
+                    "z": 0.0,
+                    "MagnitudeSquared": 675.8558,
+                    "Magnitude": 25.9972267,
+                    "Rotation": 10.20548,
+                    "SimToDispRotation": 169.79451
+                  },
+                  {
+                    "x": 4.58793545,
+                    "y": 26.8835373,
+                    "z": 0.0,
+                    "MagnitudeSquared": 743.7737,
+                    "Magnitude": 27.2722149,
+                    "Rotation": 9.684775,
+                    "SimToDispRotation": 170.315216
+                  },
+                  {
+                    "x": 4.536626,
+                    "y": 28.1807938,
+                    "z": 0.0,
+                    "MagnitudeSquared": 814.738159,
+                    "Magnitude": 28.54362,
+                    "Rotation": 9.145179,
+                    "SimToDispRotation": 170.854828
+                  },
+                  {
+                    "x": 4.45016575,
+                    "y": 29.4749413,
+                    "z": 0.0,
+                    "MagnitudeSquared": 888.5761,
+                    "Magnitude": 29.8089943,
+                    "Rotation": 8.585747,
+                    "SimToDispRotation": 171.414261
+                  },
+                  {
+                    "x": 4.32649326,
+                    "y": 30.7632561,
+                    "z": 0.0,
+                    "MagnitudeSquared": 965.0965,
+                    "Magnitude": 31.0660019,
+                    "Rotation": 8.005479,
+                    "SimToDispRotation": 171.994522
+                  },
+                  {
+                    "x": 4.16354465,
+                    "y": 32.0430222,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1044.09033,
+                    "Magnitude": 32.3123856,
+                    "Rotation": 7.4033103,
+                    "SimToDispRotation": 172.5967
+                  },
+                  {
+                    "x": 3.95925951,
+                    "y": 33.311512,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1125.33264,
+                    "Magnitude": 33.54598,
+                    "Rotation": 6.778126,
+                    "SimToDispRotation": 173.221878
+                  },
+                  {
+                    "x": 3.71157265,
+                    "y": 34.56599,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1208.5835,
+                    "Magnitude": 34.7646866,
+                    "Rotation": 6.12873459,
+                    "SimToDispRotation": 173.871262
+                  },
+                  {
+                    "x": 3.41841984,
+                    "y": 35.80374,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1293.59351,
+                    "Magnitude": 35.96656,
+                    "Rotation": 5.453875,
+                    "SimToDispRotation": 174.546127
+                  },
+                  {
+                    "x": 3.077742,
+                    "y": 37.0220337,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1380.10352,
+                    "Magnitude": 37.1497459,
+                    "Rotation": 4.75222635,
+                    "SimToDispRotation": 175.247787
+                  },
+                  {
+                    "x": 2.68747187,
+                    "y": 38.2181549,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1467.84985,
+                    "Magnitude": 38.31253,
+                    "Rotation": 4.02237463,
+                    "SimToDispRotation": 175.977631
+                  },
+                  {
+                    "x": 2.245551,
+                    "y": 39.38936,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1556.56409,
+                    "Magnitude": 39.4533157,
+                    "Rotation": 3.262848,
+                    "SimToDispRotation": 176.737152
+                  },
+                  {
+                    "x": 1.74991226,
+                    "y": 40.5329361,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1645.98108,
+                    "Magnitude": 40.570694,
+                    "Rotation": 2.47207284,
+                    "SimToDispRotation": 177.527924
+                  },
+                  {
+                    "x": 1.198493,
+                    "y": 41.6461563,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1735.83875,
+                    "Magnitude": 41.6634,
+                    "Rotation": 1.64840293,
+                    "SimToDispRotation": 178.3516
+                  },
+                  {
+                    "x": 0.589234352,
+                    "y": 42.72629,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1825.88318,
+                    "Magnitude": 42.7303543,
+                    "Rotation": 0.790110767,
+                    "SimToDispRotation": 179.209885
+                  },
+                  {
+                    "x": -0.07993126,
+                    "y": 43.7706223,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1915.87378,
+                    "Magnitude": 43.7706947,
+                    "Rotation": -0.104629971,
+                    "SimToDispRotation": -179.89537
+                  },
+                  {
+                    "x": -0.8110633,
+                    "y": 44.776413,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2005.585,
+                    "Magnitude": 44.7837563,
+                    "Rotation": -1.037721,
+                    "SimToDispRotation": -178.96228
+                  },
+                  {
+                    "x": -1.60622883,
+                    "y": 45.74095,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2094.8147,
+                    "Magnitude": 45.769146,
+                    "Rotation": -2.01115918,
+                    "SimToDispRotation": -177.988846
+                  },
+                  {
+                    "x": -2.46748447,
+                    "y": 46.6615,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2183.38379,
+                    "Magnitude": 46.7266922,
+                    "Rotation": -3.02701139,
+                    "SimToDispRotation": -176.972992
+                  },
+                  {
+                    "x": -3.39690018,
+                    "y": 47.53534,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2271.14722,
+                    "Magnitude": 47.6565552,
+                    "Rotation": -4.08743858,
+                    "SimToDispRotation": -175.912567
+                  },
+                  {
+                    "x": -4.396537,
+                    "y": 48.35974,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2357.99414,
+                    "Magnitude": 48.55918,
+                    "Rotation": -5.19466,
+                    "SimToDispRotation": -174.805344
+                  },
+                  {
+                    "x": -5.468453,
+                    "y": 49.13198,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2443.85571,
+                    "Magnitude": 49.4353676,
+                    "Rotation": -6.35095549,
+                    "SimToDispRotation": -173.649048
+                  },
+                  {
+                    "x": -6.61471844,
+                    "y": 49.8493423,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2528.71143,
+                    "Magnitude": 50.286293,
+                    "Rotation": -7.55866051,
+                    "SimToDispRotation": -172.44133
+                  },
+                  {
+                    "x": -7.83738756,
+                    "y": 50.5090866,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2612.59229,
+                    "Magnitude": 51.1135254,
+                    "Rotation": -8.820126,
+                    "SimToDispRotation": -171.179886
+                  },
+                  {
+                    "x": -9.138535,
+                    "y": 51.10849,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2695.59033,
+                    "Magnitude": 51.919075,
+                    "Rotation": -10.1377277,
+                    "SimToDispRotation": -169.862274
+                  },
+                  {
+                    "x": -10.5202141,
+                    "y": 51.6448364,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2777.864,
+                    "Magnitude": 52.7054443,
+                    "Rotation": -11.5137987,
+                    "SimToDispRotation": -168.4862
+                  },
+                  {
+                    "x": -11.9844894,
+                    "y": 52.115387,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2859.6416,
+                    "Magnitude": 53.4756165,
+                    "Rotation": -12.9506245,
+                    "SimToDispRotation": -167.049377
+                  },
+                  {
+                    "x": -13.5334291,
+                    "y": 52.5174332,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2941.23462,
+                    "Magnitude": 54.23315,
+                    "Rotation": -14.4503908,
+                    "SimToDispRotation": -165.5496
+                  },
+                  {
+                    "x": -15.1690884,
+                    "y": 52.8482323,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3023.03687,
+                    "Magnitude": 54.98215,
+                    "Rotation": -16.0151272,
+                    "SimToDispRotation": -163.984879
+                  },
+                  {
+                    "x": -16.8935375,
+                    "y": 53.10507,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3105.53979,
+                    "Magnitude": 55.72737,
+                    "Rotation": -17.6466656,
+                    "SimToDispRotation": -162.353333
+                  },
+                  {
+                    "x": -16.8935375,
+                    "y": 53.10507,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3105.53979,
+                    "Magnitude": 55.72737,
+                    "Rotation": -17.6466656,
+                    "SimToDispRotation": -162.353333
+                  },
+                  {
+                    "x": -18.6493435,
+                    "y": 53.30178,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3188.878,
+                    "Magnitude": 56.47015,
+                    "Rotation": -19.2840328,
+                    "SimToDispRotation": -160.715958
+                  },
+                  {
+                    "x": -20.37103,
+                    "y": 53.4132042,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3267.94922,
+                    "Magnitude": 57.16598,
+                    "Rotation": -20.8761349,
+                    "SimToDispRotation": -159.123856
+                  },
+                  {
+                    "x": -22.0568142,
+                    "y": 53.4416466,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3342.5127,
+                    "Magnitude": 57.81447,
+                    "Rotation": -22.4272652,
+                    "SimToDispRotation": -157.572739
+                  },
+                  {
+                    "x": -23.7049084,
+                    "y": 53.3894463,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3412.35547,
+                    "Magnitude": 58.41537,
+                    "Rotation": -23.9412174,
+                    "SimToDispRotation": -156.058792
+                  },
+                  {
+                    "x": -25.3135223,
+                    "y": 53.2589,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3477.285,
+                    "Magnitude": 58.96851,
+                    "Rotation": -25.4213619,
+                    "SimToDispRotation": -154.578644
+                  },
+                  {
+                    "x": -26.8808632,
+                    "y": 53.05233,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3537.13062,
+                    "Magnitude": 59.47378,
+                    "Rotation": -26.8706875,
+                    "SimToDispRotation": -153.129318
+                  },
+                  {
+                    "x": -28.4051552,
+                    "y": 52.77207,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3591.74438,
+                    "Magnitude": 59.9311638,
+                    "Rotation": -28.2918549,
+                    "SimToDispRotation": -151.708145
+                  },
+                  {
+                    "x": -29.8845978,
+                    "y": 52.4204178,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3640.98926,
+                    "Magnitude": 60.34061,
+                    "Rotation": -29.687233,
+                    "SimToDispRotation": -150.312775
+                  },
+                  {
+                    "x": -31.3174133,
+                    "y": 51.9997025,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3684.74951,
+                    "Magnitude": 60.702137,
+                    "Rotation": -31.0589333,
+                    "SimToDispRotation": -148.941071
+                  },
+                  {
+                    "x": -32.7018051,
+                    "y": 51.5122375,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3722.91846,
+                    "Magnitude": 61.0157242,
+                    "Rotation": -32.4088364,
+                    "SimToDispRotation": -147.591171
+                  },
+                  {
+                    "x": -34.0359879,
+                    "y": 50.96034,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3755.40454,
+                    "Magnitude": 61.2813568,
+                    "Rotation": -33.738636,
+                    "SimToDispRotation": -146.261368
+                  },
+                  {
+                    "x": -35.3181763,
+                    "y": 50.3463364,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3782.1272,
+                    "Magnitude": 61.499,
+                    "Rotation": -35.04983,
+                    "SimToDispRotation": -144.950165
+                  },
+                  {
+                    "x": -36.5465851,
+                    "y": 49.67254,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3803.014,
+                    "Magnitude": 61.6685829,
+                    "Rotation": -36.34379,
+                    "SimToDispRotation": -143.656219
+                  },
+                  {
+                    "x": -37.71942,
+                    "y": 48.94126,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3818.002,
+                    "Magnitude": 61.78998,
+                    "Rotation": -37.621727,
+                    "SimToDispRotation": -142.378265
+                  },
+                  {
+                    "x": -38.8348923,
+                    "y": 48.1548271,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3827.03613,
+                    "Magnitude": 61.8630447,
+                    "Rotation": -38.8847542,
+                    "SimToDispRotation": -141.11525
+                  },
+                  {
+                    "x": -39.89122,
+                    "y": 47.3155479,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3830.07031,
+                    "Magnitude": 61.88756,
+                    "Rotation": -40.13387,
+                    "SimToDispRotation": -139.866135
+                  },
+                  {
+                    "x": -40.8866158,
+                    "y": 46.42575,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3827.06567,
+                    "Magnitude": 61.86328,
+                    "Rotation": -41.3699951,
+                    "SimToDispRotation": -138.63
+                  },
+                  {
+                    "x": -41.81928,
+                    "y": 45.4877548,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3817.98779,
+                    "Magnitude": 61.7898674,
+                    "Rotation": -42.593956,
+                    "SimToDispRotation": -137.406052
+                  },
+                  {
+                    "x": -42.68744,
+                    "y": 44.5038643,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3802.81152,
+                    "Magnitude": 61.66694,
+                    "Rotation": -43.80655,
+                    "SimToDispRotation": -136.193451
+                  },
+                  {
+                    "x": -43.4892921,
+                    "y": 43.4764023,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3781.516,
+                    "Magnitude": 61.4940338,
+                    "Rotation": -45.00849,
+                    "SimToDispRotation": -134.9915
+                  },
+                  {
+                    "x": -44.2230568,
+                    "y": 42.407692,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3754.091,
+                    "Magnitude": 61.2706375,
+                    "Rotation": -46.20047,
+                    "SimToDispRotation": -133.79953
+                  },
+                  {
+                    "x": -44.8869553,
+                    "y": 41.3000565,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3720.53345,
+                    "Magnitude": 60.9961739,
+                    "Rotation": -47.38314,
+                    "SimToDispRotation": -132.616867
+                  },
+                  {
+                    "x": -45.47919,
+                    "y": 40.1558075,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3680.8457,
+                    "Magnitude": 60.6699753,
+                    "Rotation": -48.5571365,
+                    "SimToDispRotation": -131.442871
+                  },
+                  {
+                    "x": -45.997963,
+                    "y": 38.97725,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3635.03857,
+                    "Magnitude": 60.2912827,
+                    "Rotation": -49.72309,
+                    "SimToDispRotation": -130.276917
+                  },
+                  {
+                    "x": -46.4415,
+                    "y": 37.7667122,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3583.1377,
+                    "Magnitude": 59.859314,
+                    "Rotation": -50.88163,
+                    "SimToDispRotation": -129.118378
+                  },
+                  {
+                    "x": -46.8080063,
+                    "y": 36.5265121,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3525.17554,
+                    "Magnitude": 59.373188,
+                    "Rotation": -52.0333939,
+                    "SimToDispRotation": -127.966614
+                  },
+                  {
+                    "x": -47.0957146,
+                    "y": 35.2589836,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3461.20215,
+                    "Magnitude": 58.83198,
+                    "Rotation": -53.1790352,
+                    "SimToDispRotation": -126.820976
+                  },
+                  {
+                    "x": -47.3028069,
+                    "y": 33.966423,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3391.27344,
+                    "Magnitude": 58.234642,
+                    "Rotation": -54.31925,
+                    "SimToDispRotation": -125.680756
+                  },
+                  {
+                    "x": -47.42751,
+                    "y": 32.65115,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3315.46631,
+                    "Magnitude": 57.5800858,
+                    "Rotation": -55.4547958,
+                    "SimToDispRotation": -124.545212
+                  },
+                  {
+                    "x": -47.4680367,
+                    "y": 31.3154888,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3233.87451,
+                    "Magnitude": 56.8671646,
+                    "Rotation": -56.58647,
+                    "SimToDispRotation": -123.413528
+                  },
+                  {
+                    "x": -47.4225922,
+                    "y": 29.96176,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3146.60938,
+                    "Magnitude": 56.0946465,
+                    "Rotation": -57.71516,
+                    "SimToDispRotation": -122.284843
+                  },
+                  {
+                    "x": -47.2893944,
+                    "y": 28.5922737,
+                    "z": 0.0,
+                    "MagnitudeSquared": 3053.805,
+                    "Magnitude": 55.2612419,
+                    "Rotation": -58.84186,
+                    "SimToDispRotation": -121.158142
+                  },
+                  {
+                    "x": -47.0666466,
+                    "y": 27.2093487,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2955.618,
+                    "Magnitude": 54.3655968,
+                    "Rotation": -59.96768,
+                    "SimToDispRotation": -120.03231
+                  },
+                  {
+                    "x": -46.7525749,
+                    "y": 25.8153133,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2852.23364,
+                    "Magnitude": 53.4063072,
+                    "Rotation": -61.09389,
+                    "SimToDispRotation": -118.906113
+                  },
+                  {
+                    "x": -46.3453827,
+                    "y": 24.4124718,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2743.86328,
+                    "Magnitude": 52.381897,
+                    "Rotation": -62.2219467,
+                    "SimToDispRotation": -117.778061
+                  },
+                  {
+                    "x": -45.8432846,
+                    "y": 23.0031567,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2630.752,
+                    "Magnitude": 51.2908554,
+                    "Rotation": -63.3535042,
+                    "SimToDispRotation": -116.646492
+                  },
+                  {
+                    "x": -45.24449,
+                    "y": 21.5896683,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2513.17773,
+                    "Magnitude": 50.1316032,
+                    "Rotation": -64.4905548,
+                    "SimToDispRotation": -115.509445
+                  },
+                  {
+                    "x": -44.54721,
+                    "y": 20.1743374,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2391.45776,
+                    "Magnitude": 48.9025345,
+                    "Rotation": -65.63539,
+                    "SimToDispRotation": -114.364609
+                  },
+                  {
+                    "x": -43.7496643,
+                    "y": 18.7594814,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2265.95117,
+                    "Magnitude": 47.60201,
+                    "Rotation": -66.7907639,
+                    "SimToDispRotation": -113.209236
+                  },
+                  {
+                    "x": -42.85006,
+                    "y": 17.3474083,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2137.06,
+                    "Magnitude": 46.2283478,
+                    "Rotation": -67.95994,
+                    "SimToDispRotation": -112.040062
+                  },
+                  {
+                    "x": -41.8466072,
+                    "y": 15.94045,
+                    "z": 0.0,
+                    "MagnitudeSquared": 2005.23645,
+                    "Magnitude": 44.7798653,
+                    "Rotation": -69.14687,
+                    "SimToDispRotation": -110.853127
+                  },
+                  {
+                    "x": -40.73752,
+                    "y": 14.5409088,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1870.9834,
+                    "Magnitude": 43.2548637,
+                    "Rotation": -70.3564148,
+                    "SimToDispRotation": -109.643585
+                  },
+                  {
+                    "x": -39.5210075,
+                    "y": 13.1511154,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1734.86182,
+                    "Magnitude": 41.6516724,
+                    "Rotation": -71.59449,
+                    "SimToDispRotation": -108.405518
+                  },
+                  {
+                    "x": -38.19529,
+                    "y": 11.773386,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1597.4928,
+                    "Magnitude": 39.968647,
+                    "Rotation": -72.868515,
+                    "SimToDispRotation": -107.131493
+                  },
+                  {
+                    "x": -36.7585678,
+                    "y": 10.4100313,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1459.561,
+                    "Magnitude": 38.2042,
+                    "Rotation": -74.18787,
+                    "SimToDispRotation": -105.812134
+                  },
+                  {
+                    "x": -35.2090645,
+                    "y": 9.063379,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1321.82312,
+                    "Magnitude": 36.356884,
+                    "Rotation": -75.5645447,
+                    "SimToDispRotation": -104.435455
+                  },
+                  {
+                    "x": -33.54498,
+                    "y": 7.73573637,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1185.1073,
+                    "Magnitude": 34.42539,
+                    "Rotation": -77.01416,
+                    "SimToDispRotation": -102.98584
+                  },
+                  {
+                    "x": -31.7645378,
+                    "y": 6.429431,
+                    "z": 0.0,
+                    "MagnitudeSquared": 1050.32336,
+                    "Magnitude": 32.40869,
+                    "Rotation": -78.55741,
+                    "SimToDispRotation": -101.442589
+                  },
+                  {
+                    "x": -29.86594,
+                    "y": 5.14677334,
+                    "z": 0.0,
+                    "MagnitudeSquared": 918.4636,
+                    "Magnitude": 30.3061657,
+                    "Rotation": -80.2223,
+                    "SimToDispRotation": -99.7777
+                  },
+                  {
+                    "x": -27.8474064,
+                    "y": 3.89008379,
+                    "z": 0.0,
+                    "MagnitudeSquared": 790.6108,
+                    "Magnitude": 28.1178017,
+                    "Rotation": -82.0476456,
+                    "SimToDispRotation": -97.9523544
+                  },
+                  {
+                    "x": -25.7071514,
+                    "y": 2.661685,
+                    "z": 0.0,
+                    "MagnitudeSquared": 667.9422,
+                    "Magnitude": 25.8445778,
+                    "Rotation": -84.08874,
+                    "SimToDispRotation": -95.91126
+                  },
+                  {
+                    "x": -23.4433727,
+                    "y": 1.46388721,
+                    "z": 0.0,
+                    "MagnitudeSquared": 551.7347,
+                    "Magnitude": 23.4890327,
+                    "Rotation": -86.42689,
+                    "SimToDispRotation": -93.57311
+                  },
+                  {
+                    "x": -21.0543041,
+                    "y": 0.299016,
+                    "z": 0.0,
+                    "MagnitudeSquared": 443.373138,
+                    "Magnitude": 21.056427,
+                    "Rotation": -89.18634,
+                    "SimToDispRotation": -90.81367
+                  },
+                  {
+                    "x": -18.5381336,
+                    "y": -0.8306184,
+                    "z": 0.0,
+                    "MagnitudeSquared": 344.352325,
+                    "Magnitude": 18.5567322,
+                    "Rotation": -92.5654755,
+                    "SimToDispRotation": -87.4345245
+                  },
+                  {
+                    "x": -15.8930836,
+                    "y": -1.92269468,
+                    "z": 0.0,
+                    "MagnitudeSquared": 256.286865,
+                    "Magnitude": 16.0089626,
+                    "Rotation": -96.89794,
+                    "SimToDispRotation": -83.10206
+                  },
+                  {
+                    "x": -13.11738,
+                    "y": -2.974891,
+                    "z": 0.0,
+                    "MagnitudeSquared": 180.915634,
+                    "Magnitude": 13.4504881,
+                    "Rotation": -102.777969,
+                    "SimToDispRotation": -77.22204
+                  },
+                  {
+                    "x": -10.2092094,
+                    "y": -3.98489666,
+                    "z": 0.0,
+                    "MagnitudeSquared": 120.107361,
+                    "Magnitude": 10.9593506,
+                    "Rotation": -111.321884,
+                    "SimToDispRotation": -68.67812
+                  },
+                  {
+                    "x": -7.16680861,
+                    "y": -4.95038652,
+                    "z": 0.0,
+                    "MagnitudeSquared": 75.86947,
+                    "Magnitude": 8.710308,
+                    "Rotation": -124.634315,
+                    "SimToDispRotation": -55.3656921
+                  },
+                  {
+                    "x": -3.9883666,
+                    "y": -5.86904955,
+                    "z": 0.0,
+                    "MagnitudeSquared": 50.3528137,
+                    "Magnitude": 7.09597158,
+                    "Rotation": -145.801575,
+                    "SimToDispRotation": -34.19843
+                  }
+                ],
+                "easePath": null,
+                "speedFrames": 2.91666675,
+                "destroyAtEndOfPath": true,
+                "collisionPass": 0,
+                "Speed": 175.0,
+                "name": "FollowPathModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.FollowPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "angle": -1440.0,
+                "rotationFrames": -24.0000019,
+                "collisionPass": 0,
+                "name": "RotateModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Rotate, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "842be402795e7334cbc77d33b6746bff",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 5.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 8.0,
+            "name": "ProjectileModel_Projectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 71,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": [
+            {
+              "flipTowerDisplayX": true,
+              "flipTowerDisplayY": false,
+              "effectOnFlip": {
+                "assetId": "4120418e3ebc75f49a094e5aa4b0637c",
+                "scale": 1.0,
+                "lifespan": 1.0,
+                "fullscreen": false,
+                "useCenterPosition": false,
+                "useTransformPosition": false,
+                "useTransfromRotation": false,
+                "destroyOnTransformDestroy": false,
+                "alwaysUseAge": false,
+                "useRoundTime": false,
+                "name": "EffectModel_",
+                "ImplementationType": null
+              },
+              "name": "FlipFollowPathModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.FlipFollowPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 1.2,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 43.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "bb044b724a1580f4b83937e5a1874e6b",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 7.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": null,
+  "emoteSpriteLarge": null,
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "BoomerangMonkey-200",
+      "upgrade": "Glaives"
+    },
+    {
+      "tower": "BoomerangMonkey-110",
+      "upgrade": "Faster Throwing"
+    },
+    {
+      "tower": "BoomerangMonkey-101",
+      "upgrade": "Long Range Rangs"
+    }
+  ],
+  "appliedUpgrades": [
+    "Improved Rangs"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "AmbidextrousRangs",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "name": "BoomerangMonkey-100",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

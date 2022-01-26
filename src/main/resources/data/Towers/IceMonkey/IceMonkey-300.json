@@ -1,0 +1,1492 @@
+{
+  "display": "aa7274e392309f34da5ddab14834b0c1",
+  "baseId": "IceMonkey",
+  "cost": 500.0,
+  "radius": 6.0,
+  "radiusSquared": 36.0,
+  "range": 25.0,
+  "ignoreBlockers": false,
+  "isGlobalRange": false,
+  "tier": 3,
+  "tiers": [
+    3,
+    0,
+    0
+  ],
+  "towerSet": "Primary",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[IceMonkeyIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "daf9f246045ace740990f64da6ac818e",
+    "IsValid": true
+  },
+  "instaIcon": {
+    "GUID": "e8e5ff45927504c3a867b030f638cf3b",
+    "IsValid": true
+  },
+  "mods": [
+    {
+      "mod": "SoCold",
+      "target": "ProjectileModel_BaseProjectile",
+      "name": "Permafrost",
+      "ImplementationType": null
+    },
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "IceMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "IceMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "IceMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "IceMonkeyUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "IcyChill",
+      "target": "Attack,BaseProjectile",
+      "name": "IceMonkeyUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "effectModel": {
+        "assetId": "d2bcad0f16bb76e408a107e13b2c0da3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlacementEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_SellEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "projectileModel": {
+        "display": null,
+        "id": "BaseProjectile",
+        "maxPierce": -1.0,
+        "pierce": 40.0,
+        "scale": 1.0,
+        "ignoreBlockers": true,
+        "usePointCollisionWithBloons": false,
+        "canCollisionBeBlockedByMapLos": false,
+        "filters": [
+          {
+            "isActive": false,
+            "ignoreBroadPhase": false,
+            "name": "FilterInvisibleModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "tag": "Moabs",
+            "disableWhenSupportMutatorIDs": [],
+            "name": "FilterOutTagModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "mutationId": null,
+            "mutationOverideOrder": [
+              "SuperBrittle",
+              "Embrilttlement"
+            ],
+            "highestPriorityMutationId": "SuperBrittle",
+            "defaultMutationId": "Embrilttlement",
+            "name": "FilterOveridingMutatedTargetModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOveridingMutatedTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "name": "FilterFrozenBloonsModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterFrozenBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          }
+        ],
+        "behaviors": [
+          {
+            "overlays": {},
+            "effectModel": null,
+            "lifespanFrames": 599999908,
+            "layers": 2,
+            "overlayLayer": 0,
+            "glueLevel": 0,
+            "isUnique": true,
+            "dontRefreshDuration": false,
+            "cascadeMutators": true,
+            "removeMutatorIfNotMatching": false,
+            "mutationId": "Permafrost:Normal",
+            "mutationFilter": "",
+            "collisionPass": -1,
+            "Lifespan": 9999999.0,
+            "Multiplier": 0.5,
+            "Mutator": {
+              "mutationId": "Permafrost:Normal",
+              "overlays": {},
+              "overlayLayer": 0,
+              "slowModifierForTagModels": {
+                "IsValid": false
+              },
+              "dontRefreshDuration": false,
+              "didMutatorAffectBloon": false,
+              "multiplier": 0.5,
+              "filters": [],
+              "id": "Permafrost:Normal",
+              "isExclusiveInMutationList": false,
+              "priority": 1,
+              "glueLevel": 0,
+              "isFreeze": false,
+              "dontCopy": false,
+              "buffIndicator": null,
+              "includesSubTowers": false,
+              "saveId": null
+            },
+            "name": "SlowModel_Permafrost",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Slow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "rounds": 0,
+            "lifespanFrames": 3,
+            "useRoundTime": false,
+            "endOfRoundClearBypassModel": null,
+            "collisionPass": 0,
+            "Lifespan": 0.05,
+            "name": "AgeModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "damage": 1.0,
+            "maxDamage": -1.0,
+            "distributeToChildren": true,
+            "overrideDistributeBlocker": false,
+            "createPopEffect": true,
+            "immuneBloonProperties": 4,
+            "collisionPass": 0,
+            "CappedDamage": 1.0,
+            "name": "DamageModel_BaseProjectile_Snapfreeze",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "mutationId": "Ice:Regular:Shards",
+            "lifespan": 1.5,
+            "layers": 2,
+            "lifespanFrames": 89,
+            "filter": null,
+            "filters": null,
+            "behaviors": [
+              {
+                "projectile": {
+                  "display": "95b1830a03efa16429dd80f4ddb7ba9c",
+                  "id": "Shard",
+                  "maxPierce": 3.0,
+                  "pierce": 3.0,
+                  "scale": 1.0,
+                  "ignoreBlockers": false,
+                  "usePointCollisionWithBloons": false,
+                  "canCollisionBeBlockedByMapLos": false,
+                  "filters": [
+                    {
+                      "isActive": false,
+                      "ignoreBroadPhase": false,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "damage": 1.0,
+                      "maxDamage": 1.0,
+                      "distributeToChildren": true,
+                      "overrideDistributeBlocker": false,
+                      "createPopEffect": true,
+                      "immuneBloonProperties": 1,
+                      "collisionPass": 0,
+                      "CappedDamage": 1.0,
+                      "name": "DamageModel_Shard_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "lifespanFrames": 5,
+                      "speedFrames": 4.166667,
+                      "collisionPass": 0,
+                      "Speed": 250.0,
+                      "Lifespan": 0.08,
+                      "name": "TravelStraitModel_Shard",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": false,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPass": 0,
+                      "name": "ProjectileFilterModel_Shard",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": "95b1830a03efa16429dd80f4ddb7ba9c",
+                      "layer": 0,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_ProjectileDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "collisionPasses": [
+                    0
+                  ],
+                  "canCollideWithBloons": true,
+                  "radius": 2.0,
+                  "vsBlockerRadius": 0.0,
+                  "hasDamageModifiers": false,
+                  "dontUseCollisionChecker": false,
+                  "checkCollisionFrames": 0,
+                  "ignoreNonTargetable": false,
+                  "ignorePierceExhaustion": false,
+                  "saveId": null,
+                  "CappedPierce": 3.0,
+                  "name": "ProjectileModel_Shard",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "emission": {
+                  "angle": 360.0,
+                  "offsetStart": 180.0,
+                  "offset": 0.0,
+                  "sliceSize": 120.0,
+                  "ignoreTowerRotation": false,
+                  "useProjectileRotation": false,
+                  "behaviors": null,
+                  "count": 3,
+                  "name": "ArcEmissionModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.ArcEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "pierceOverride": -1.0,
+                "ignoreSameFrameDegrade": true,
+                "name": "EmitOnPopModel_Ice:Regular:Shards",
+                "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.EmitOnPop, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "overlays": {},
+            "overlayLayer": 0,
+            "isUnique": true,
+            "lastAppliesFirst": false,
+            "collideThisFrame": true,
+            "cascadeMutators": false,
+            "glueLevel": 0,
+            "applyOnlyIfDamaged": false,
+            "stackCount": 0,
+            "collisionPass": -1,
+            "name": "AddBehaviorToBloonModel_Shards",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "filters": [
+              {
+                "isActive": false,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "tag": "Moabs",
+                "disableWhenSupportMutatorIDs": [],
+                "name": "FilterOutTagModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "mutationId": null,
+                "mutationOverideOrder": [
+                  "SuperBrittle",
+                  "Embrilttlement"
+                ],
+                "highestPriorityMutationId": "SuperBrittle",
+                "defaultMutationId": "Embrilttlement",
+                "name": "FilterOveridingMutatedTargetModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOveridingMutatedTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "name": "FilterFrozenBloonsModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterFrozenBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPass": 0,
+            "name": "ProjectileFilterModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "speed": 0.0,
+            "layers": 2,
+            "overlays": {
+              "Red": {
+                "assetPath": "c3d86c6170a19124f810418b0afb1f71",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "RedRegrow": {
+                "assetPath": "0629cd0c32265294099aa23896110293",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Blue": {
+                "assetPath": "3b3ac862615d7504b8c3240a6aa6ac54",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "BlueRegrow": {
+                "assetPath": "6aaa3014c4e1a7342a817ce77de161e7",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Green": {
+                "assetPath": "19fa32ec6fd392843ac0a7fca99baf33",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "GreenRegrow": {
+                "assetPath": "b6759ef3cbbdc914884263a6355c830c",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Yellow": {
+                "assetPath": "1b91541ceeb8d304c9a91f190e130ea0",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "YellowRegrow": {
+                "assetPath": "2a0dd22160873964ab75853d9310d8fb",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Pink": {
+                "assetPath": "5a9e1a7854f0d7442b70ec8fd6bae2bf",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "PinkRegrow": {
+                "assetPath": "5ec1e01db7d513f4f9c02bd929eed4b5",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "White": {
+                "assetPath": "75347a11b9a018e43803ace3ecaf4321",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "WhiteRegrow": {
+                "assetPath": "df9cdd005a552cc4387bc04f6e92088d",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Moab": {
+                "assetPath": "1352b1282f9ddf84c9116dc483156ad5",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Bfb": {
+                "assetPath": "122f5da9e27e9914f8e67e03ab8cd4f4",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Zomg": {
+                "assetPath": "438c00e2f55e51847a7a7fbc0cd06d58",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Ddt": {
+                "assetPath": "230c0547067eb194cafb7b8e8785ac2e",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              },
+              "Bad": {
+                "assetPath": "c2cc92ec940bbb944966683ba3ea37c4",
+                "name": "AssetPathModel_",
+                "ImplementationType": null
+              }
+            },
+            "overlayLayer": 4,
+            "mutationId": "Ice:Regular:Freeze",
+            "percentChanceToFreeze": 1.0,
+            "enablePercentChanceToFreeze": false,
+            "damageModel": {
+              "damage": 1.0,
+              "maxDamage": -1.0,
+              "distributeToChildren": true,
+              "overrideDistributeBlocker": false,
+              "createPopEffect": true,
+              "immuneBloonProperties": 4,
+              "collisionPass": 0,
+              "CappedDamage": 1.0,
+              "name": "DamageModel_BaseProjectile_Snapfreeze",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "lifespanFrames": 89,
+            "cascadeMutators": true,
+            "growBlockModel": {
+              "name": "GrowBlockModel_FreezeGrowBlock",
+              "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.GrowBlock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "collisionPass": -1,
+            "Lifespan": 1.5,
+            "mutator": {
+              "speed": 0.0,
+              "overlays": {
+                "Red": {
+                  "assetPath": "c3d86c6170a19124f810418b0afb1f71",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "RedRegrow": {
+                  "assetPath": "0629cd0c32265294099aa23896110293",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Blue": {
+                  "assetPath": "3b3ac862615d7504b8c3240a6aa6ac54",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "BlueRegrow": {
+                  "assetPath": "6aaa3014c4e1a7342a817ce77de161e7",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Green": {
+                  "assetPath": "19fa32ec6fd392843ac0a7fca99baf33",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "GreenRegrow": {
+                  "assetPath": "b6759ef3cbbdc914884263a6355c830c",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Yellow": {
+                  "assetPath": "1b91541ceeb8d304c9a91f190e130ea0",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "YellowRegrow": {
+                  "assetPath": "2a0dd22160873964ab75853d9310d8fb",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Pink": {
+                  "assetPath": "5a9e1a7854f0d7442b70ec8fd6bae2bf",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "PinkRegrow": {
+                  "assetPath": "5ec1e01db7d513f4f9c02bd929eed4b5",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "White": {
+                  "assetPath": "75347a11b9a018e43803ace3ecaf4321",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "WhiteRegrow": {
+                  "assetPath": "df9cdd005a552cc4387bc04f6e92088d",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Moab": {
+                  "assetPath": "1352b1282f9ddf84c9116dc483156ad5",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Bfb": {
+                  "assetPath": "122f5da9e27e9914f8e67e03ab8cd4f4",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Zomg": {
+                  "assetPath": "438c00e2f55e51847a7a7fbc0cd06d58",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Ddt": {
+                  "assetPath": "230c0547067eb194cafb7b8e8785ac2e",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                },
+                "Bad": {
+                  "assetPath": "c2cc92ec940bbb944966683ba3ea37c4",
+                  "name": "AssetPathModel_",
+                  "ImplementationType": null
+                }
+              },
+              "overlayLayer": 4,
+              "mutationId": "Ice:Regular:Freeze",
+              "growBlockModel": {
+                "name": "GrowBlockModel_FreezeGrowBlock",
+                "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.GrowBlock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "damageModel": {
+                "damage": 1.0,
+                "maxDamage": -1.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 4,
+                "collisionPass": 0,
+                "CappedDamage": 1.0,
+                "name": "DamageModel_BaseProjectile_Snapfreeze",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "id": "Ice:Regular:Freeze",
+              "isExclusiveInMutationList": false,
+              "priority": 5,
+              "glueLevel": 0,
+              "isFreeze": false,
+              "dontCopy": false,
+              "buffIndicator": null,
+              "includesSubTowers": false,
+              "saveId": null
+            },
+            "name": "FreezeModel_Ice",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Freeze, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "display": null,
+            "layer": 0,
+            "positionOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "MagnitudeSquared": 0.0,
+              "Magnitude": 0.0,
+              "Rotation": 0.0,
+              "SimToDispRotation": 180.0
+            },
+            "scale": 1.0,
+            "ignoreRotation": false,
+            "animationChanges": null,
+            "delayedReveal": 0.0,
+            "name": "DisplayModel_ProjectileDisplay",
+            "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          }
+        ],
+        "collisionPasses": [
+          -1,
+          0
+        ],
+        "canCollideWithBloons": true,
+        "radius": 20.0,
+        "vsBlockerRadius": 0.0,
+        "hasDamageModifiers": false,
+        "dontUseCollisionChecker": false,
+        "checkCollisionFrames": 0,
+        "ignoreNonTargetable": false,
+        "ignorePierceExhaustion": false,
+        "saveId": null,
+        "CappedPierce": 40.0,
+        "name": "ProjectileModel_BaseProjectile",
+        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "baseTowerRange": 25.0,
+      "projectileRadiusOffset": 0.0,
+      "displayRadius": 20.0,
+      "name": "LinkProjectileRadiusToTowerRangeModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.LinkProjectileRadiusToTowerRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "668a48a4c76a0e9459df422237a6e9ee",
+        "name": "SoundModel_PlaceTower1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "9ec29249d04bb5f4297b8973197072b9",
+        "name": "SoundModel_PlaceTower2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "",
+        "name": "BlankSoundModel_",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "0df55a1a5432bf54eb811f8e099c49c3",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_IceMonkey-300",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": 0.1,
+          "animationOffsetFrames": 5,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": 0.0,
+          "ejectY": 0.0,
+          "ejectZ": 7.0,
+          "projectile": {
+            "display": null,
+            "id": "BaseProjectile",
+            "maxPierce": -1.0,
+            "pierce": 40.0,
+            "scale": 1.0,
+            "ignoreBlockers": true,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": false,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "tag": "Moabs",
+                "disableWhenSupportMutatorIDs": [],
+                "name": "FilterOutTagModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "mutationId": null,
+                "mutationOverideOrder": [
+                  "SuperBrittle",
+                  "Embrilttlement"
+                ],
+                "highestPriorityMutationId": "SuperBrittle",
+                "defaultMutationId": "Embrilttlement",
+                "name": "FilterOveridingMutatedTargetModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOveridingMutatedTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "name": "FilterFrozenBloonsModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterFrozenBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "overlays": {},
+                "effectModel": null,
+                "lifespanFrames": 599999908,
+                "layers": 2,
+                "overlayLayer": 0,
+                "glueLevel": 0,
+                "isUnique": true,
+                "dontRefreshDuration": false,
+                "cascadeMutators": true,
+                "removeMutatorIfNotMatching": false,
+                "mutationId": "Permafrost:Normal",
+                "mutationFilter": "",
+                "collisionPass": -1,
+                "Lifespan": 9999999.0,
+                "Multiplier": 0.5,
+                "Mutator": {
+                  "mutationId": "Permafrost:Normal",
+                  "overlays": {},
+                  "overlayLayer": 0,
+                  "slowModifierForTagModels": {
+                    "IsValid": false
+                  },
+                  "dontRefreshDuration": false,
+                  "didMutatorAffectBloon": false,
+                  "multiplier": 0.5,
+                  "filters": [],
+                  "id": "Permafrost:Normal",
+                  "isExclusiveInMutationList": false,
+                  "priority": 1,
+                  "glueLevel": 0,
+                  "isFreeze": false,
+                  "dontCopy": false,
+                  "buffIndicator": null,
+                  "includesSubTowers": false,
+                  "saveId": null
+                },
+                "name": "SlowModel_Permafrost",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Slow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "rounds": 0,
+                "lifespanFrames": 3,
+                "useRoundTime": false,
+                "endOfRoundClearBypassModel": null,
+                "collisionPass": 0,
+                "Lifespan": 0.05,
+                "name": "AgeModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "damage": 1.0,
+                "maxDamage": -1.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 4,
+                "collisionPass": 0,
+                "CappedDamage": 1.0,
+                "name": "DamageModel_BaseProjectile_Snapfreeze",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "mutationId": "Ice:Regular:Shards",
+                "lifespan": 1.5,
+                "layers": 2,
+                "lifespanFrames": 89,
+                "filter": null,
+                "filters": null,
+                "behaviors": [
+                  {
+                    "projectile": {
+                      "display": "95b1830a03efa16429dd80f4ddb7ba9c",
+                      "id": "Shard",
+                      "maxPierce": 3.0,
+                      "pierce": 3.0,
+                      "scale": 1.0,
+                      "ignoreBlockers": false,
+                      "usePointCollisionWithBloons": false,
+                      "canCollisionBeBlockedByMapLos": false,
+                      "filters": [
+                        {
+                          "isActive": false,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "behaviors": [
+                        {
+                          "damage": 1.0,
+                          "maxDamage": 1.0,
+                          "distributeToChildren": true,
+                          "overrideDistributeBlocker": false,
+                          "createPopEffect": true,
+                          "immuneBloonProperties": 1,
+                          "collisionPass": 0,
+                          "CappedDamage": 1.0,
+                          "name": "DamageModel_Shard_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "lifespanFrames": 5,
+                          "speedFrames": 4.166667,
+                          "collisionPass": 0,
+                          "Speed": 250.0,
+                          "Lifespan": 0.08,
+                          "name": "TravelStraitModel_Shard",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "filters": [
+                            {
+                              "isActive": false,
+                              "ignoreBroadPhase": false,
+                              "name": "FilterInvisibleModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "collisionPass": 0,
+                          "name": "ProjectileFilterModel_Shard",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "display": "95b1830a03efa16429dd80f4ddb7ba9c",
+                          "layer": 0,
+                          "positionOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "MagnitudeSquared": 0.0,
+                            "Magnitude": 0.0,
+                            "Rotation": 0.0,
+                            "SimToDispRotation": 180.0
+                          },
+                          "scale": 1.0,
+                          "ignoreRotation": false,
+                          "animationChanges": null,
+                          "delayedReveal": 0.0,
+                          "name": "DisplayModel_ProjectileDisplay",
+                          "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPasses": [
+                        0
+                      ],
+                      "canCollideWithBloons": true,
+                      "radius": 2.0,
+                      "vsBlockerRadius": 0.0,
+                      "hasDamageModifiers": false,
+                      "dontUseCollisionChecker": false,
+                      "checkCollisionFrames": 0,
+                      "ignoreNonTargetable": false,
+                      "ignorePierceExhaustion": false,
+                      "saveId": null,
+                      "CappedPierce": 3.0,
+                      "name": "ProjectileModel_Shard",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    "emission": {
+                      "angle": 360.0,
+                      "offsetStart": 180.0,
+                      "offset": 0.0,
+                      "sliceSize": 120.0,
+                      "ignoreTowerRotation": false,
+                      "useProjectileRotation": false,
+                      "behaviors": null,
+                      "count": 3,
+                      "name": "ArcEmissionModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.ArcEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    "pierceOverride": -1.0,
+                    "ignoreSameFrameDegrade": true,
+                    "name": "EmitOnPopModel_Ice:Regular:Shards",
+                    "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.EmitOnPop, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "overlays": {},
+                "overlayLayer": 0,
+                "isUnique": true,
+                "lastAppliesFirst": false,
+                "collideThisFrame": true,
+                "cascadeMutators": false,
+                "glueLevel": 0,
+                "applyOnlyIfDamaged": false,
+                "stackCount": 0,
+                "collisionPass": -1,
+                "name": "AddBehaviorToBloonModel_Shards",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": false,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "tag": "Moabs",
+                    "disableWhenSupportMutatorIDs": [],
+                    "name": "FilterOutTagModel_BaseProjectile",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "mutationId": null,
+                    "mutationOverideOrder": [
+                      "SuperBrittle",
+                      "Embrilttlement"
+                    ],
+                    "highestPriorityMutationId": "SuperBrittle",
+                    "defaultMutationId": "Embrilttlement",
+                    "name": "FilterOveridingMutatedTargetModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOveridingMutatedTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "name": "FilterFrozenBloonsModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterFrozenBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "speed": 0.0,
+                "layers": 2,
+                "overlays": {
+                  "Red": {
+                    "assetPath": "c3d86c6170a19124f810418b0afb1f71",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "RedRegrow": {
+                    "assetPath": "0629cd0c32265294099aa23896110293",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Blue": {
+                    "assetPath": "3b3ac862615d7504b8c3240a6aa6ac54",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "BlueRegrow": {
+                    "assetPath": "6aaa3014c4e1a7342a817ce77de161e7",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Green": {
+                    "assetPath": "19fa32ec6fd392843ac0a7fca99baf33",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "GreenRegrow": {
+                    "assetPath": "b6759ef3cbbdc914884263a6355c830c",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Yellow": {
+                    "assetPath": "1b91541ceeb8d304c9a91f190e130ea0",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "YellowRegrow": {
+                    "assetPath": "2a0dd22160873964ab75853d9310d8fb",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Pink": {
+                    "assetPath": "5a9e1a7854f0d7442b70ec8fd6bae2bf",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "PinkRegrow": {
+                    "assetPath": "5ec1e01db7d513f4f9c02bd929eed4b5",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "White": {
+                    "assetPath": "75347a11b9a018e43803ace3ecaf4321",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "WhiteRegrow": {
+                    "assetPath": "df9cdd005a552cc4387bc04f6e92088d",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Moab": {
+                    "assetPath": "1352b1282f9ddf84c9116dc483156ad5",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Bfb": {
+                    "assetPath": "122f5da9e27e9914f8e67e03ab8cd4f4",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Zomg": {
+                    "assetPath": "438c00e2f55e51847a7a7fbc0cd06d58",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Ddt": {
+                    "assetPath": "230c0547067eb194cafb7b8e8785ac2e",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  },
+                  "Bad": {
+                    "assetPath": "c2cc92ec940bbb944966683ba3ea37c4",
+                    "name": "AssetPathModel_",
+                    "ImplementationType": null
+                  }
+                },
+                "overlayLayer": 4,
+                "mutationId": "Ice:Regular:Freeze",
+                "percentChanceToFreeze": 1.0,
+                "enablePercentChanceToFreeze": false,
+                "damageModel": {
+                  "damage": 1.0,
+                  "maxDamage": -1.0,
+                  "distributeToChildren": true,
+                  "overrideDistributeBlocker": false,
+                  "createPopEffect": true,
+                  "immuneBloonProperties": 4,
+                  "collisionPass": 0,
+                  "CappedDamage": 1.0,
+                  "name": "DamageModel_BaseProjectile_Snapfreeze",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "lifespanFrames": 89,
+                "cascadeMutators": true,
+                "growBlockModel": {
+                  "name": "GrowBlockModel_FreezeGrowBlock",
+                  "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.GrowBlock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "collisionPass": -1,
+                "Lifespan": 1.5,
+                "mutator": {
+                  "speed": 0.0,
+                  "overlays": {
+                    "Red": {
+                      "assetPath": "c3d86c6170a19124f810418b0afb1f71",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "RedRegrow": {
+                      "assetPath": "0629cd0c32265294099aa23896110293",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Blue": {
+                      "assetPath": "3b3ac862615d7504b8c3240a6aa6ac54",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "BlueRegrow": {
+                      "assetPath": "6aaa3014c4e1a7342a817ce77de161e7",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Green": {
+                      "assetPath": "19fa32ec6fd392843ac0a7fca99baf33",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "GreenRegrow": {
+                      "assetPath": "b6759ef3cbbdc914884263a6355c830c",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Yellow": {
+                      "assetPath": "1b91541ceeb8d304c9a91f190e130ea0",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "YellowRegrow": {
+                      "assetPath": "2a0dd22160873964ab75853d9310d8fb",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Pink": {
+                      "assetPath": "5a9e1a7854f0d7442b70ec8fd6bae2bf",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "PinkRegrow": {
+                      "assetPath": "5ec1e01db7d513f4f9c02bd929eed4b5",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "White": {
+                      "assetPath": "75347a11b9a018e43803ace3ecaf4321",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "WhiteRegrow": {
+                      "assetPath": "df9cdd005a552cc4387bc04f6e92088d",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Moab": {
+                      "assetPath": "1352b1282f9ddf84c9116dc483156ad5",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Bfb": {
+                      "assetPath": "122f5da9e27e9914f8e67e03ab8cd4f4",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Zomg": {
+                      "assetPath": "438c00e2f55e51847a7a7fbc0cd06d58",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Ddt": {
+                      "assetPath": "230c0547067eb194cafb7b8e8785ac2e",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    },
+                    "Bad": {
+                      "assetPath": "c2cc92ec940bbb944966683ba3ea37c4",
+                      "name": "AssetPathModel_",
+                      "ImplementationType": null
+                    }
+                  },
+                  "overlayLayer": 4,
+                  "mutationId": "Ice:Regular:Freeze",
+                  "growBlockModel": {
+                    "name": "GrowBlockModel_FreezeGrowBlock",
+                    "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.GrowBlock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "damageModel": {
+                    "damage": 1.0,
+                    "maxDamage": -1.0,
+                    "distributeToChildren": true,
+                    "overrideDistributeBlocker": false,
+                    "createPopEffect": true,
+                    "immuneBloonProperties": 4,
+                    "collisionPass": 0,
+                    "CappedDamage": 1.0,
+                    "name": "DamageModel_BaseProjectile_Snapfreeze",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "id": "Ice:Regular:Freeze",
+                  "isExclusiveInMutationList": false,
+                  "priority": 5,
+                  "glueLevel": 0,
+                  "isFreeze": false,
+                  "dontCopy": false,
+                  "buffIndicator": null,
+                  "includesSubTowers": false,
+                  "saveId": null
+                },
+                "name": "FreezeModel_Ice",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Freeze, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": null,
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              -1,
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 20.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 40.0,
+            "name": "ProjectileModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 143,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": [
+            {
+              "assetId": null,
+              "effectModel": {
+                "assetId": "bfaccfe72b7c82e45a2655ba351a0d73",
+                "scale": 1.0,
+                "lifespan": 1.0,
+                "fullscreen": false,
+                "useCenterPosition": false,
+                "useTransformPosition": false,
+                "useTransfromRotation": false,
+                "destroyOnTransformDestroy": false,
+                "alwaysUseAge": false,
+                "useRoundTime": false,
+                "name": "EffectModel_",
+                "ImplementationType": null
+              },
+              "lifespan": 0.0,
+              "fullscreen": false,
+              "rotateToWeapon": false,
+              "useEjectPoint": false,
+              "useEmittedFrom": false,
+              "useMainAttackRotation": false,
+              "name": "EjectEffectModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.EjectEffect, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "sound1": {
+                "assetId": "a2d397aae01e82c4d84dc054fae1cb0f",
+                "name": "SoundModel_FreezeSound01",
+                "ImplementationType": null
+              },
+              "sound2": {
+                "assetId": "2f27f33382c770c40b30fd2811ed59f1",
+                "name": "SoundModel_FreezeSound02",
+                "ImplementationType": null
+              },
+              "sound3": {
+                "assetId": "c904c519c46d55947a8370a5575e912e",
+                "name": "SoundModel_FreezeSound03",
+                "ImplementationType": null
+              },
+              "sound4": {
+                "assetId": "4fee7a2af9762f94ba4e0687ab39c0c5",
+                "name": "SoundModel_FreezeSound04",
+                "ImplementationType": null
+              },
+              "sound5": {
+                "assetId": "694ac12cec0660341ab608c9c3b206d6",
+                "name": "SoundModel_FreezeSound05",
+                "ImplementationType": null
+              },
+              "type": "Freeze",
+              "name": "CreateSoundOnProjectileCreatedModel_Weapon",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.CreateSoundOnProjectileCreated, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 2.4,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "filters": [
+            {
+              "isActive": false,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "tag": "Moabs",
+              "disableWhenSupportMutatorIDs": [],
+              "name": "FilterOutTagModel_Attack",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "name": "FilterFrozenBloonsModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterFrozenBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 25.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "aa7274e392309f34da5ddab14834b0c1",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 6.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": null,
+  "emoteSpriteLarge": null,
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "IceMonkey-400",
+      "upgrade": "Embrittlement"
+    },
+    {
+      "tower": "IceMonkey-310",
+      "upgrade": "Enhanced Freeze"
+    },
+    {
+      "tower": "IceMonkey-301",
+      "upgrade": "Larger Radius"
+    }
+  ],
+  "appliedUpgrades": [
+    "Permafrost",
+    "Metal Freeze",
+    "Ice Shards"
+  ],
+  "targetTypes": [
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "Default",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    }
+  ],
+  "name": "IceMonkey-300",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

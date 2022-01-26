@@ -1,0 +1,3337 @@
+{
+  "display": "e8c2e76c7054c624682de060d4d34c44",
+  "baseId": "ObynGreenfoot",
+  "cost": 650.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
+  "range": 43.0,
+  "ignoreBlockers": true,
+  "isGlobalRange": false,
+  "tier": 18,
+  "tiers": [
+    18,
+    0,
+    0
+  ],
+  "towerSet": "Hero",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[ObynGreenFootIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "cf545d09fc64f7c47af9e34774f2c23c",
+    "IsValid": true
+  },
+  "instaIcon": null,
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "AbilityDiscipline",
+      "target": "AbilityWallOfTrees",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BigBloonBlueprints",
+      "target": "BaseProjectile",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "EmpoweredHeroes",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicReach",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicVelocity",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "QuickHands",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "Scholarships",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "SelfTaughtHeroes",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "WeakPoint",
+      "target": "",
+      "name": "ObynGreenfootUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "xpScale": 1.0,
+      "costPerXpToLevel": 1.0,
+      "name": "HeroModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Hero, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "placeAnimation": 4,
+      "upgradeAnimation": 3,
+      "name": "PlayAnimationIndexModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PlayAnimationIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "23c5478b141ea4b499fc6d04c4795356",
+        "name": "SoundModel_SelectSound01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "1a143b2ba52e3424684373594918eb35",
+        "name": "SoundModel_SelectSound02",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "fca4d699e3f56704e9e1d32a3715d40f",
+        "name": "SoundModel_SelectSound03",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "d114c8c44874dbc4fb0478a7c4ddd7cd",
+        "name": "SoundModel_SelectSound04",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "6a2acd134aae4184ba331c279cf5d75f",
+        "name": "SoundModel_SelectSound05",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "f1050131aa70c3d41ac9e2ceb596affa",
+        "name": "SoundModel_SelectSound06",
+        "ImplementationType": null
+      },
+      "altSound1": {
+        "assetId": "63a8a05ca8113b84d8f755ce262ef9db",
+        "name": "SoundModel_SelectAltSound01",
+        "ImplementationType": null
+      },
+      "altSound2": {
+        "assetId": "6e3d8c49c926f3c4a9ab82a354a42842",
+        "name": "SoundModel_SelectAltSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSelectedModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSelected, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "7ef1954e677e2a44a9054fbaa214b41f",
+        "name": "SoundModel_UpgradeSound01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "c9de5d50f0524604da721367034826f1",
+        "name": "SoundModel_UpgradeSound02",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "7845501775e06434ebc2c0380590d182",
+        "name": "SoundModel_UpgradeSound03",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "2535a694d0b13a847a83191a553b863a",
+        "name": "SoundModel_UpgradeSound04",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "4eadd49f918216144b54c587cfeba978",
+        "name": "SoundModel_UpgradeSound05",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "50806b456c4d7444cb966a27db39e366",
+        "name": "SoundModel_UpgradeSound06",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "c7625d596e04423439fcc320af1b7a36",
+        "name": "SoundModel_UpgradeSound07",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "bc6ce271ae51371448421de52fce2b25",
+        "name": "SoundModel_UpgradeSound08",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "708be580149dc444d89314b6d9f388e9",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlacementEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "9e800b22f83685141bcb398b78331495",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_Sell",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "72288d1ab52653d4fa62b7841c979e4c",
+        "name": "SoundModel_BloonLeak01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "b6745b59779b4bd408025c71e8009ca5",
+        "name": "SoundModel_BloonLeak02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonLeakModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonLeak, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "moabSound": {
+        "assetId": "9ceeb26ab05dfc643ba7af7c4e19620b",
+        "name": "SoundModel_MoabWarningSound",
+        "ImplementationType": null
+      },
+      "bfbSound": {
+        "assetId": "6a130e5f1818182419e18dde3893d09c",
+        "name": "SoundModel_BfbWarningSound",
+        "ImplementationType": null
+      },
+      "ddtSound": {
+        "assetId": "40c09fa171d61d0438710a13271c3f06",
+        "name": "SoundModel_DdtWarningSound",
+        "ImplementationType": null
+      },
+      "zomgSound": {
+        "assetId": "9b3ff08097d82a54083594c9b0233587",
+        "name": "SoundModel_ZomgWarningSound",
+        "ImplementationType": null
+      },
+      "badSound": {
+        "assetId": "46c4435aecc340d498bd59948c187450",
+        "name": "SoundModel_BadWarningSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonEnterTrackModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonEnterTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "9971be01b6883d849952e07c14b229a3",
+        "name": "SoundModel_PlacementSound01",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "347ed5162f7865148b9c2f7b0951b152",
+        "name": "SoundModel_PlacementSound02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_ObynGreenfoot 18",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "dotjRangeMultiplier": 0.2,
+      "dotsProjectileRadius": 1.2,
+      "dotsMoabDamage": 1.0,
+      "mmAbilityCooldownMultiplier": 0.05,
+      "mutatorIdRange": "ObynGlobalRange",
+      "mutatorIdProjectileRadius": "ObynGlobalProjectileRadius",
+      "mutatorIdMoabDamage": "ObynGlobalMoabDamage",
+      "mutatorIdCooldownMultiplier": "ObynGlobalCooldown",
+      "damageModifierForTag": {
+        "tag": "Moabs",
+        "tags": [
+          "Moabs"
+        ],
+        "damageMultiplier": 1.0,
+        "damageAddative": 1.0,
+        "mustIncludeAllTags": false,
+        "applyOverMaxDamage": false,
+        "collisionPass": 0,
+        "name": "DamageModifierForTagModel_ObynGlobalSupportDamageModifier",
+        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.DamageModifierForTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "RangeMutator": {
+        "rangeModifier": 0.2,
+        "id": "ObynGlobalRange",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": false,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "ProjectileRadiusMutator": {
+        "dotsProjectileRadius": 1.2,
+        "id": "ObynGlobalRange",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": false,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "DamageTypeMutator": {
+        "id": "ObynGlobalMoabDamage",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": false,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "AbilityCooldownMutator": {
+        "id": "ObynGlobalCooldown",
+        "isExclusiveInMutationList": false,
+        "priority": 1,
+        "glueLevel": 0,
+        "isFreeze": false,
+        "dontCopy": false,
+        "buffIndicator": null,
+        "includesSubTowers": false,
+        "saveId": null
+      },
+      "name": "ObynGlobalSupportModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.ObynGlobalSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": 0.0,
+          "animationOffsetFrames": 0,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": 0.0,
+          "ejectY": 7.48,
+          "ejectZ": 9.64,
+          "projectile": {
+            "display": "7dab9307a6c990e4080909c76786237a",
+            "id": "BaseProjectile",
+            "maxPierce": 0.0,
+            "pierce": 14.0,
+            "scale": 1.0,
+            "ignoreBlockers": true,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": [
+              {
+                "isActive": true,
+                "ignoreBroadPhase": false,
+                "name": "FilterInvisibleModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "damage": 6.0,
+                "maxDamage": 0.0,
+                "distributeToChildren": true,
+                "overrideDistributeBlocker": false,
+                "createPopEffect": true,
+                "immuneBloonProperties": 8,
+                "collisionPass": 0,
+                "CappedDamage": 6.0,
+                "name": "DamageModel_BaseProjectile_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "lifespanFrames": 84,
+                "speedFrames": 3.38541675,
+                "collisionPass": 0,
+                "Speed": 203.125,
+                "Lifespan": 1.4,
+                "name": "TravelStraitModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": true,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "collisionPass": 0,
+                "name": "ProjectileFilterModel_BaseProjectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "distance": 284.375,
+                "trackNewTargets": true,
+                "constantlyAquireNewTarget": false,
+                "maxSeekAngle": 360.0,
+                "ignoreSeekAngle": true,
+                "overrideRotation": false,
+                "useLifetimeAsDistance": false,
+                "turnRatePerFrame": 6.00000048,
+                "collisionPass": 0,
+                "TurnRate": 360.0,
+                "name": "TrackTargetModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TrackTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "mutationId": "CreateSoundOnBloonDegrade",
+                "lifespan": 0.05,
+                "layers": 1,
+                "lifespanFrames": 2,
+                "filter": null,
+                "filters": null,
+                "behaviors": [
+                  {
+                    "sound1": {
+                      "assetId": "",
+                      "name": "BlankSoundModel_",
+                      "ImplementationType": null
+                    },
+                    "sound2": {
+                      "assetId": "",
+                      "name": "BlankSoundModel_",
+                      "ImplementationType": null
+                    },
+                    "tag": "",
+                    "name": "CreateSoundOnBloonDegradeModel_BaseProjectileCreateSoundOnBloonDegrade",
+                    "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.CreateSoundOnBloonDegrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "overlays": {},
+                "overlayLayer": 0,
+                "isUnique": true,
+                "lastAppliesFirst": false,
+                "collideThisFrame": true,
+                "cascadeMutators": false,
+                "glueLevel": 0,
+                "applyOnlyIfDamaged": false,
+                "stackCount": 0,
+                "collisionPass": -1,
+                "name": "AddBehaviorToBloonModel_AddObynDestroyMoabBehavior",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": "7dab9307a6c990e4080909c76786237a",
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              -1,
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 5.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 14.0,
+            "name": "ProjectileModel_BaseProjectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 29,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": null,
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 0.5,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "filters": [
+            {
+              "isActive": true,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetLastModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetLast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetCloseModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetClose, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetStrongModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetStrong, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 43.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": true,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "displayName": "Brambles",
+      "description": "Brambles: Creates a spiked bush on the track that can pop 20 bloons.",
+      "icon": {
+        "GUID": "bcc5c43ba21be794984786e843396c92",
+        "IsValid": true
+      },
+      "behaviors": [
+        {
+          "lifespanFrames": 0,
+          "attacks": [
+            {
+              "weapons": [
+                {
+                  "animation": 1,
+                  "animationOffset": 0.0,
+                  "animationOffsetFrames": 0,
+                  "emission": {
+                    "behaviors": null,
+                    "name": "SingleEmissionModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ejectX": 0.0,
+                  "ejectY": 7.48,
+                  "ejectZ": 9.64,
+                  "projectile": {
+                    "display": "6947ce19b6cd63047859d7566e4ee07f",
+                    "id": "Projectile",
+                    "maxPierce": 0.0,
+                    "pierce": 500.0,
+                    "scale": 1.0,
+                    "ignoreBlockers": true,
+                    "usePointCollisionWithBloons": false,
+                    "canCollisionBeBlockedByMapLos": false,
+                    "filters": null,
+                    "behaviors": [
+                      {
+                        "damage": 1.0,
+                        "maxDamage": 0.0,
+                        "distributeToChildren": true,
+                        "overrideDistributeBlocker": false,
+                        "createPopEffect": true,
+                        "immuneBloonProperties": 0,
+                        "collisionPass": 0,
+                        "CappedDamage": 1.0,
+                        "name": "DamageModel_Projectile_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "rounds": 1,
+                        "lifespanFrames": 7200,
+                        "useRoundTime": false,
+                        "endOfRoundClearBypassModel": null,
+                        "collisionPass": 0,
+                        "Lifespan": 120.0,
+                        "name": "AgeModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "interval": 0.001,
+                        "intervalFrames": 0,
+                        "collisionPass": 0,
+                        "name": "ClearHitBloonsModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ClearHitBloons, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "filters": null,
+                        "collisionPass": 0,
+                        "name": "ProjectileFilterModel_Projectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "destroyIfInvalid": false,
+                        "collisionPass": 0,
+                        "name": "InstantModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Instant, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "effectModel": null,
+                        "assetId": "bb65ffc8851018b45a52c9fb7818f309",
+                        "lifespan": 6.0,
+                        "fullscreen": false,
+                        "randomRotation": false,
+                        "collisionPass": 0,
+                        "name": "CreateEffectOnExhaustedModel_BramblePop",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnExhausted, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "mutationId": "CreateSoundOnBloonDegrade",
+                        "lifespan": 120.0,
+                        "layers": 1,
+                        "lifespanFrames": 7199,
+                        "filter": null,
+                        "filters": null,
+                        "behaviors": [
+                          {
+                            "sound1": {
+                              "assetId": "73ec0da3eaedf1e4081837fcd9dc1609",
+                              "name": "SoundModel_MoabDestroyedSound01",
+                              "ImplementationType": null
+                            },
+                            "sound2": {
+                              "assetId": "55c34075773104f4890cfe66049af124",
+                              "name": "SoundModel_MoabDestroyedSound02",
+                              "ImplementationType": null
+                            },
+                            "tag": "Moabs",
+                            "name": "CreateSoundOnBloonDegradeModel_ProjectileCreateSoundOnBloonDegrade",
+                            "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.CreateSoundOnBloonDegrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          }
+                        ],
+                        "overlays": {},
+                        "overlayLayer": 0,
+                        "isUnique": true,
+                        "lastAppliesFirst": false,
+                        "collideThisFrame": true,
+                        "cascadeMutators": false,
+                        "glueLevel": 0,
+                        "applyOnlyIfDamaged": false,
+                        "stackCount": 0,
+                        "collisionPass": -1,
+                        "name": "AddBehaviorToBloonModel_AddObynDestroyMoabBehaviorBrambles",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "display": "6947ce19b6cd63047859d7566e4ee07f",
+                        "layer": 0,
+                        "positionOffset": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0,
+                          "MagnitudeSquared": 0.0,
+                          "Magnitude": 0.0,
+                          "Rotation": 0.0,
+                          "SimToDispRotation": 180.0
+                        },
+                        "scale": 1.0,
+                        "ignoreRotation": false,
+                        "animationChanges": null,
+                        "delayedReveal": 0.0,
+                        "name": "DisplayModel_ProjectileDisplay",
+                        "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "collisionPasses": [
+                      -1,
+                      0
+                    ],
+                    "canCollideWithBloons": true,
+                    "radius": 14.0,
+                    "vsBlockerRadius": 0.0,
+                    "hasDamageModifiers": false,
+                    "dontUseCollisionChecker": false,
+                    "checkCollisionFrames": 0,
+                    "ignoreNonTargetable": false,
+                    "ignorePierceExhaustion": false,
+                    "saveId": "Brambles18",
+                    "CappedPierce": 500.0,
+                    "name": "ProjectileModel_Projectile",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "rateFrames": 59,
+                  "fireWithoutTarget": false,
+                  "fireBetweenRounds": true,
+                  "behaviors": [
+                    {
+                      "name": "ZeroRotationModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.ZeroRotation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "useAttackPosition": false,
+                  "startInCooldown": false,
+                  "customStartCooldown": 0.0,
+                  "customStartCooldownFrames": 0,
+                  "animateOnMainAttack": false,
+                  "Rate": 1.0,
+                  "name": "WeaponModel_Weapon",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "behaviors": [
+                {
+                  "onlyRotateDuringThrow": true,
+                  "useThrowMarkerHeight": false,
+                  "rotateOnlyOnThrow": false,
+                  "additionalRotation": 0,
+                  "rotateTower": true,
+                  "useMainAttackRotation": false,
+                  "name": "RotateToTargetModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "filters": [
+                    {
+                      "isActive": true,
+                      "ignoreBroadPhase": true,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "name": "FilterOfftrackModel_Attack",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOfftrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "name": "AttackFilterModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "radius": 43.0,
+                  "isSelectable": false,
+                  "useTowerRange": true,
+                  "forceTargetTrack": false,
+                  "useClosestTrack": false,
+                  "maxTrackOffset": 0.0,
+                  "isOnSubTower": false,
+                  "name": "TargetTrackOrDefaultModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetTrackOrDefault, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "range": 43.0,
+              "targetProvider": {
+                "radius": 43.0,
+                "isSelectable": false,
+                "useTowerRange": true,
+                "forceTargetTrack": false,
+                "useClosestTrack": false,
+                "maxTrackOffset": 0.0,
+                "isOnSubTower": false,
+                "name": "TargetTrackOrDefaultModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetTrackOrDefault, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "attackThroughWalls": true,
+              "fireWithoutTarget": false,
+              "framesBeforeRetarget": 0,
+              "addsToSharedGrid": false,
+              "sharedGridRange": 0.0,
+              "name": "AttackModel_Attack_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "processOnActivate": true,
+          "cancelIfNoTargets": true,
+          "turnOffExisting": false,
+          "endOnRoundEnd": false,
+          "endOnDefeatScreen": false,
+          "isOneShot": false,
+          "Lifespan": 0.0,
+          "name": "ActivateAttackModel_AbilityBrambles",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.ActivateAttack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "sound": {
+            "assetId": "f89a5afd603b51844a042d58ac4379de",
+            "name": "SoundModel_ActivatedBramblesNoVO",
+            "ImplementationType": null
+          },
+          "heroSound": {
+            "assetId": "67a8ebd5b447bd54d8b450eecf6a99ed",
+            "name": "SoundModel_ActivatedBrambles",
+            "ImplementationType": null
+          },
+          "heroSound2": {
+            "assetId": "67a8ebd5b447bd54d8b450eecf6a99ed",
+            "name": "SoundModel_ActivatedBrambles",
+            "ImplementationType": null
+          },
+          "name": "CreateSoundOnAbilityModel_AbilityBrambles",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateSoundOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "activateOnPreLeak": false,
+      "activateOnLeak": false,
+      "addedViaUpgrade": "ObynGreenfoot-3-Brambles+",
+      "cooldownFrames": 2099,
+      "livesCost": 0,
+      "maxActivationsPerRound": -1,
+      "animation": 1,
+      "animationOffsetFrames": 0,
+      "enabled": true,
+      "canActivateBetweenRounds": false,
+      "resetCooldownOnTierUpgrade": false,
+      "disabledByAnotherTower": false,
+      "activateOnLivesLost": false,
+      "sharedCooldown": false,
+      "dontShowStacked": false,
+      "animateOnMainAttackDisplay": false,
+      "restrictAbilityAfterMaxRoundTimer": false,
+      "CooldownSpeedScale": 0.0,
+      "AnimationOffset": 0.0,
+      "IsPassive": false,
+      "Cooldown": 35.0,
+      "name": "AbilityModel_AbilityBrambles",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Ability, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "displayName": "Wall of Trees",
+      "description": "Summons a wall of trees across the track that destroy all bloons that enter. When full, the trees burst into money.",
+      "icon": {
+        "GUID": "ee76b1ffe6ae5d44a9cc30dda7e6640a",
+        "IsValid": true
+      },
+      "behaviors": [
+        {
+          "lifespanFrames": 0,
+          "attacks": [
+            {
+              "weapons": [
+                {
+                  "animation": 1,
+                  "animationOffset": 0.0,
+                  "animationOffsetFrames": 0,
+                  "emission": {
+                    "behaviors": null,
+                    "name": "SingleEmissionModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "ejectX": 0.0,
+                  "ejectY": 7.48,
+                  "ejectZ": 9.64,
+                  "projectile": {
+                    "display": "1417bb599c294b44bb3aa159da1865f7",
+                    "id": "Collidable",
+                    "maxPierce": 0.0,
+                    "pierce": 9999999.0,
+                    "scale": 1.0,
+                    "ignoreBlockers": true,
+                    "usePointCollisionWithBloons": false,
+                    "canCollisionBeBlockedByMapLos": false,
+                    "filters": [
+                      {
+                        "isActive": false,
+                        "ignoreBroadPhase": true,
+                        "name": "FilterInvisibleModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "tag": "Bad",
+                        "disableWhenSupportMutatorIDs": [],
+                        "name": "FilterOutTagModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "tag": "Zomg",
+                        "disableWhenSupportMutatorIDs": [],
+                        "name": "FilterOutTagModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "behaviors": [
+                      {
+                        "filters": [
+                          {
+                            "isActive": false,
+                            "ignoreBroadPhase": true,
+                            "name": "FilterInvisibleModel_",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "tag": "Bad",
+                            "disableWhenSupportMutatorIDs": [],
+                            "name": "FilterOutTagModel_Collidable",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "tag": "Zomg",
+                            "disableWhenSupportMutatorIDs": [],
+                            "name": "FilterOutTagModel_Collidable",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterOutTag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          }
+                        ],
+                        "collisionPass": 0,
+                        "name": "ProjectileFilterModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "rbeCapacity": 3000.0,
+                        "rbeCashMultiplier": 2.0,
+                        "projectile": {
+                          "display": "595c7fb1d3705aa478d0d5171b74fb57",
+                          "id": "Full",
+                          "maxPierce": 0.0,
+                          "pierce": 9999999.0,
+                          "scale": 1.0,
+                          "ignoreBlockers": true,
+                          "usePointCollisionWithBloons": false,
+                          "canCollisionBeBlockedByMapLos": false,
+                          "filters": [
+                            {
+                              "name": "FilterAllModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterAll, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "behaviors": [
+                            {
+                              "filters": [
+                                {
+                                  "name": "FilterAllModel_",
+                                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterAll, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                }
+                              ],
+                              "collisionPass": 0,
+                              "name": "ProjectileFilterModel_Full",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "sound": {
+                                "assetId": "beab13260cd9598418feb67167396473",
+                                "name": "SoundModel_SupplyDropGold",
+                                "ImplementationType": null
+                              },
+                              "collisionPass": 0,
+                              "name": "CreateSoundOnPickupModel_Full",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnPickup, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "collectRadius": 50.0,
+                              "delay": 0.0,
+                              "delayFrames": 0.0,
+                              "collisionPass": 0,
+                              "name": "PickupModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Pickup, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "minimum": 300.0,
+                              "maximum": 300.0,
+                              "bonusMultiplier": 0.0,
+                              "salvage": 0.0,
+                              "noTransformCash": false,
+                              "distributeSalvage": false,
+                              "collisionPass": 0,
+                              "name": "CashModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Cash, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "assetId": "80178409df24b3b479342ed73cffb63d",
+                              "lifespan": 1.0,
+                              "useTowerPosition": false,
+                              "collisionPass": 0,
+                              "name": "CreateTextEffectModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateTextEffect, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "rounds": 9999999,
+                              "lifespanFrames": 3600,
+                              "useRoundTime": false,
+                              "endOfRoundClearBypassModel": null,
+                              "collisionPass": 0,
+                              "Lifespan": 60.0,
+                              "name": "AgeModel_Full",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "path": [
+                                {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 0.0,
+                                  "Magnitude": 0.0,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 45.11767,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 2035.604,
+                                  "Magnitude": 45.11767,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                }
+                              ],
+                              "easePath": [
+                                {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 0.0,
+                                  "Magnitude": 0.0,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 5.415595,
+                                  "y": -0.6810235,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 29.7924633,
+                                  "Magnitude": 5.458247,
+                                  "Rotation": 97.16746,
+                                  "SimToDispRotation": 82.83255
+                                },
+                                {
+                                  "x": 10.6508741,
+                                  "y": -1.42175841,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 115.462517,
+                                  "Magnitude": 10.7453489,
+                                  "Rotation": 97.6033249,
+                                  "SimToDispRotation": 82.3966751
+                                },
+                                {
+                                  "x": 15.7089167,
+                                  "y": -2.22124338,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 251.704,
+                                  "Magnitude": 15.8651819,
+                                  "Rotation": 98.04828,
+                                  "SimToDispRotation": 81.95173
+                                },
+                                {
+                                  "x": 20.592802,
+                                  "y": -3.078519,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 433.540771,
+                                  "Magnitude": 20.8216419,
+                                  "Rotation": 98.5024643,
+                                  "SimToDispRotation": 81.4975357
+                                },
+                                {
+                                  "x": 25.30561,
+                                  "y": -3.992623,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 656.314941,
+                                  "Magnitude": 25.6186447,
+                                  "Rotation": 98.966,
+                                  "SimToDispRotation": 81.0340042
+                                },
+                                {
+                                  "x": 29.85042,
+                                  "y": -4.96259451,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 915.674866,
+                                  "Magnitude": 30.26012,
+                                  "Rotation": 99.4390259,
+                                  "SimToDispRotation": 80.5609741
+                                },
+                                {
+                                  "x": 34.2303123,
+                                  "y": -5.98747444,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 1207.56409,
+                                  "Magnitude": 34.7500229,
+                                  "Rotation": 99.92165,
+                                  "SimToDispRotation": 80.0783539
+                                },
+                                {
+                                  "x": 38.4483643,
+                                  "y": -7.06630039,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 1528.20935,
+                                  "Magnitude": 39.09232,
+                                  "Rotation": 100.413994,
+                                  "SimToDispRotation": 79.5860062
+                                },
+                                {
+                                  "x": 42.50766,
+                                  "y": -8.198112,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 1874.11011,
+                                  "Magnitude": 43.2909927,
+                                  "Rotation": 100.916145,
+                                  "SimToDispRotation": 79.0838547
+                                },
+                                {
+                                  "x": 46.41127,
+                                  "y": -9.381948,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 2242.027,
+                                  "Magnitude": 47.3500481,
+                                  "Rotation": 101.42823,
+                                  "SimToDispRotation": 78.57178
+                                },
+                                {
+                                  "x": 50.1622772,
+                                  "y": -10.6168461,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 2628.97168,
+                                  "Magnitude": 51.2735,
+                                  "Rotation": 101.950294,
+                                  "SimToDispRotation": 78.0497055
+                                },
+                                {
+                                  "x": 53.7637749,
+                                  "y": -11.90185,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 3032.19751,
+                                  "Magnitude": 55.06539,
+                                  "Rotation": 102.482437,
+                                  "SimToDispRotation": 77.51756
+                                },
+                                {
+                                  "x": 57.2188225,
+                                  "y": -13.2359972,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 3449.1853,
+                                  "Magnitude": 58.7297668,
+                                  "Rotation": 103.024712,
+                                  "SimToDispRotation": 76.975296
+                                },
+                                {
+                                  "x": 60.5305176,
+                                  "y": -14.6183243,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 3877.639,
+                                  "Magnitude": 62.27069,
+                                  "Rotation": 103.577148,
+                                  "SimToDispRotation": 76.42285
+                                },
+                                {
+                                  "x": 63.7019157,
+                                  "y": -16.0478745,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 4315.46826,
+                                  "Magnitude": 65.69222,
+                                  "Rotation": 104.139809,
+                                  "SimToDispRotation": 75.86019
+                                },
+                                {
+                                  "x": 66.7361145,
+                                  "y": -17.52368,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 4760.788,
+                                  "Magnitude": 68.99847,
+                                  "Rotation": 104.712685,
+                                  "SimToDispRotation": 75.2873154
+                                },
+                                {
+                                  "x": 69.6362,
+                                  "y": -19.0447884,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 5211.9043,
+                                  "Magnitude": 72.19352,
+                                  "Rotation": 105.295776,
+                                  "SimToDispRotation": 74.70422
+                                },
+                                {
+                                  "x": 72.40524,
+                                  "y": -20.6102314,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 5667.301,
+                                  "Magnitude": 75.28148,
+                                  "Rotation": 105.889061,
+                                  "SimToDispRotation": 74.11094
+                                },
+                                {
+                                  "x": 75.04631,
+                                  "y": -22.2190552,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 6125.63525,
+                                  "Magnitude": 78.26644,
+                                  "Rotation": 106.492508,
+                                  "SimToDispRotation": 73.50749
+                                },
+                                {
+                                  "x": 77.5624847,
+                                  "y": -23.8702927,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 6585.73,
+                                  "Magnitude": 81.15251,
+                                  "Rotation": 107.106049,
+                                  "SimToDispRotation": 72.89396
+                                },
+                                {
+                                  "x": 79.95687,
+                                  "y": -25.5629845,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 7046.56738,
+                                  "Magnitude": 83.94383,
+                                  "Rotation": 107.729584,
+                                  "SimToDispRotation": 72.27042
+                                },
+                                {
+                                  "x": 82.23252,
+                                  "y": -27.296175,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 7507.26855,
+                                  "Magnitude": 86.64449,
+                                  "Rotation": 108.363014,
+                                  "SimToDispRotation": 71.6369858
+                                },
+                                {
+                                  "x": 84.39255,
+                                  "y": -29.0689011,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 7967.103,
+                                  "Magnitude": 89.25863,
+                                  "Rotation": 109.0062,
+                                  "SimToDispRotation": 70.9938
+                                },
+                                {
+                                  "x": 86.43998,
+                                  "y": -30.8801956,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 8425.457,
+                                  "Magnitude": 91.79029,
+                                  "Rotation": 109.658981,
+                                  "SimToDispRotation": 70.34102
+                                },
+                                {
+                                  "x": 88.37794,
+                                  "y": -32.7291069,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 8881.85449,
+                                  "Magnitude": 94.24359,
+                                  "Rotation": 110.321159,
+                                  "SimToDispRotation": 69.67884
+                                },
+                                {
+                                  "x": 90.20947,
+                                  "y": -34.6146622,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 9335.924,
+                                  "Magnitude": 96.62258,
+                                  "Rotation": 110.992523,
+                                  "SimToDispRotation": 69.00748
+                                },
+                                {
+                                  "x": 91.93769,
+                                  "y": -36.53592,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 9787.412,
+                                  "Magnitude": 98.93135,
+                                  "Rotation": 111.672806,
+                                  "SimToDispRotation": 68.3271942
+                                },
+                                {
+                                  "x": 93.5656738,
+                                  "y": -38.4918976,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 10236.1611,
+                                  "Magnitude": 101.173912,
+                                  "Rotation": 112.361732,
+                                  "SimToDispRotation": 67.63827
+                                },
+                                {
+                                  "x": 95.0964661,
+                                  "y": -40.4816475,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 10682.1016,
+                                  "Magnitude": 103.354256,
+                                  "Rotation": 113.05899,
+                                  "SimToDispRotation": 66.94101
+                                },
+                                {
+                                  "x": 96.53319,
+                                  "y": -42.50421,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 11125.2646,
+                                  "Magnitude": 105.476372,
+                                  "Rotation": 113.764221,
+                                  "SimToDispRotation": 66.23579
+                                },
+                                {
+                                  "x": 97.87886,
+                                  "y": -44.55861,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 11565.7412,
+                                  "Magnitude": 107.544136,
+                                  "Rotation": 114.477043,
+                                  "SimToDispRotation": 65.5229645
+                                },
+                                {
+                                  "x": 99.13664,
+                                  "y": -46.6439056,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 12003.7285,
+                                  "Magnitude": 109.561531,
+                                  "Rotation": 115.197044,
+                                  "SimToDispRotation": 64.80296
+                                },
+                                {
+                                  "x": 100.309563,
+                                  "y": -48.75913,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 12439.4609,
+                                  "Magnitude": 111.532333,
+                                  "Rotation": 115.923759,
+                                  "SimToDispRotation": 64.07624
+                                },
+                                {
+                                  "x": 101.400711,
+                                  "y": -50.90331,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 12873.252,
+                                  "Magnitude": 113.460358,
+                                  "Rotation": 116.656723,
+                                  "SimToDispRotation": 63.3432846
+                                },
+                                {
+                                  "x": 102.413162,
+                                  "y": -53.0755,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 13305.4648,
+                                  "Magnitude": 115.349319,
+                                  "Rotation": 117.395393,
+                                  "SimToDispRotation": 62.6046066
+                                },
+                                {
+                                  "x": 103.350006,
+                                  "y": -55.2747269,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 13736.52,
+                                  "Magnitude": 117.202896,
+                                  "Rotation": 118.139229,
+                                  "SimToDispRotation": 61.86077
+                                },
+                                {
+                                  "x": 104.21431,
+                                  "y": -57.50004,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 14166.877,
+                                  "Magnitude": 119.024689,
+                                  "Rotation": 118.887627,
+                                  "SimToDispRotation": 61.1123657
+                                },
+                                {
+                                  "x": 105.009163,
+                                  "y": -59.75048,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 14597.0439,
+                                  "Magnitude": 120.81823,
+                                  "Rotation": 119.639984,
+                                  "SimToDispRotation": 60.3600159
+                                },
+                                {
+                                  "x": 105.73764,
+                                  "y": -62.02507,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 15027.5576,
+                                  "Magnitude": 122.586937,
+                                  "Rotation": 120.395638,
+                                  "SimToDispRotation": 59.60437
+                                },
+                                {
+                                  "x": 106.402832,
+                                  "y": -64.322876,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 15458.9951,
+                                  "Magnitude": 124.334206,
+                                  "Rotation": 121.1539,
+                                  "SimToDispRotation": 58.8461037
+                                },
+                                {
+                                  "x": 107.0078,
+                                  "y": -66.6429,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 15891.9453,
+                                  "Magnitude": 126.063263,
+                                  "Rotation": 121.914055,
+                                  "SimToDispRotation": 58.0859528
+                                },
+                                {
+                                  "x": 107.555634,
+                                  "y": -68.9842148,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 16327.0352,
+                                  "Magnitude": 127.77729,
+                                  "Rotation": 122.675377,
+                                  "SimToDispRotation": 57.32463
+                                },
+                                {
+                                  "x": 108.049408,
+                                  "y": -71.3458557,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 16764.9063,
+                                  "Magnitude": 129.47937,
+                                  "Rotation": 123.437096,
+                                  "SimToDispRotation": 56.562912
+                                },
+                                {
+                                  "x": 108.492218,
+                                  "y": -73.72683,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 17206.207,
+                                  "Magnitude": 131.17244,
+                                  "Rotation": 124.19841,
+                                  "SimToDispRotation": 55.80159
+                                },
+                                {
+                                  "x": 108.887115,
+                                  "y": -76.12622,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 17651.6055,
+                                  "Magnitude": 132.859344,
+                                  "Rotation": 124.958542,
+                                  "SimToDispRotation": 55.04146
+                                },
+                                {
+                                  "x": 109.237213,
+                                  "y": -78.543045,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 18101.7773,
+                                  "Magnitude": 134.542847,
+                                  "Rotation": 125.716652,
+                                  "SimToDispRotation": 54.2833481
+                                },
+                                {
+                                  "x": 109.545547,
+                                  "y": -80.97633,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 18557.3926,
+                                  "Magnitude": 136.225525,
+                                  "Rotation": 126.471909,
+                                  "SimToDispRotation": 53.5281
+                                },
+                                {
+                                  "x": 109.815247,
+                                  "y": -83.42513,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 19019.14,
+                                  "Magnitude": 137.9099,
+                                  "Rotation": 127.223434,
+                                  "SimToDispRotation": 52.7765656
+                                },
+                                {
+                                  "x": 110.049355,
+                                  "y": -85.8885,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 19487.6953,
+                                  "Magnitude": 139.598343,
+                                  "Rotation": 127.970413,
+                                  "SimToDispRotation": 52.0295868
+                                },
+                                {
+                                  "x": 110.250977,
+                                  "y": -88.36545,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 19963.73,
+                                  "Magnitude": 141.29306,
+                                  "Rotation": 128.711945,
+                                  "SimToDispRotation": 51.28805
+                                },
+                                {
+                                  "x": 110.423164,
+                                  "y": -90.85503,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 20447.91,
+                                  "Magnitude": 142.996185,
+                                  "Rotation": 129.447189,
+                                  "SimToDispRotation": 50.55281
+                                },
+                                {
+                                  "x": 110.569016,
+                                  "y": -93.35628,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 20940.9023,
+                                  "Magnitude": 144.709717,
+                                  "Rotation": 130.175262,
+                                  "SimToDispRotation": 49.8247337
+                                },
+                                {
+                                  "x": 110.691605,
+                                  "y": -95.86824,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 21443.3516,
+                                  "Magnitude": 146.435486,
+                                  "Rotation": 130.895325,
+                                  "SimToDispRotation": 49.1046829
+                                },
+                                {
+                                  "x": 110.794014,
+                                  "y": -98.38995,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 21955.8965,
+                                  "Magnitude": 148.175217,
+                                  "Rotation": 131.606491,
+                                  "SimToDispRotation": 48.3935165
+                                },
+                                {
+                                  "x": 110.879318,
+                                  "y": -100.920456,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 22479.1621,
+                                  "Magnitude": 149.930527,
+                                  "Rotation": 132.307922,
+                                  "SimToDispRotation": 47.6920776
+                                },
+                                {
+                                  "x": 110.9506,
+                                  "y": -103.458771,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 23013.752,
+                                  "Magnitude": 151.702835,
+                                  "Rotation": 132.9988,
+                                  "SimToDispRotation": 47.0011978
+                                },
+                                {
+                                  "x": 111.010948,
+                                  "y": -106.003967,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 23560.2715,
+                                  "Magnitude": 153.493561,
+                                  "Rotation": 133.6783,
+                                  "SimToDispRotation": 46.3216972
+                                },
+                                {
+                                  "x": 111.063423,
+                                  "y": -108.555061,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 24119.2852,
+                                  "Magnitude": 155.303848,
+                                  "Rotation": 134.345627,
+                                  "SimToDispRotation": 45.6543732
+                                },
+                                {
+                                  "x": 111.111115,
+                                  "y": -111.1111,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 24691.3555,
+                                  "Magnitude": 157.134827,
+                                  "Rotation": 135.0,
+                                  "SimToDispRotation": 45.0000038
+                                }
+                              ],
+                              "speedFrames": 1.66666675,
+                              "destroyAtEndOfPath": false,
+                              "collisionPass": 0,
+                              "Speed": 100.0,
+                              "name": "FollowPathModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.FollowPath, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "heightEase": [
+                                {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "z": 0.0,
+                                  "MagnitudeSquared": 0.0,
+                                  "Magnitude": 0.0,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 0.6481691,
+                                  "z": 1.65158367,
+                                  "MagnitudeSquared": 3.14785171,
+                                  "Magnitude": 1.77421856,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 1.32077348,
+                                  "z": 3.25036,
+                                  "MagnitudeSquared": 12.3092833,
+                                  "Magnitude": 3.50845885,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 2.01673865,
+                                  "z": 4.79626369,
+                                  "MagnitudeSquared": 27.07138,
+                                  "Magnitude": 5.20301628,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 2.73499012,
+                                  "z": 6.289232,
+                                  "MagnitudeSquared": 47.0346069,
+                                  "Magnitude": 6.858178,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 3.47445321,
+                                  "z": 7.72919846,
+                                  "MagnitudeSquared": 71.81233,
+                                  "Magnitude": 8.47421551,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 4.23405266,
+                                  "z": 9.116099,
+                                  "MagnitudeSquared": 101.030464,
+                                  "Magnitude": 10.0513916,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 5.012716,
+                                  "z": 10.4498739,
+                                  "MagnitudeSquared": 134.327179,
+                                  "Magnitude": 11.58996,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 5.8093667,
+                                  "z": 11.7304535,
+                                  "MagnitudeSquared": 171.3523,
+                                  "Magnitude": 13.09016,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 6.62293053,
+                                  "z": 12.9577761,
+                                  "MagnitudeSquared": 211.767166,
+                                  "Magnitude": 14.5522223,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 7.4523325,
+                                  "z": 14.1317768,
+                                  "MagnitudeSquared": 255.244385,
+                                  "Magnitude": 15.97637,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 8.296498,
+                                  "z": 15.252388,
+                                  "MagnitudeSquared": 301.467224,
+                                  "Magnitude": 17.362812,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 9.154356,
+                                  "z": 16.3195534,
+                                  "MagnitudeSquared": 350.130066,
+                                  "Magnitude": 18.7117634,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 10.024828,
+                                  "z": 17.3332024,
+                                  "MagnitudeSquared": 400.937073,
+                                  "Magnitude": 20.0234127,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 10.90684,
+                                  "z": 18.2932739,
+                                  "MagnitudeSquared": 453.603027,
+                                  "Magnitude": 21.2979584,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 11.7993183,
+                                  "z": 19.1996975,
+                                  "MagnitudeSquared": 507.8523,
+                                  "Magnitude": 22.5355778,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 12.7011881,
+                                  "z": 20.05242,
+                                  "MagnitudeSquared": 563.419739,
+                                  "Magnitude": 23.7364635,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 13.6113739,
+                                  "z": 20.8513641,
+                                  "MagnitudeSquared": 620.0489,
+                                  "Magnitude": 24.9007816,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 14.5288019,
+                                  "z": 21.5964775,
+                                  "MagnitudeSquared": 677.4939,
+                                  "Magnitude": 26.0287132,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 15.4524,
+                                  "z": 22.28769,
+                                  "MagnitudeSquared": 735.517761,
+                                  "Magnitude": 27.12043,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 16.3810883,
+                                  "z": 22.9249325,
+                                  "MagnitudeSquared": 793.8926,
+                                  "Magnitude": 28.1761,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 17.3137932,
+                                  "z": 23.50815,
+                                  "MagnitudeSquared": 852.4005,
+                                  "Magnitude": 29.1958981,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 18.249445,
+                                  "z": 24.0372753,
+                                  "MagnitudeSquared": 910.8328,
+                                  "Magnitude": 30.1800079,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 19.18697,
+                                  "z": 24.5122471,
+                                  "MagnitudeSquared": 968.9901,
+                                  "Magnitude": 31.1286068,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 20.1252823,
+                                  "z": 24.9329872,
+                                  "MagnitudeSquared": 1026.68091,
+                                  "Magnitude": 32.0418625,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 21.0633221,
+                                  "z": 25.2994461,
+                                  "MagnitudeSquared": 1083.72546,
+                                  "Magnitude": 32.9199867,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 22.0,
+                                  "z": 25.6115532,
+                                  "MagnitudeSquared": 1139.95166,
+                                  "Magnitude": 33.76317,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 22.9342537,
+                                  "z": 25.8692513,
+                                  "MagnitudeSquared": 1195.19812,
+                                  "Magnitude": 34.5716362,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 23.8650055,
+                                  "z": 26.0724659,
+                                  "MagnitudeSquared": 1249.312,
+                                  "Magnitude": 35.3456078,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 24.7911739,
+                                  "z": 26.221138,
+                                  "MagnitudeSquared": 1302.15039,
+                                  "Magnitude": 36.08532,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 25.7116966,
+                                  "z": 26.3152046,
+                                  "MagnitudeSquared": 1353.5813,
+                                  "Magnitude": 36.79105,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 26.6254845,
+                                  "z": 26.3545952,
+                                  "MagnitudeSquared": 1403.4812,
+                                  "Magnitude": 37.4630661,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 27.5314751,
+                                  "z": 26.3392563,
+                                  "MagnitudeSquared": 1451.73853,
+                                  "Magnitude": 38.10169,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 28.4285927,
+                                  "z": 26.2691116,
+                                  "MagnitudeSquared": 1498.2511,
+                                  "Magnitude": 38.70725,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 29.31575,
+                                  "z": 26.1441059,
+                                  "MagnitudeSquared": 1542.92749,
+                                  "Magnitude": 39.280117,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 30.19189,
+                                  "z": 25.96417,
+                                  "MagnitudeSquared": 1585.68848,
+                                  "Magnitude": 39.8207054,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 31.0559254,
+                                  "z": 25.72924,
+                                  "MagnitudeSquared": 1626.46436,
+                                  "Magnitude": 40.32945,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 31.906786,
+                                  "z": 25.4392548,
+                                  "MagnitudeSquared": 1665.19873,
+                                  "Magnitude": 40.8068466,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 32.7434,
+                                  "z": 25.0941467,
+                                  "MagnitudeSquared": 1701.84644,
+                                  "Magnitude": 41.25344,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 33.56469,
+                                  "z": 24.6938553,
+                                  "MagnitudeSquared": 1736.37488,
+                                  "Magnitude": 41.66983,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 34.3695831,
+                                  "z": 24.2383137,
+                                  "MagnitudeSquared": 1768.764,
+                                  "Magnitude": 42.056675,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 35.1569977,
+                                  "z": 23.7274551,
+                                  "MagnitudeSquared": 1799.00659,
+                                  "Magnitude": 42.4147,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 35.9258728,
+                                  "z": 23.1612167,
+                                  "MagnitudeSquared": 1827.11035,
+                                  "Magnitude": 42.7447128,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 36.6751251,
+                                  "z": 22.53954,
+                                  "MagnitudeSquared": 1853.0957,
+                                  "Magnitude": 43.0476,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 37.40367,
+                                  "z": 21.8623524,
+                                  "MagnitudeSquared": 1876.99707,
+                                  "Magnitude": 43.3243256,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 38.11046,
+                                  "z": 21.1295948,
+                                  "MagnitudeSquared": 1898.8667,
+                                  "Magnitude": 43.57599,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 38.79439,
+                                  "z": 20.3412037,
+                                  "MagnitudeSquared": 1918.76941,
+                                  "Magnitude": 43.80376,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 39.4544067,
+                                  "z": 19.4971085,
+                                  "MagnitudeSquared": 1936.78748,
+                                  "Magnitude": 44.00895,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 40.0894241,
+                                  "z": 18.5972538,
+                                  "MagnitudeSquared": 1953.01978,
+                                  "Magnitude": 44.19298,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 40.69838,
+                                  "z": 17.6415653,
+                                  "MagnitudeSquared": 1967.583,
+                                  "Magnitude": 44.3574448,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 41.28019,
+                                  "z": 16.6299858,
+                                  "MagnitudeSquared": 1980.61047,
+                                  "Magnitude": 44.50405,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 41.8337746,
+                                  "z": 15.5624523,
+                                  "MagnitudeSquared": 1992.25464,
+                                  "Magnitude": 44.6346779,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 42.35807,
+                                  "z": 14.4388943,
+                                  "MagnitudeSquared": 2002.68787,
+                                  "Magnitude": 44.7514,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 42.8519974,
+                                  "z": 13.2592535,
+                                  "MagnitudeSquared": 2012.10156,
+                                  "Magnitude": 44.8564568,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 43.3144836,
+                                  "z": 12.0234594,
+                                  "MagnitudeSquared": 2020.70813,
+                                  "Magnitude": 44.9522858,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 43.7444534,
+                                  "z": 10.731451,
+                                  "MagnitudeSquared": 2028.74121,
+                                  "Magnitude": 45.04155,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 44.14083,
+                                  "z": 9.383169,
+                                  "MagnitudeSquared": 2036.45679,
+                                  "Magnitude": 45.1271172,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 44.50254,
+                                  "z": 7.97853947,
+                                  "MagnitudeSquared": 2044.13318,
+                                  "Magnitude": 45.21209,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 44.8285141,
+                                  "z": 6.517508,
+                                  "MagnitudeSquared": 2052.07373,
+                                  "Magnitude": 45.29982,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                },
+                                {
+                                  "x": 0.0,
+                                  "y": 45.11767,
+                                  "z": 5.0,
+                                  "MagnitudeSquared": 2060.604,
+                                  "Magnitude": 45.3938751,
+                                  "Rotation": 0.0,
+                                  "SimToDispRotation": 180.0
+                                }
+                              ],
+                              "collisionPass": 0,
+                              "name": "ProjectileHeightModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileHeight, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "samples": [
+                                0.5,
+                                0.5499881,
+                                0.5982672,
+                                0.644851744,
+                                0.6897566,
+                                0.732996047,
+                                0.774584949,
+                                0.814538,
+                                0.8528696,
+                                0.8895943,
+                                0.924727,
+                                0.958281934,
+                                0.990274131,
+                                1.02071774,
+                                1.04962778,
+                                1.0770185,
+                                1.1029048,
+                                1.12730122,
+                                1.1502223,
+                                1.17168272,
+                                1.19169676,
+                                1.21027935,
+                                1.22744536,
+                                1.243209,
+                                1.25758469,
+                                1.27058768,
+                                1.28223169,
+                                1.29253244,
+                                1.30150378,
+                                1.30916011,
+                                1.31551671,
+                                1.32058775,
+                                1.32438827,
+                                1.32693219,
+                                1.32823467,
+                                1.32831,
+                                1.32717311,
+                                1.3248384,
+                                1.32132053,
+                                1.316634,
+                                1.31079364,
+                                1.30381393,
+                                1.29570937,
+                                1.28649473,
+                                1.27618456,
+                                1.26479328,
+                                1.252336,
+                                1.23882675,
+                                1.2242806,
+                                1.20871162,
+                                1.192135,
+                                1.17456508,
+                                1.15601647,
+                                1.1365037,
+                                1.11604154,
+                                1.09464455,
+                                1.07232726,
+                                1.04910433,
+                                1.02499044,
+                                1.0
+                              ],
+                              "curve": {},
+                              "collisionPass": 0,
+                              "name": "ScaleProjectileModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ScaleProjectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            },
+                            {
+                              "display": "595c7fb1d3705aa478d0d5171b74fb57",
+                              "layer": 0,
+                              "positionOffset": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "MagnitudeSquared": 0.0,
+                                "Magnitude": 0.0,
+                                "Rotation": 0.0,
+                                "SimToDispRotation": 180.0
+                              },
+                              "scale": 1.0,
+                              "ignoreRotation": false,
+                              "animationChanges": null,
+                              "delayedReveal": 0.0,
+                              "name": "DisplayModel_ProjectileDisplay",
+                              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "collisionPasses": [
+                            0
+                          ],
+                          "canCollideWithBloons": false,
+                          "radius": 5.0,
+                          "vsBlockerRadius": 0.0,
+                          "hasDamageModifiers": false,
+                          "dontUseCollisionChecker": false,
+                          "checkCollisionFrames": 0,
+                          "ignoreNonTargetable": false,
+                          "ignorePierceExhaustion": false,
+                          "saveId": null,
+                          "CappedPierce": 9999999.0,
+                          "name": "ProjectileModel_Full",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        "emission": {
+                          "angle": 360.0,
+                          "count": 10,
+                          "startOffset": 0.0,
+                          "useSpeedMultiplier": false,
+                          "speedMultiplierMin": 0.0,
+                          "speedMultiplierMax": 0.0,
+                          "ejectPointRandomness": 0.0,
+                          "useMainAttackRotation": false,
+                          "behaviors": null,
+                          "name": "RandomEmissionModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.RandomEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        "animationStateSpawnIn": 2,
+                        "onlyDamageLastBloon": true,
+                        "collisionPass": 0,
+                        "name": "WallOfTreesModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.WallOfTrees, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "rounds": 9999999,
+                        "lifespanFrames": 599999909,
+                        "useRoundTime": false,
+                        "endOfRoundClearBypassModel": null,
+                        "collisionPass": 0,
+                        "Lifespan": 9999999.0,
+                        "name": "AgeModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "destroyIfInvalid": false,
+                        "collisionPass": 0,
+                        "name": "InstantModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Instant, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "sound1": {
+                          "assetId": "c3ba6682ca6938c48b474934b8fdce94",
+                          "name": "SoundModel_InactivatedWallOfTrees",
+                          "ImplementationType": null
+                        },
+                        "sound2": {
+                          "assetId": "c3ba6682ca6938c48b474934b8fdce94",
+                          "name": "SoundModel_InactivatedWallOfTrees",
+                          "ImplementationType": null
+                        },
+                        "sound3": {
+                          "assetId": "c3ba6682ca6938c48b474934b8fdce94",
+                          "name": "SoundModel_InactivatedWallOfTrees",
+                          "ImplementationType": null
+                        },
+                        "sound4": {
+                          "assetId": "c3ba6682ca6938c48b474934b8fdce94",
+                          "name": "SoundModel_InactivatedWallOfTrees",
+                          "ImplementationType": null
+                        },
+                        "sound5": {
+                          "assetId": "c3ba6682ca6938c48b474934b8fdce94",
+                          "name": "SoundModel_InactivatedWallOfTrees",
+                          "ImplementationType": null
+                        },
+                        "collisionPass": 0,
+                        "name": "CreateSoundOnProjectileExpireModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "sound1": {
+                          "assetId": "532b3e11249630a47822958326768c46",
+                          "name": "SoundModel_PopSound1",
+                          "ImplementationType": null
+                        },
+                        "sound2": {
+                          "assetId": "2adb6e8fbd6300a4b916c1878717bce5",
+                          "name": "SoundModel_PopSound2",
+                          "ImplementationType": null
+                        },
+                        "sound3": {
+                          "assetId": "a19343f6ca6aa484baf0c4d106eef313",
+                          "name": "SoundModel_PopSound3",
+                          "ImplementationType": null
+                        },
+                        "sound4": {
+                          "assetId": "e2ab94e7b53998c4facb069eaf506c00",
+                          "name": "SoundModel_PopSound4",
+                          "ImplementationType": null
+                        },
+                        "sound5": {
+                          "assetId": "532b3e11249630a47822958326768c46",
+                          "name": "SoundModel_PopSound1",
+                          "ImplementationType": null
+                        },
+                        "collisionPass": 0,
+                        "name": "CreateSoundOnProjectileCollisionModel_Collidable",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileCollision, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "effectModel": {
+                          "assetId": "6227c8ef5e137c04f983828309852fc8",
+                          "scale": 1.0,
+                          "lifespan": 1.0,
+                          "fullscreen": false,
+                          "useCenterPosition": false,
+                          "useTransformPosition": false,
+                          "useTransfromRotation": false,
+                          "destroyOnTransformDestroy": false,
+                          "alwaysUseAge": false,
+                          "useRoundTime": false,
+                          "name": "EffectModel_TreePulse",
+                          "ImplementationType": null
+                        },
+                        "collisionPass": 0,
+                        "name": "CreateEffectOnContactModel_TreePulse",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "assetId": "",
+                        "lifespan": 0.0,
+                        "fullscreen": false,
+                        "randomRotation": false,
+                        "effectModel": {
+                          "assetId": "5e1a46f925b1de14b8b2b2abce9e95e5",
+                          "scale": 1.0,
+                          "lifespan": 1.0,
+                          "fullscreen": false,
+                          "useCenterPosition": false,
+                          "useTransformPosition": false,
+                          "useTransfromRotation": false,
+                          "destroyOnTransformDestroy": false,
+                          "alwaysUseAge": false,
+                          "useRoundTime": false,
+                          "name": "EffectModel_",
+                          "ImplementationType": null
+                        },
+                        "collisionPass": 0,
+                        "name": "CreateEffectOnExpireModel_TreeExhaust",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateEffectOnExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "onContactAnimationId": 1,
+                        "collisionPass": 0,
+                        "name": "ProjectileSetAnimationOnContactModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileSetAnimationOnContact, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      {
+                        "display": "1417bb599c294b44bb3aa159da1865f7",
+                        "layer": 0,
+                        "positionOffset": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0,
+                          "MagnitudeSquared": 0.0,
+                          "Magnitude": 0.0,
+                          "Rotation": 0.0,
+                          "SimToDispRotation": 180.0
+                        },
+                        "scale": 1.0,
+                        "ignoreRotation": false,
+                        "animationChanges": null,
+                        "delayedReveal": 0.0,
+                        "name": "DisplayModel_ProjectileDisplay",
+                        "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      }
+                    ],
+                    "collisionPasses": [
+                      0
+                    ],
+                    "canCollideWithBloons": true,
+                    "radius": 4.0,
+                    "vsBlockerRadius": 0.0,
+                    "hasDamageModifiers": false,
+                    "dontUseCollisionChecker": false,
+                    "checkCollisionFrames": 0,
+                    "ignoreNonTargetable": false,
+                    "ignorePierceExhaustion": false,
+                    "saveId": "WallOfTrees18",
+                    "CappedPierce": 9999999.0,
+                    "name": "ProjectileModel_Collidable",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "rateFrames": 2,
+                  "fireWithoutTarget": false,
+                  "fireBetweenRounds": false,
+                  "behaviors": [
+                    {
+                      "name": "ZeroRotationModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.ZeroRotation, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "projectileId": "Collidable",
+                      "limit": 1,
+                      "delayInFrames": 0,
+                      "limitByDestroyedPriorProjectile": true,
+                      "globalForPlayer": false,
+                      "name": "LimitProjectileModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.LimitProjectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "useAttackPosition": false,
+                  "startInCooldown": false,
+                  "customStartCooldown": 0.0,
+                  "customStartCooldownFrames": 0,
+                  "animateOnMainAttack": false,
+                  "Rate": 0.05,
+                  "name": "WeaponModel_Weapon",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "behaviors": [
+                {
+                  "onlyRotateDuringThrow": true,
+                  "useThrowMarkerHeight": false,
+                  "rotateOnlyOnThrow": false,
+                  "additionalRotation": 0,
+                  "rotateTower": true,
+                  "useMainAttackRotation": false,
+                  "name": "RotateToTargetModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "isSelectable": false,
+                  "display": "f786dd2ad0e3e8649a8ff0ac9f8cc6fb",
+                  "scale": 1.0,
+                  "customName": "",
+                  "lockToInsideTowerRange": true,
+                  "startWithClosestTrackPoint": true,
+                  "displayInvalid": "d053160180f53da43be4f9972ee1497a",
+                  "alwaysShowTarget": true,
+                  "isOnSubTower": false,
+                  "name": "TargetSelectedPointModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetSelectedPoint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "range": 43.0,
+              "targetProvider": {
+                "isSelectable": false,
+                "display": "f786dd2ad0e3e8649a8ff0ac9f8cc6fb",
+                "scale": 1.0,
+                "customName": "",
+                "lockToInsideTowerRange": true,
+                "startWithClosestTrackPoint": true,
+                "displayInvalid": "d053160180f53da43be4f9972ee1497a",
+                "alwaysShowTarget": true,
+                "isOnSubTower": false,
+                "name": "TargetSelectedPointModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetSelectedPoint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "attackThroughWalls": true,
+              "fireWithoutTarget": false,
+              "framesBeforeRetarget": 0,
+              "addsToSharedGrid": false,
+              "sharedGridRange": 0.0,
+              "name": "AttackModel_Attack_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "processOnActivate": true,
+          "cancelIfNoTargets": true,
+          "turnOffExisting": false,
+          "endOnRoundEnd": false,
+          "endOnDefeatScreen": false,
+          "isOneShot": false,
+          "Lifespan": 0.0,
+          "name": "ActivateAttackModel_AbilityWallOfTrees",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.ActivateAttack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "sound": {
+            "assetId": "108a3b91008bbb342b1aba7eb90705de",
+            "name": "SoundModel_ActivatedWallOfTreesNoVO",
+            "ImplementationType": null
+          },
+          "heroSound": {
+            "assetId": "9777582aaaac46d4da81e15e0196ccb0",
+            "name": "SoundModel_ActivatedWallOfTrees",
+            "ImplementationType": null
+          },
+          "heroSound2": {
+            "assetId": "9777582aaaac46d4da81e15e0196ccb0",
+            "name": "SoundModel_ActivatedWallOfTrees",
+            "ImplementationType": null
+          },
+          "name": "CreateSoundOnAbilityModel_AbilityWallOfTrees",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateSoundOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "activateOnPreLeak": false,
+      "activateOnLeak": false,
+      "addedViaUpgrade": "ObynGreenfoot-10-WallOfTrees",
+      "cooldownFrames": 5399,
+      "livesCost": 0,
+      "maxActivationsPerRound": -1,
+      "animation": 1,
+      "animationOffsetFrames": 0,
+      "enabled": true,
+      "canActivateBetweenRounds": false,
+      "resetCooldownOnTierUpgrade": false,
+      "disabledByAnotherTower": false,
+      "activateOnLivesLost": false,
+      "sharedCooldown": false,
+      "dontShowStacked": false,
+      "animateOnMainAttackDisplay": false,
+      "restrictAbilityAfterMaxRoundTimer": false,
+      "CooldownSpeedScale": 0.0,
+      "AnimationOffset": 0.0,
+      "IsPassive": false,
+      "Cooldown": 90.0,
+      "name": "AbilityModel_AbilityWallOfTrees",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Ability, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [
+        {
+          "animation": 1,
+          "animationOffset": 0.0,
+          "animationOffsetFrames": 0,
+          "emission": {
+            "behaviors": null,
+            "name": "SingleEmissionModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "ejectX": 0.0,
+          "ejectY": 7.48,
+          "ejectZ": 9.64,
+          "projectile": {
+            "display": null,
+            "id": "Projectile",
+            "maxPierce": 0.0,
+            "pierce": 1.0,
+            "scale": 1.0,
+            "ignoreBlockers": true,
+            "usePointCollisionWithBloons": false,
+            "canCollisionBeBlockedByMapLos": false,
+            "filters": null,
+            "behaviors": [
+              {
+                "tower": {
+                  "display": "4a0cf9277bdf2354ea066fc0a21f0933",
+                  "baseId": "NaturesWardTotem",
+                  "cost": 0.0,
+                  "radius": 0.0,
+                  "radiusSquared": 0.0,
+                  "range": 32.0,
+                  "ignoreBlockers": false,
+                  "isGlobalRange": false,
+                  "tier": 0,
+                  "tiers": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "towerSet": "Support",
+                  "areaTypes": [
+                    2
+                  ],
+                  "icon": null,
+                  "portrait": {
+                    "GUID": "f00bc9224369720458e7d57ff7e6b647",
+                    "IsValid": true
+                  },
+                  "instaIcon": null,
+                  "mods": [
+                    {
+                      "mod": "GlobalAbilityCooldowns",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "VeteranMonkeyTraining",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "MonkeyEducation",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "BetterSellDeals",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "AbilityDiscipline",
+                      "target": "AbilityWallOfTrees",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "BigBloonBlueprints",
+                      "target": "BaseProjectile",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "EmpoweredHeroes",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "HeroicReach",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "HeroicVelocity",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "QuickHands",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "Scholarships",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "SelfTaughtHeroes",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    },
+                    {
+                      "mod": "WeakPoint",
+                      "target": "",
+                      "name": "ObynGreenfootUpgrades",
+                      "ImplementationType": null
+                    }
+                  ],
+                  "ignoreTowerForSelection": false,
+                  "behaviors": [
+                    {
+                      "expireOnRoundComplete": false,
+                      "expireOnDefeatScreen": false,
+                      "lifespanFrames": 899,
+                      "Lifespan": 15.0,
+                      "name": "TowerExpireModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "name": "TowerExpireOnParentDestroyedModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpireOnParentDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "name": "TowerExpireOnParentDestroyedModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpireOnParentDestroyed, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "effectModel": {
+                        "assetId": "d385254f69c7c7d40aebde109bf83d77",
+                        "scale": 1.0,
+                        "lifespan": 1.0,
+                        "fullscreen": false,
+                        "useCenterPosition": false,
+                        "useTransformPosition": false,
+                        "useTransfromRotation": false,
+                        "destroyOnTransformDestroy": false,
+                        "alwaysUseAge": false,
+                        "useRoundTime": false,
+                        "name": "EffectModel_",
+                        "ImplementationType": null
+                      },
+                      "name": "CreateEffectOnExpireModel_NaturesWardTotem",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "name": "IgnoreAllMutatorsTowerModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.IgnoreAllMutatorsTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "name": "SavedSubTowerModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SavedSubTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "zoneRadius": 32.0,
+                      "mutationId": "ObynGreenfoot-Totem-Slow",
+                      "isUnique": true,
+                      "filters": null,
+                      "speedScale": 0.4,
+                      "speedChange": 0.0,
+                      "bindRadiusToTowerRange": false,
+                      "radiusOffset": 0.0,
+                      "bloonTag": "Moabs",
+                      "bloonTags": [
+                        "Moabs"
+                      ],
+                      "inclusive": false,
+                      "mutator": {
+                        "id": "ObynGreenfoot-Totem-Slow",
+                        "isExclusiveInMutationList": false,
+                        "priority": 1,
+                        "glueLevel": 0,
+                        "isFreeze": false,
+                        "dontCopy": true,
+                        "buffIndicator": null,
+                        "includesSubTowers": false,
+                        "saveId": null
+                      },
+                      "name": "SlowBloonsZoneModel_NonMoabs",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SlowBloonsZone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "zoneRadius": 32.0,
+                      "mutationId": "ObynGreenfoot-Totem-Slow",
+                      "isUnique": true,
+                      "filters": null,
+                      "speedScale": 0.7,
+                      "speedChange": 0.0,
+                      "bindRadiusToTowerRange": false,
+                      "radiusOffset": 0.0,
+                      "bloonTag": "Moabs",
+                      "bloonTags": [
+                        "Moabs"
+                      ],
+                      "inclusive": true,
+                      "mutator": {
+                        "id": "ObynGreenfoot-Totem-Slow",
+                        "isExclusiveInMutationList": false,
+                        "priority": 1,
+                        "glueLevel": 0,
+                        "isFreeze": false,
+                        "dontCopy": true,
+                        "buffIndicator": null,
+                        "includesSubTowers": false,
+                        "saveId": null
+                      },
+                      "name": "SlowBloonsZoneModel_Moabs",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.SlowBloonsZone, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "sound1": {
+                        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+                        "name": "SoundModel_PlaceSound1",
+                        "ImplementationType": null
+                      },
+                      "sound2": {
+                        "assetId": "80580fcd99708624ab85e37036ca124c",
+                        "name": "SoundModel_PlaceSound2",
+                        "ImplementationType": null
+                      },
+                      "heroSound1": {
+                        "assetId": "9971be01b6883d849952e07c14b229a3",
+                        "name": "SoundModel_PlacementSound01",
+                        "ImplementationType": null
+                      },
+                      "heroSound2": {
+                        "assetId": "347ed5162f7865148b9c2f7b0951b152",
+                        "name": "SoundModel_PlacementSound02",
+                        "ImplementationType": null
+                      },
+                      "name": "CreateSoundOnTowerPlaceModel_NaturesWardTotem",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "weapons": [],
+                      "behaviors": [
+                        {
+                          "filters": [
+                            {
+                              "isActive": true,
+                              "ignoreBroadPhase": false,
+                              "name": "FilterInvisibleModel_",
+                              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                            }
+                          ],
+                          "name": "AttackFilterModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "range": 32.0,
+                      "targetProvider": null,
+                      "offsetX": 0.0,
+                      "offsetY": 0.0,
+                      "offsetZ": 0.0,
+                      "attackThroughWalls": false,
+                      "fireWithoutTarget": false,
+                      "framesBeforeRetarget": 0,
+                      "addsToSharedGrid": true,
+                      "sharedGridRange": 0.0,
+                      "name": "AttackModel_SharedAttack_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": "4a0cf9277bdf2354ea066fc0a21f0933",
+                      "layer": -1,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_TowerDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "footprint": {
+                    "radius": 0.0,
+                    "doesntBlockTowerPlacement": false,
+                    "ignoresPlacementCheck": false,
+                    "ignoresTowerOverlap": false,
+                    "name": "CircleFootprintModel_Circle Footprint",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "dontDisplayUpgrades": false,
+                  "emoteSpriteSmall": null,
+                  "emoteSpriteLarge": null,
+                  "doesntRotate": false,
+                  "upgrades": [],
+                  "appliedUpgrades": [],
+                  "targetTypes": null,
+                  "paragonUpgrade": null,
+                  "isSubTower": true,
+                  "isBakable": false,
+                  "powerName": null,
+                  "showPowerTowerBuffs": false,
+                  "animationSpeed": 1.0,
+                  "towerSelectionMenuThemeId": "Default",
+                  "ignoreCoopAreas": false,
+                  "canAlwaysBeSold": false,
+                  "isParagon": false,
+                  "sellbackModifierAdd": 0.0,
+                  "isPowerTower": false,
+                  "IsBaseTower": true,
+                  "TargetTypes": null,
+                  "name": "NaturesWardTotem",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "height": 0.0,
+                "positionAtTarget": true,
+                "destroySubTowersOnCreateNewTower": false,
+                "useProjectileRotation": false,
+                "useParentTargetPriority": false,
+                "carryMutatorsFromDestroyedTower": false,
+                "collisionPass": 0,
+                "name": "CreateTowerModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "rounds": 0,
+                "lifespanFrames": 3,
+                "useRoundTime": false,
+                "endOfRoundClearBypassModel": null,
+                "collisionPass": 0,
+                "Lifespan": 0.05,
+                "name": "AgeModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Age, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "destroyIfInvalid": false,
+                "collisionPass": 0,
+                "name": "InstantModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Instant, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "sound1": {
+                  "assetId": "17550d164ef310542ae78c8e396cb585",
+                  "name": "SoundModel_PlaceTotem02",
+                  "ImplementationType": null
+                },
+                "sound2": {
+                  "assetId": "17550d164ef310542ae78c8e396cb585",
+                  "name": "SoundModel_PlaceTotem02",
+                  "ImplementationType": null
+                },
+                "sound3": {
+                  "assetId": "17550d164ef310542ae78c8e396cb585",
+                  "name": "SoundModel_PlaceTotem02",
+                  "ImplementationType": null
+                },
+                "sound4": {
+                  "assetId": "17550d164ef310542ae78c8e396cb585",
+                  "name": "SoundModel_PlaceTotem02",
+                  "ImplementationType": null
+                },
+                "sound5": {
+                  "assetId": "17550d164ef310542ae78c8e396cb585",
+                  "name": "SoundModel_PlaceTotem02",
+                  "ImplementationType": null
+                },
+                "collisionPass": 0,
+                "name": "CreateSoundOnProjectileExhaustModel_Projectile",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.CreateSoundOnProjectileExhaust, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "display": null,
+                "layer": 0,
+                "positionOffset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "MagnitudeSquared": 0.0,
+                  "Magnitude": 0.0,
+                  "Rotation": 0.0,
+                  "SimToDispRotation": 180.0
+                },
+                "scale": 1.0,
+                "ignoreRotation": false,
+                "animationChanges": null,
+                "delayedReveal": 0.0,
+                "name": "DisplayModel_ProjectileDisplay",
+                "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "collisionPasses": [
+              0
+            ],
+            "canCollideWithBloons": true,
+            "radius": 2.0,
+            "vsBlockerRadius": 0.0,
+            "hasDamageModifiers": false,
+            "dontUseCollisionChecker": false,
+            "checkCollisionFrames": 0,
+            "ignoreNonTargetable": false,
+            "ignorePierceExhaustion": false,
+            "saveId": null,
+            "CappedPierce": 1.0,
+            "name": "ProjectileModel_Projectile",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "rateFrames": 719,
+          "fireWithoutTarget": false,
+          "fireBetweenRounds": false,
+          "behaviors": [
+            {
+              "baseSubTowerId": "NaturesWardTotem",
+              "baseSubTowerIds": [
+                "NaturesWardTotem"
+              ],
+              "maxNumberOfSubTowers": 1.0,
+              "checkForPreExisting": false,
+              "name": "SubTowerFilterModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.SubTowerFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "useAttackPosition": false,
+          "startInCooldown": false,
+          "customStartCooldown": 0.0,
+          "customStartCooldownFrames": 0,
+          "animateOnMainAttack": false,
+          "Rate": 12.0,
+          "name": "WeaponModel_Weapon",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "behaviors": [
+        {
+          "onlyRotateDuringThrow": true,
+          "useThrowMarkerHeight": false,
+          "rotateOnlyOnThrow": false,
+          "additionalRotation": 0,
+          "rotateTower": true,
+          "useMainAttackRotation": false,
+          "name": "RotateToTargetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTarget, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": false,
+          "maxOffset": 0.0,
+          "onlyTargetPathsWithBloons": false,
+          "isOnSubTower": false,
+          "name": "TargetTrackModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 43.0,
+      "targetProvider": {
+        "isSelectable": false,
+        "maxOffset": 0.0,
+        "onlyTargetPathsWithBloons": false,
+        "isOnSubTower": false,
+        "name": "TargetTrackModel_",
+        "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": false,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 60,
+      "addsToSharedGrid": false,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_TotemSpawner_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "pierce": 1.0,
+      "mutatorId": "Obyn:NaturesWrath:PierceDruid",
+      "isUnique": true,
+      "filters": [
+        {
+          "baseIds": [
+            "Druid"
+          ],
+          "name": "FilterInBaseTowerIdModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.TowerFilters.FilterInBaseTowerId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "isGlobal": false,
+      "isCustomRadius": false,
+      "customRadius": 0.0,
+      "appliesToOwningTower": false,
+      "showBuffIcon": true,
+      "buffLocsName": "NaturesWrathBuff",
+      "buffIconName": "BuffIconObyn",
+      "maxStackSize": 0,
+      "onlyShowBuffIfMutated": false,
+      "name": "PierceSupportModel_NaturesWrath_Druid",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PierceSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "pierce": 2.0,
+      "mutatorId": "Obyn:NaturesWrath:Pierce",
+      "isUnique": true,
+      "filters": [
+        {
+          "towerSets": [
+            "Magic"
+          ],
+          "name": "FilterInSetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.TowerFilters.FilterSet, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "isGlobal": false,
+      "isCustomRadius": false,
+      "customRadius": 0.0,
+      "appliesToOwningTower": false,
+      "showBuffIcon": true,
+      "buffLocsName": "NaturesClarityBuff",
+      "buffIconName": "BuffIconObynLevel11",
+      "maxStackSize": 0,
+      "onlyShowBuffIfMutated": false,
+      "name": "PierceSupportModel_NaturesWrathAllMagic_NaturesWrathAll",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PierceSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "newPopCount": 200,
+      "name": "DruidOfWrathBuffModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.DruidOfWrathBuff, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "multiplier": 0.0,
+      "additive": 5.0,
+      "mutatorId": "Obyn:NaturesCalirty:RangeIncrease",
+      "isUnique": true,
+      "filters": [
+        {
+          "towerSets": [
+            "Magic"
+          ],
+          "name": "FilterInSetModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.TowerFilters.FilterSet, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "isGlobal": false,
+      "isCustomRadius": false,
+      "customRadius": 0.0,
+      "appliesToOwningTower": false,
+      "showBuffIcon": true,
+      "buffLocsName": "NaturesClarityBuff",
+      "buffIconName": "BuffIconObynLevel11",
+      "maxStackSize": 0,
+      "onlyShowBuffIfMutated": false,
+      "name": "RangeSupportModel_NaturesClarity_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.RangeSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "e8c2e76c7054c624682de060d4d34c44",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 7.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": {
+    "GUID": "ccaa1772894571a48b7a191db847bbff",
+    "IsValid": true
+  },
+  "emoteSpriteLarge": {
+    "GUID": "UiEmoteIcons[EmoteObyn]",
+    "IsValid": true
+  },
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "ObynGreenfoot 19",
+      "upgrade": "ObynGreenfoot-19-Damage+"
+    }
+  ],
+  "appliedUpgrades": [
+    "ObynGreenfoot-2-DruidOfWrath+",
+    "ObynGreenfoot-3-Brambles+",
+    "ObynGreenfoot-4-NaturesWard+",
+    "ObynGreenfoot-5-ReloadReduce+",
+    "ObynGreenfoot-6-Pierce+",
+    "ObynGreenfoot-7-Brambles++",
+    "ObynGreenfoot-8-NaturesWard++",
+    "ObynGreenfoot-9-Damage+",
+    "ObynGreenfoot-10-WallOfTrees",
+    "ObynGreenfoot-11-Range+",
+    "ObynGreenfoot-12-AttackSpeed+",
+    "ObynGreenfoot-13-Pierce+",
+    "ObynGreenfoot-14-Damage+",
+    "ObynGreenfoot-15-NaturesWard++",
+    "ObynGreenfoot-16-Brambles++",
+    "ObynGreenfoot-17-ReloadSpeed+",
+    "ObynGreenfoot-18-DruidOfWrath++"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "SelectPointInput",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "Last",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 1
+    },
+    {
+      "id": "Close",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 2
+    },
+    {
+      "id": "Strong",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 3
+    }
+  ],
+  "name": "ObynGreenfoot 18",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

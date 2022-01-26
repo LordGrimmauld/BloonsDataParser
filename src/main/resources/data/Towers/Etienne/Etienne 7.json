@@ -1,0 +1,1833 @@
+{
+  "display": "93e70367c5c8c134f893a0c856dd651d",
+  "baseId": "Etienne",
+  "cost": 850.0,
+  "radius": 7.0,
+  "radiusSquared": 49.0,
+  "range": 60.0,
+  "ignoreBlockers": true,
+  "isGlobalRange": false,
+  "tier": 7,
+  "tiers": [
+    7,
+    0,
+    0
+  ],
+  "towerSet": "Hero",
+  "areaTypes": [
+    2
+  ],
+  "icon": {
+    "GUID": "MonkeyIcons[EtienneIcon]",
+    "IsValid": true
+  },
+  "portrait": {
+    "GUID": "cf705ed6bfed03c4ba17494686d5dfe7",
+    "IsValid": true
+  },
+  "instaIcon": null,
+  "mods": [
+    {
+      "mod": "GlobalAbilityCooldowns",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "VeteranMonkeyTraining",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MonkeyEducation",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BetterSellDeals",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "AbilityDiscipline",
+      "target": "UCAVAbility",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "BigBloonBlueprints",
+      "target": "BaseProjectile",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "EmpoweredHeroes",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicReach",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "HeroicVelocity",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "QuickHands",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "Scholarships",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "SelfTaughtHeroes",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "WeakPoint",
+      "target": "",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    },
+    {
+      "mod": "MoreSplody",
+      "target": "Explosion",
+      "name": "EtienneUpgrades",
+      "ImplementationType": null
+    }
+  ],
+  "ignoreTowerForSelection": false,
+  "behaviors": [
+    {
+      "placeAnimation": 2,
+      "upgradeAnimation": 1,
+      "name": "PlayAnimationIndexModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.PlayAnimationIndex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_SellEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnSellModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "moabSound": {
+        "assetId": "c0f5b9e9324eae7429b595c0b54dcdda",
+        "name": "SoundModel_MoabWarningEtienne",
+        "ImplementationType": null
+      },
+      "bfbSound": {
+        "assetId": "4a7966e575f21594bbe18f63c7402316",
+        "name": "SoundModel_BfbWarningEtienne",
+        "ImplementationType": null
+      },
+      "ddtSound": {
+        "assetId": "482e12f743f49704da3b8d38f1cbd958",
+        "name": "SoundModel_DdtWarningEtienne",
+        "ImplementationType": null
+      },
+      "zomgSound": {
+        "assetId": "b7ee6d2406ca02f40b6bec712f5cc60e",
+        "name": "SoundModel_ZomgWarningEtienne",
+        "ImplementationType": null
+      },
+      "badSound": {
+        "assetId": "2450f04dbf9e5024cbb393948d717a83",
+        "name": "SoundModel_BadWarningEtienne",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonEnterTrackModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonEnterTrack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "15d5be1472e73d24b9bc22ee087926dc",
+        "name": "SoundModel_LeakEtienne01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "937bafc2fe123c04a92e3ff7b84c50be",
+        "name": "SoundModel_LeakEtienne02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnBloonLeakModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnBloonLeak, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "d774453b5667c7546b886591f433aca3",
+        "name": "SoundModel_SelectEtienne01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "2bfa3aff119d7e144936cafb151278ce",
+        "name": "SoundModel_SelectEtienne02",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "9e184cfd7ea6f5e4db178219c7223653",
+        "name": "SoundModel_SelectEtienne03",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "13184d0d99d88fa458640a9d355e53ab",
+        "name": "SoundModel_SelectEtienne04",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "a2187b035e7b95e4ea35aefd5613feda",
+        "name": "SoundModel_SelectEtienne05",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "8c7837a52719638459226d4153253f91",
+        "name": "SoundModel_SelectEtienne06",
+        "ImplementationType": null
+      },
+      "altSound1": {
+        "assetId": "997d4e1e22666e4418bf26c4908a7ddf",
+        "name": "SoundModel_SelectAltEtienne01",
+        "ImplementationType": null
+      },
+      "altSound2": {
+        "assetId": "e7c13fd2b9056324ca3de868beda0632",
+        "name": "SoundModel_SelectAltEtienne02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSelectedModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSelected, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "23a777b9950195f4f8f4bf745ef84031",
+        "name": "SoundModel_UpgradeSound",
+        "ImplementationType": null
+      },
+      "sound1": {
+        "assetId": "17502194ad06c3942bedc0e94e5110e6",
+        "name": "SoundModel_UpgradeEtienne01",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "663fca00c812c3c4296b48724becbb09",
+        "name": "SoundModel_UpgradeEtienne02",
+        "ImplementationType": null
+      },
+      "sound3": {
+        "assetId": "c005f2032efbf924598b3ba96d7c71d4",
+        "name": "SoundModel_UpgradeEtienne03",
+        "ImplementationType": null
+      },
+      "sound4": {
+        "assetId": "68e01d386eca4b64f9f19e4dfc177ac2",
+        "name": "SoundModel_UpgradeEtienne04",
+        "ImplementationType": null
+      },
+      "sound5": {
+        "assetId": "5ac83237ac12105449f299426f46a6c4",
+        "name": "SoundModel_UpgradeEtienne05",
+        "ImplementationType": null
+      },
+      "sound6": {
+        "assetId": "e83ab1dcb8ca1d84389770fd3865b2df",
+        "name": "SoundModel_UpgradeEtienne06",
+        "ImplementationType": null
+      },
+      "sound7": {
+        "assetId": "2ded0dc93a3ec1a49ab15924546f49fb",
+        "name": "SoundModel_UpgradeEtienne07",
+        "ImplementationType": null
+      },
+      "sound8": {
+        "assetId": "b48efa0ad280cfa408464428866d32a5",
+        "name": "SoundModel_UpgradeEtienne08",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnUpgradeModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound": {
+        "assetId": "df4c691ccf8a3c7408ed6f156740c8b7",
+        "name": "SoundModel_SellSound",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnSellModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnSell, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "sound1": {
+        "assetId": "0782b04f742eb2542bc8266a38241c5b",
+        "name": "SoundModel_PlaceSound1",
+        "ImplementationType": null
+      },
+      "sound2": {
+        "assetId": "80580fcd99708624ab85e37036ca124c",
+        "name": "SoundModel_PlaceSound2",
+        "ImplementationType": null
+      },
+      "heroSound1": {
+        "assetId": "2f036e873e00cea41a594023de043917",
+        "name": "SoundModel_PlaceEtienne01",
+        "ImplementationType": null
+      },
+      "heroSound2": {
+        "assetId": "51cd19fd3f158d449873ae1f6d3c2551",
+        "name": "SoundModel_PlaceEtienne02",
+        "ImplementationType": null
+      },
+      "name": "CreateSoundOnTowerPlaceModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateSoundOnTowerPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "708be580149dc444d89314b6d9f388e9",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlaceEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnPlaceModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnPlace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "xpScale": 1.0,
+      "costPerXpToLevel": 1.0,
+      "name": "HeroModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Hero, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "droneModel": {
+        "display": null,
+        "baseId": "Drone",
+        "cost": 0.0,
+        "radius": 6.0,
+        "radiusSquared": 36.0,
+        "range": 9999999.0,
+        "ignoreBlockers": true,
+        "isGlobalRange": false,
+        "tier": 0,
+        "tiers": [
+          0,
+          0,
+          0
+        ],
+        "towerSet": "",
+        "areaTypes": [],
+        "icon": null,
+        "portrait": null,
+        "instaIcon": null,
+        "mods": [
+          {
+            "mod": "GlobalAbilityCooldowns",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "VeteranMonkeyTraining",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "MonkeyEducation",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "BetterSellDeals",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "AbilityDiscipline",
+            "target": "UCAVAbility",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "BigBloonBlueprints",
+            "target": "BaseProjectile",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "EmpoweredHeroes",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "HeroicReach",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "HeroicVelocity",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "QuickHands",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "Scholarships",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "SelfTaughtHeroes",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "WeakPoint",
+            "target": "",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          },
+          {
+            "mod": "MoreSplody",
+            "target": "Explosion",
+            "name": "EtienneUpgrades",
+            "ImplementationType": null
+          }
+        ],
+        "ignoreTowerForSelection": true,
+        "behaviors": [
+          {
+            "expireOnRoundComplete": false,
+            "expireOnDefeatScreen": false,
+            "lifespanFrames": 599999908,
+            "Lifespan": 9999999.0,
+            "name": "TowerExpireModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "name": "CreditPopsToParentTowerModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreditPopsToParentTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "filteredTowers": [
+              "all"
+            ],
+            "name": "IgnoreTowersBlockerModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.IgnoreTowersBlocker, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "radius": 6.0,
+            "doesntBlockTowerPlacement": true,
+            "ignoresPlacementCheck": true,
+            "ignoresTowerOverlap": true,
+            "name": "CircleFootprintModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "outOfRangeRepositionTime": 2.0,
+            "outOfRangeRepositionTimeFrames": 119,
+            "idleRepositionTimeMin": 2.0,
+            "idleRepositionTimeMinFrames": 119,
+            "idleRepositionTimeMax": 5.0,
+            "idleRepositionTimeMaxFrames": 299,
+            "greenLight": {
+              "display": "ee6dcacb1f0e3b049a00faa255c50cb9",
+              "layer": 0,
+              "positionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "MagnitudeSquared": 0.0,
+                "Magnitude": 0.0,
+                "Rotation": 0.0,
+                "SimToDispRotation": 180.0
+              },
+              "scale": 1.0,
+              "ignoreRotation": false,
+              "animationChanges": null,
+              "delayedReveal": 0.0,
+              "name": "DisplayModel_EtienneGreenLight",
+              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "redLight": {
+              "display": "d51509a381fb59543b46efa49552139f",
+              "layer": 0,
+              "positionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "MagnitudeSquared": 0.0,
+                "Magnitude": 0.0,
+                "Rotation": 0.0,
+                "SimToDispRotation": 180.0
+              },
+              "scale": 1.0,
+              "ignoreRotation": false,
+              "animationChanges": null,
+              "delayedReveal": 0.0,
+              "name": "DisplayModel_EtienneRedLight",
+              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "blueLight": {
+              "display": "7069e2b8f22358a4fb6fcffa1882dee8",
+              "layer": 0,
+              "positionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "MagnitudeSquared": 0.0,
+                "Magnitude": 0.0,
+                "Rotation": 0.0,
+                "SimToDispRotation": 180.0
+              },
+              "scale": 1.0,
+              "ignoreRotation": false,
+              "animationChanges": null,
+              "delayedReveal": 0.0,
+              "name": "DisplayModel_EtienneBlueLight",
+              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "yellowLight": {
+              "display": "24a9c26e031c28546bd9de01024189e3",
+              "layer": 0,
+              "positionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "MagnitudeSquared": 0.0,
+                "Magnitude": 0.0,
+                "Rotation": 0.0,
+                "SimToDispRotation": 180.0
+              },
+              "scale": 1.0,
+              "ignoreRotation": false,
+              "animationChanges": null,
+              "delayedReveal": 0.0,
+              "name": "DisplayModel_EtienneYellowLight",
+              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "purpleLight": {
+              "display": "40bf6a943d2a92b44a92d5d59ab21773",
+              "layer": 0,
+              "positionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "MagnitudeSquared": 0.0,
+                "Magnitude": 0.0,
+                "Rotation": 0.0,
+                "SimToDispRotation": 180.0
+              },
+              "scale": 1.0,
+              "ignoreRotation": false,
+              "animationChanges": null,
+              "delayedReveal": 0.0,
+              "name": "DisplayModel_EtiennePurpleLight",
+              "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "name": "DroneIdleModel_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.DroneIdle, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "effectModel": {
+              "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+              "scale": 1.0,
+              "lifespan": 1.0,
+              "fullscreen": false,
+              "useCenterPosition": false,
+              "useTransformPosition": false,
+              "useTransfromRotation": false,
+              "destroyOnTransformDestroy": false,
+              "alwaysUseAge": false,
+              "useRoundTime": false,
+              "name": "EffectModel_SellEffect",
+              "ImplementationType": null
+            },
+            "rotation": 0.0,
+            "scale": 1.0,
+            "name": "CreateEffectOnAirUnitDestroyModel_Drone",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnAirUnitDestroy, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "displayAirUnitModel": null,
+            "weapons": [
+              {
+                "animation": 1,
+                "animationOffset": 0.0,
+                "animationOffsetFrames": 0,
+                "emission": {
+                  "behaviors": null,
+                  "name": "SingleEmissionModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "ejectX": 0.0,
+                "ejectY": 10.0,
+                "ejectZ": 4.0,
+                "projectile": {
+                  "display": "3d1e15517b50cdc4bb6c7d7666975046",
+                  "id": "BaseProjectile",
+                  "maxPierce": 0.0,
+                  "pierce": 3.0,
+                  "scale": 1.0,
+                  "ignoreBlockers": false,
+                  "usePointCollisionWithBloons": false,
+                  "canCollisionBeBlockedByMapLos": false,
+                  "filters": [
+                    {
+                      "isActive": false,
+                      "ignoreBroadPhase": false,
+                      "name": "FilterInvisibleModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "damage": 1.0,
+                      "maxDamage": 0.0,
+                      "distributeToChildren": true,
+                      "overrideDistributeBlocker": false,
+                      "createPopEffect": true,
+                      "immuneBloonProperties": 17,
+                      "collisionPass": 0,
+                      "CappedDamage": 1.0,
+                      "name": "DamageModel_BaseProjectile_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "lifespanFrames": 48,
+                      "speedFrames": 2.50000024,
+                      "collisionPass": 0,
+                      "Speed": 150.0,
+                      "Lifespan": 0.8,
+                      "name": "TravelStraitModel_BaseProjectile",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": false,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "collisionPass": 0,
+                      "name": "ProjectileFilterModel_BaseProjectile",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "mutationId": "CreateSoundOnBloonDegrade",
+                      "lifespan": 0.05,
+                      "layers": 1,
+                      "lifespanFrames": 2,
+                      "filter": null,
+                      "filters": null,
+                      "behaviors": [
+                        {
+                          "sound1": {
+                            "assetId": "343378e35d4002a478d8c38a525a64d0",
+                            "name": "SoundModel_MoabDestroyedEtienne01",
+                            "ImplementationType": null
+                          },
+                          "sound2": {
+                            "assetId": "f115b3e5e16114843969c794954a0c83",
+                            "name": "SoundModel_MoabDestroyedEtienne02",
+                            "ImplementationType": null
+                          },
+                          "tag": "Moabs",
+                          "name": "CreateSoundOnBloonDegradeModel_BaseProjectileCreateSoundOnBloonDegrade",
+                          "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.CreateSoundOnBloonDegrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "overlays": {},
+                      "overlayLayer": 0,
+                      "isUnique": true,
+                      "lastAppliesFirst": false,
+                      "collideThisFrame": true,
+                      "cascadeMutators": false,
+                      "glueLevel": 0,
+                      "applyOnlyIfDamaged": false,
+                      "stackCount": 0,
+                      "collisionPass": -1,
+                      "name": "AddBehaviorToBloonModel_MoabDeathSound",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "display": "3d1e15517b50cdc4bb6c7d7666975046",
+                      "layer": 0,
+                      "positionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "MagnitudeSquared": 0.0,
+                        "Magnitude": 0.0,
+                        "Rotation": 0.0,
+                        "SimToDispRotation": 180.0
+                      },
+                      "scale": 1.0,
+                      "ignoreRotation": false,
+                      "animationChanges": null,
+                      "delayedReveal": 0.0,
+                      "name": "DisplayModel_ProjectileDisplay",
+                      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "collisionPasses": [
+                    -1,
+                    0
+                  ],
+                  "canCollideWithBloons": true,
+                  "radius": 2.0,
+                  "vsBlockerRadius": 0.0,
+                  "hasDamageModifiers": false,
+                  "dontUseCollisionChecker": false,
+                  "checkCollisionFrames": 0,
+                  "ignoreNonTargetable": false,
+                  "ignorePierceExhaustion": false,
+                  "saveId": null,
+                  "CappedPierce": 3.0,
+                  "name": "ProjectileModel_BaseProjectile",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                "rateFrames": 32,
+                "fireWithoutTarget": false,
+                "fireBetweenRounds": false,
+                "behaviors": [
+                  {
+                    "name": "FireFromAirUnitModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.FireFromAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "animationState": 1,
+                    "name": "AnimateAirUnitOnFireModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.AnimateAirUnitOnFire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "useAttackPosition": false,
+                "startInCooldown": false,
+                "customStartCooldown": 0.0,
+                "customStartCooldownFrames": 0,
+                "animateOnMainAttack": false,
+                "Rate": 0.55,
+                "name": "WeaponModel_Weapon",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "behaviors": [
+              {
+                "onlyRotateDuringThrow": false,
+                "useThrowMarkerHeight": false,
+                "rotateOnlyOnThrow": false,
+                "additionalRotation": 0,
+                "rotateTower": true,
+                "useMainAttackRotation": false,
+                "name": "RotateToTargetAirUnitModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTargetAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "filters": [
+                  {
+                    "isActive": false,
+                    "ignoreBroadPhase": false,
+                    "name": "FilterInvisibleModel_",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  {
+                    "name": "FilterParentTowerRangeModel_Attack",
+                    "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterParentTowerRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  }
+                ],
+                "name": "AttackFilterModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              {
+                "initialTargetType": "First",
+                "useParentForClose": true,
+                "mustBeInRangeOfParent": true,
+                "isSelectable": true,
+                "pursuitDistance": 45.0,
+                "isOnSubTower": true,
+                "name": "PursuitSettingCustomModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.PursuitSettingCustom, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "range": 60.0,
+            "targetProvider": null,
+            "offsetX": 0.0,
+            "offsetY": 0.0,
+            "offsetZ": 0.0,
+            "attackThroughWalls": true,
+            "fireWithoutTarget": false,
+            "framesBeforeRetarget": 0,
+            "addsToSharedGrid": false,
+            "sharedGridRange": 0.0,
+            "name": "AttackAirUnitModel_Attack_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.AttackAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "behaviors": [
+              {
+                "maxSpeed": 45.0,
+                "rotationSpeed": 0.08,
+                "strafeDistance": 60.0,
+                "strafeDistanceSquared": 3600.0,
+                "otherHeliRepulsionRange": 30.0,
+                "otherHeliRepulsionRangeSquared": 900.0,
+                "movementForceStart": 300.0,
+                "movementForceEnd": 150.0,
+                "movementForceEndSquared": 22500.0,
+                "brakeForce": 200.0,
+                "otherHeliRepulsonForce": 15.0,
+                "slowdownRadiusMax": 15.0,
+                "slowdownRadiusMaxSquared": 225.0,
+                "slowdownRadiusMin": 0.01,
+                "slowdownRadiusMinSquared": 0.0001,
+                "minVelocityCapScale": 0.01,
+                "destinationYOffset": 0.0,
+                "tiltAngle": 25.0,
+                "name": "HeliMovementModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.HeliMovement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              }
+            ],
+            "display": "e9bca490bee0dc146b024781836097ff",
+            "name": "AirUnitModel_AirUnit_",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.AirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          {
+            "display": null,
+            "layer": -1,
+            "positionOffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "MagnitudeSquared": 0.0,
+              "Magnitude": 0.0,
+              "Rotation": 0.0,
+              "SimToDispRotation": 180.0
+            },
+            "scale": 1.0,
+            "ignoreRotation": false,
+            "animationChanges": null,
+            "delayedReveal": 0.0,
+            "name": "DisplayModel_TowerDisplay",
+            "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          }
+        ],
+        "footprint": {
+          "radius": 6.0,
+          "doesntBlockTowerPlacement": true,
+          "ignoresPlacementCheck": true,
+          "ignoresTowerOverlap": true,
+          "name": "CircleFootprintModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "dontDisplayUpgrades": true,
+        "emoteSpriteSmall": null,
+        "emoteSpriteLarge": null,
+        "doesntRotate": false,
+        "upgrades": [],
+        "appliedUpgrades": [],
+        "targetTypes": [
+          {
+            "id": "Pursuit",
+            "isActionable": false,
+            "actionOnCreate": false,
+            "intID": -1
+          }
+        ],
+        "paragonUpgrade": null,
+        "isSubTower": true,
+        "isBakable": false,
+        "powerName": null,
+        "showPowerTowerBuffs": false,
+        "animationSpeed": 1.0,
+        "towerSelectionMenuThemeId": "Default",
+        "ignoreCoopAreas": false,
+        "canAlwaysBeSold": false,
+        "isParagon": false,
+        "sellbackModifierAdd": 0.0,
+        "isPowerTower": false,
+        "IsBaseTower": true,
+        "TargetTypes": [
+          {
+            "id": "Pursuit",
+            "isActionable": false,
+            "actionOnCreate": false,
+            "intID": -1
+          }
+        ],
+        "name": "Drone",
+        "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "count": 2,
+      "spawnDelay": 0.0,
+      "spawnDelayFrames": 0,
+      "spawnAnimState": -1,
+      "spawnMarkerStartsX": [
+        14.14214,
+        5.176381,
+        -5.176381,
+        -14.14214
+      ],
+      "spawnMarkerStartsY": [
+        14.14214,
+        19.3185158,
+        19.3185158,
+        14.14214
+      ],
+      "spawnMarkerEndsX": [],
+      "spawnMarkerEndsY": [],
+      "spawnIndexRotation": 45.0,
+      "effectAtSpawn": {
+        "assetId": "708be580149dc444d89314b6d9f388e9",
+        "scale": 1.0,
+        "lifespan": 6.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_PlaceEffect",
+        "ImplementationType": null
+      },
+      "updateTargetType": true,
+      "effectOnDisplayChanged": {
+        "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+        "scale": 1.0,
+        "lifespan": 1.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_DroneUpgradeEffect",
+        "ImplementationType": null
+      },
+      "createDroneUpgradeEffect": false,
+      "ignoreTargetingTime": 0.0,
+      "ignoreTargetingFrames": 0,
+      "name": "DroneSupportModel_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.DroneSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "effectModel": {
+        "assetId": "faadf45e67b548f49a1209dff815695c",
+        "scale": 1.0,
+        "lifespan": 2.0,
+        "fullscreen": false,
+        "useCenterPosition": false,
+        "useTransformPosition": false,
+        "useTransfromRotation": false,
+        "destroyOnTransformDestroy": false,
+        "alwaysUseAge": false,
+        "useRoundTime": false,
+        "name": "EffectModel_UpgradeEffect",
+        "ImplementationType": null
+      },
+      "name": "CreateEffectOnUpgradeModel_Etienne 7",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnUpgrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "weapons": [],
+      "behaviors": [
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetFirstModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetFirst, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "isSelectable": true,
+          "isOnSubTower": false,
+          "name": "TargetDivideAndConquerModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.TargetDivideAndConquer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "filters": [
+            {
+              "isActive": false,
+              "ignoreBroadPhase": false,
+              "name": "FilterInvisibleModel_",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+          ],
+          "name": "AttackFilterModel_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "range": 60.0,
+      "targetProvider": null,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "offsetZ": 0.0,
+      "attackThroughWalls": true,
+      "fireWithoutTarget": false,
+      "framesBeforeRetarget": 0,
+      "addsToSharedGrid": true,
+      "sharedGridRange": 0.0,
+      "name": "AttackModel_Attack_",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Attack, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "displayName": "Drone Swarm",
+      "description": "",
+      "icon": {
+        "GUID": "40563e84ac1c44a1d8ce74641e3ebd82",
+        "IsValid": true
+      },
+      "behaviors": [
+        {
+          "duration": 20.5,
+          "durationFrames": 1229,
+          "droneSupportModel": {
+            "droneModel": {
+              "display": null,
+              "baseId": "Drone",
+              "cost": 0.0,
+              "radius": 6.0,
+              "radiusSquared": 36.0,
+              "range": 9999999.0,
+              "ignoreBlockers": true,
+              "isGlobalRange": false,
+              "tier": 0,
+              "tiers": [
+                0,
+                0,
+                0
+              ],
+              "towerSet": "",
+              "areaTypes": [],
+              "icon": null,
+              "portrait": null,
+              "instaIcon": null,
+              "mods": [
+                {
+                  "mod": "GlobalAbilityCooldowns",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "VeteranMonkeyTraining",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "MonkeyEducation",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "BetterSellDeals",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "AbilityDiscipline",
+                  "target": "UCAVAbility",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "BigBloonBlueprints",
+                  "target": "BaseProjectile",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "EmpoweredHeroes",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "HeroicReach",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "HeroicVelocity",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "QuickHands",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "Scholarships",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "SelfTaughtHeroes",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "WeakPoint",
+                  "target": "",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                },
+                {
+                  "mod": "MoreSplody",
+                  "target": "Explosion",
+                  "name": "EtienneUpgrades",
+                  "ImplementationType": null
+                }
+              ],
+              "ignoreTowerForSelection": true,
+              "behaviors": [
+                {
+                  "expireOnRoundComplete": false,
+                  "expireOnDefeatScreen": false,
+                  "lifespanFrames": 599999908,
+                  "Lifespan": 9999999.0,
+                  "name": "TowerExpireModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.TowerExpire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "name": "CreditPopsToParentTowerModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreditPopsToParentTower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "filteredTowers": [
+                    "all"
+                  ],
+                  "name": "IgnoreTowersBlockerModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.IgnoreTowersBlocker, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "radius": 6.0,
+                  "doesntBlockTowerPlacement": true,
+                  "ignoresPlacementCheck": true,
+                  "ignoresTowerOverlap": true,
+                  "name": "CircleFootprintModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "outOfRangeRepositionTime": 2.0,
+                  "outOfRangeRepositionTimeFrames": 119,
+                  "idleRepositionTimeMin": 2.0,
+                  "idleRepositionTimeMinFrames": 119,
+                  "idleRepositionTimeMax": 5.0,
+                  "idleRepositionTimeMaxFrames": 299,
+                  "greenLight": {
+                    "display": "ee6dcacb1f0e3b049a00faa255c50cb9",
+                    "layer": 0,
+                    "positionOffset": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "MagnitudeSquared": 0.0,
+                      "Magnitude": 0.0,
+                      "Rotation": 0.0,
+                      "SimToDispRotation": 180.0
+                    },
+                    "scale": 1.0,
+                    "ignoreRotation": false,
+                    "animationChanges": null,
+                    "delayedReveal": 0.0,
+                    "name": "DisplayModel_EtienneGreenLight",
+                    "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "redLight": {
+                    "display": "d51509a381fb59543b46efa49552139f",
+                    "layer": 0,
+                    "positionOffset": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "MagnitudeSquared": 0.0,
+                      "Magnitude": 0.0,
+                      "Rotation": 0.0,
+                      "SimToDispRotation": 180.0
+                    },
+                    "scale": 1.0,
+                    "ignoreRotation": false,
+                    "animationChanges": null,
+                    "delayedReveal": 0.0,
+                    "name": "DisplayModel_EtienneRedLight",
+                    "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "blueLight": {
+                    "display": "7069e2b8f22358a4fb6fcffa1882dee8",
+                    "layer": 0,
+                    "positionOffset": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "MagnitudeSquared": 0.0,
+                      "Magnitude": 0.0,
+                      "Rotation": 0.0,
+                      "SimToDispRotation": 180.0
+                    },
+                    "scale": 1.0,
+                    "ignoreRotation": false,
+                    "animationChanges": null,
+                    "delayedReveal": 0.0,
+                    "name": "DisplayModel_EtienneBlueLight",
+                    "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "yellowLight": {
+                    "display": "24a9c26e031c28546bd9de01024189e3",
+                    "layer": 0,
+                    "positionOffset": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "MagnitudeSquared": 0.0,
+                      "Magnitude": 0.0,
+                      "Rotation": 0.0,
+                      "SimToDispRotation": 180.0
+                    },
+                    "scale": 1.0,
+                    "ignoreRotation": false,
+                    "animationChanges": null,
+                    "delayedReveal": 0.0,
+                    "name": "DisplayModel_EtienneYellowLight",
+                    "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "purpleLight": {
+                    "display": "40bf6a943d2a92b44a92d5d59ab21773",
+                    "layer": 0,
+                    "positionOffset": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "MagnitudeSquared": 0.0,
+                      "Magnitude": 0.0,
+                      "Rotation": 0.0,
+                      "SimToDispRotation": 180.0
+                    },
+                    "scale": 1.0,
+                    "ignoreRotation": false,
+                    "animationChanges": null,
+                    "delayedReveal": 0.0,
+                    "name": "DisplayModel_EtiennePurpleLight",
+                    "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  },
+                  "name": "DroneIdleModel_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.DroneIdle, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "effectModel": {
+                    "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+                    "scale": 1.0,
+                    "lifespan": 1.0,
+                    "fullscreen": false,
+                    "useCenterPosition": false,
+                    "useTransformPosition": false,
+                    "useTransfromRotation": false,
+                    "destroyOnTransformDestroy": false,
+                    "alwaysUseAge": false,
+                    "useRoundTime": false,
+                    "name": "EffectModel_SellEffect",
+                    "ImplementationType": null
+                  },
+                  "rotation": 0.0,
+                  "scale": 1.0,
+                  "name": "CreateEffectOnAirUnitDestroyModel_DroneSwarmDrone",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CreateEffectOnAirUnitDestroy, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "displayAirUnitModel": null,
+                  "weapons": [
+                    {
+                      "animation": 1,
+                      "animationOffset": 0.0,
+                      "animationOffsetFrames": 0,
+                      "emission": {
+                        "behaviors": null,
+                        "name": "SingleEmissionModel_",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Emissions.SingleEmission, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      "ejectX": 0.0,
+                      "ejectY": 10.0,
+                      "ejectZ": 4.0,
+                      "projectile": {
+                        "display": "3d1e15517b50cdc4bb6c7d7666975046",
+                        "id": "BaseProjectile",
+                        "maxPierce": 0.0,
+                        "pierce": 3.0,
+                        "scale": 1.0,
+                        "ignoreBlockers": false,
+                        "usePointCollisionWithBloons": false,
+                        "canCollisionBeBlockedByMapLos": false,
+                        "filters": [
+                          {
+                            "isActive": false,
+                            "ignoreBroadPhase": false,
+                            "name": "FilterInvisibleModel_",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          }
+                        ],
+                        "behaviors": [
+                          {
+                            "damage": 1.0,
+                            "maxDamage": 0.0,
+                            "distributeToChildren": true,
+                            "overrideDistributeBlocker": false,
+                            "createPopEffect": true,
+                            "immuneBloonProperties": 17,
+                            "collisionPass": 0,
+                            "CappedDamage": 1.0,
+                            "name": "DamageModel_BaseProjectile_",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.Damage, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "lifespanFrames": 48,
+                            "speedFrames": 2.50000024,
+                            "collisionPass": 0,
+                            "Speed": 150.0,
+                            "Lifespan": 0.8,
+                            "name": "TravelStraitModel_BaseProjectile",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.TravelStrait, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "filters": [
+                              {
+                                "isActive": false,
+                                "ignoreBroadPhase": false,
+                                "name": "FilterInvisibleModel_",
+                                "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                              }
+                            ],
+                            "collisionPass": 0,
+                            "name": "ProjectileFilterModel_BaseProjectile",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.ProjectileFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "mutationId": "CreateSoundOnBloonDegrade",
+                            "lifespan": 0.05,
+                            "layers": 1,
+                            "lifespanFrames": 2,
+                            "filter": null,
+                            "filters": null,
+                            "behaviors": [
+                              {
+                                "sound1": {
+                                  "assetId": "343378e35d4002a478d8c38a525a64d0",
+                                  "name": "SoundModel_MoabDestroyedEtienne01",
+                                  "ImplementationType": null
+                                },
+                                "sound2": {
+                                  "assetId": "f115b3e5e16114843969c794954a0c83",
+                                  "name": "SoundModel_MoabDestroyedEtienne02",
+                                  "ImplementationType": null
+                                },
+                                "tag": "Moabs",
+                                "name": "CreateSoundOnBloonDegradeModel_BaseProjectileCreateSoundOnBloonDegrade",
+                                "ImplementationType": "Assets.Scripts.Simulation.Bloons.Behaviors.CreateSoundOnBloonDegrade, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                              }
+                            ],
+                            "overlays": {},
+                            "overlayLayer": 0,
+                            "isUnique": true,
+                            "lastAppliesFirst": false,
+                            "collideThisFrame": true,
+                            "cascadeMutators": false,
+                            "glueLevel": 0,
+                            "applyOnlyIfDamaged": false,
+                            "stackCount": 0,
+                            "collisionPass": -1,
+                            "name": "AddBehaviorToBloonModel_MoabDeathSound",
+                            "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Behaviors.AddBehaviorToBloon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          },
+                          {
+                            "display": "3d1e15517b50cdc4bb6c7d7666975046",
+                            "layer": 0,
+                            "positionOffset": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0,
+                              "MagnitudeSquared": 0.0,
+                              "Magnitude": 0.0,
+                              "Rotation": 0.0,
+                              "SimToDispRotation": 180.0
+                            },
+                            "scale": 1.0,
+                            "ignoreRotation": false,
+                            "animationChanges": null,
+                            "delayedReveal": 0.0,
+                            "name": "DisplayModel_ProjectileDisplay",
+                            "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          }
+                        ],
+                        "collisionPasses": [
+                          -1,
+                          0
+                        ],
+                        "canCollideWithBloons": true,
+                        "radius": 2.0,
+                        "vsBlockerRadius": 0.0,
+                        "hasDamageModifiers": false,
+                        "dontUseCollisionChecker": false,
+                        "checkCollisionFrames": 0,
+                        "ignoreNonTargetable": false,
+                        "ignorePierceExhaustion": false,
+                        "saveId": null,
+                        "CappedPierce": 3.0,
+                        "name": "ProjectileModel_BaseProjectile",
+                        "ImplementationType": "Assets.Scripts.Simulation.Towers.Projectiles.Projectile, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      },
+                      "rateFrames": 32,
+                      "fireWithoutTarget": false,
+                      "fireBetweenRounds": false,
+                      "behaviors": [
+                        {
+                          "name": "FireFromAirUnitModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.FireFromAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "animationState": 1,
+                          "name": "AnimateAirUnitOnFireModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Behaviors.AnimateAirUnitOnFire, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "useAttackPosition": false,
+                      "startInCooldown": false,
+                      "customStartCooldown": 0.0,
+                      "customStartCooldownFrames": 0,
+                      "animateOnMainAttack": false,
+                      "Rate": 0.55,
+                      "name": "WeaponModel_Weapon",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Weapons.Weapon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "onlyRotateDuringThrow": false,
+                      "useThrowMarkerHeight": false,
+                      "rotateOnlyOnThrow": false,
+                      "additionalRotation": 0,
+                      "rotateTower": true,
+                      "useMainAttackRotation": false,
+                      "name": "RotateToTargetAirUnitModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.RotateToTargetAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "filters": [
+                        {
+                          "isActive": false,
+                          "ignoreBroadPhase": false,
+                          "name": "FilterInvisibleModel_",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterInvisible, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        },
+                        {
+                          "name": "FilterParentTowerRangeModel_Attack",
+                          "ImplementationType": "Assets.Scripts.Simulation.Towers.Filters.FilterParentTowerRange, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                        }
+                      ],
+                      "name": "AttackFilterModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.AttackFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    },
+                    {
+                      "initialTargetType": "First",
+                      "useParentForClose": true,
+                      "mustBeInRangeOfParent": true,
+                      "isSelectable": true,
+                      "pursuitDistance": 45.0,
+                      "isOnSubTower": true,
+                      "name": "PursuitSettingCustomModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.Behaviors.PursuitSettingCustom, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "range": 60.0,
+                  "targetProvider": null,
+                  "offsetX": 0.0,
+                  "offsetY": 0.0,
+                  "offsetZ": 0.0,
+                  "attackThroughWalls": true,
+                  "fireWithoutTarget": false,
+                  "framesBeforeRetarget": 0,
+                  "addsToSharedGrid": false,
+                  "sharedGridRange": 0.0,
+                  "name": "AttackAirUnitModel_Attack_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Attack.AttackAirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "behaviors": [
+                    {
+                      "maxSpeed": 45.0,
+                      "rotationSpeed": 0.08,
+                      "strafeDistance": 60.0,
+                      "strafeDistanceSquared": 3600.0,
+                      "otherHeliRepulsionRange": 30.0,
+                      "otherHeliRepulsionRangeSquared": 900.0,
+                      "movementForceStart": 300.0,
+                      "movementForceEnd": 150.0,
+                      "movementForceEndSquared": 22500.0,
+                      "brakeForce": 200.0,
+                      "otherHeliRepulsonForce": 15.0,
+                      "slowdownRadiusMax": 15.0,
+                      "slowdownRadiusMaxSquared": 225.0,
+                      "slowdownRadiusMin": 0.01,
+                      "slowdownRadiusMinSquared": 0.0001,
+                      "minVelocityCapScale": 0.01,
+                      "destinationYOffset": 0.0,
+                      "tiltAngle": 25.0,
+                      "name": "HeliMovementModel_",
+                      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.HeliMovement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                    }
+                  ],
+                  "display": "413eb87a1b58fa847b72d6fd2ae0724e",
+                  "name": "AirUnitModel_AirUnit_",
+                  "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.AirUnit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                },
+                {
+                  "display": null,
+                  "layer": -1,
+                  "positionOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "MagnitudeSquared": 0.0,
+                    "Magnitude": 0.0,
+                    "Rotation": 0.0,
+                    "SimToDispRotation": 180.0
+                  },
+                  "scale": 1.0,
+                  "ignoreRotation": false,
+                  "animationChanges": null,
+                  "delayedReveal": 0.0,
+                  "name": "DisplayModel_TowerDisplay",
+                  "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                }
+              ],
+              "footprint": {
+                "radius": 6.0,
+                "doesntBlockTowerPlacement": true,
+                "ignoresPlacementCheck": true,
+                "ignoresTowerOverlap": true,
+                "name": "CircleFootprintModel_",
+                "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              },
+              "dontDisplayUpgrades": true,
+              "emoteSpriteSmall": null,
+              "emoteSpriteLarge": null,
+              "doesntRotate": false,
+              "upgrades": [],
+              "appliedUpgrades": [],
+              "targetTypes": [
+                {
+                  "id": "Pursuit",
+                  "isActionable": false,
+                  "actionOnCreate": false,
+                  "intID": -1
+                }
+              ],
+              "paragonUpgrade": null,
+              "isSubTower": true,
+              "isBakable": false,
+              "powerName": null,
+              "showPowerTowerBuffs": false,
+              "animationSpeed": 1.0,
+              "towerSelectionMenuThemeId": "Default",
+              "ignoreCoopAreas": false,
+              "canAlwaysBeSold": false,
+              "isParagon": false,
+              "sellbackModifierAdd": 0.0,
+              "isPowerTower": false,
+              "IsBaseTower": false,
+              "TargetTypes": [
+                {
+                  "id": "Pursuit",
+                  "isActionable": false,
+                  "actionOnCreate": false,
+                  "intID": -1
+                }
+              ],
+              "name": "DroneSwarmDrone",
+              "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            "count": 4,
+            "spawnDelay": 1.0,
+            "spawnDelayFrames": 59,
+            "spawnAnimState": 1,
+            "spawnMarkerStartsX": [
+              14.14214,
+              5.176381,
+              -5.176381,
+              -14.14214
+            ],
+            "spawnMarkerStartsY": [
+              14.14214,
+              19.3185158,
+              19.3185158,
+              14.14214
+            ],
+            "spawnMarkerEndsX": [
+              35.35534,
+              12.9409523,
+              -12.94095,
+              -35.35534
+            ],
+            "spawnMarkerEndsY": [
+              35.35534,
+              48.29629,
+              48.29629,
+              35.35534
+            ],
+            "spawnIndexRotation": 30.0,
+            "effectAtSpawn": {
+              "assetId": "13ac0937e3c4962479f285cd3dcf69d2",
+              "scale": 1.0,
+              "lifespan": 2.0,
+              "fullscreen": false,
+              "useCenterPosition": false,
+              "useTransformPosition": false,
+              "useTransfromRotation": false,
+              "destroyOnTransformDestroy": false,
+              "alwaysUseAge": false,
+              "useRoundTime": false,
+              "name": "EffectModel_PlaceEffect",
+              "ImplementationType": null
+            },
+            "updateTargetType": false,
+            "effectOnDisplayChanged": {
+              "assetId": "b1dec8a8d79593843bc2e2410eae944e",
+              "scale": 1.0,
+              "lifespan": 1.0,
+              "fullscreen": false,
+              "useCenterPosition": false,
+              "useTransformPosition": false,
+              "useTransfromRotation": false,
+              "destroyOnTransformDestroy": false,
+              "alwaysUseAge": false,
+              "useRoundTime": false,
+              "name": "EffectModel_DroneUpgradeEffect",
+              "ImplementationType": null
+            },
+            "createDroneUpgradeEffect": false,
+            "ignoreTargetingTime": 2.0,
+            "ignoreTargetingFrames": 119,
+            "name": "DroneSupportModel_DroneSwarmAbility",
+            "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.DroneSupport, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "droneEndRadius": 14.0,
+          "droneEndRadiusSquared": 196.0,
+          "name": "DroneSwarmModel_DroneSwarmAbilityBehaviors",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.DroneSwarm, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "sound": {
+            "assetId": "b702d6ab37265114a8c0644ee45bada0",
+            "name": "SoundModel_Ability3EtienneNoVO",
+            "ImplementationType": null
+          },
+          "heroSound": {
+            "assetId": "170fbfb7ba35b2d448f371d434adf042",
+            "name": "SoundModel_Ability3Etienne",
+            "ImplementationType": null
+          },
+          "heroSound2": {
+            "assetId": "170fbfb7ba35b2d448f371d434adf042",
+            "name": "SoundModel_Ability3Etienne",
+            "ImplementationType": null
+          },
+          "name": "CreateSoundOnAbilityModel_DroneSwarmAbilityBehaviors",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateSoundOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "effectModel": {
+            "assetId": "b99b2ce7a50d15547a91abe3cc058e4f",
+            "scale": 1.0,
+            "lifespan": 20.5,
+            "fullscreen": false,
+            "useCenterPosition": false,
+            "useTransformPosition": true,
+            "useTransfromRotation": false,
+            "destroyOnTransformDestroy": false,
+            "alwaysUseAge": false,
+            "useRoundTime": true,
+            "name": "EffectModel_",
+            "ImplementationType": null
+          },
+          "randomRotation": false,
+          "centerEffect": false,
+          "destroyOnEnd": true,
+          "useAttackTransform": false,
+          "canSave": true,
+          "name": "CreateEffectOnAbilityModel_DroneSwarmAbilityBehaviors_",
+          "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Behaviors.CreateEffectOnAbility, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "activateOnPreLeak": false,
+      "activateOnLeak": false,
+      "addedViaUpgrade": "Etienne Upgrade 3",
+      "cooldownFrames": 3299,
+      "livesCost": 0,
+      "maxActivationsPerRound": -1,
+      "animation": 1,
+      "animationOffsetFrames": 0,
+      "enabled": true,
+      "canActivateBetweenRounds": false,
+      "resetCooldownOnTierUpgrade": false,
+      "disabledByAnotherTower": false,
+      "activateOnLivesLost": false,
+      "sharedCooldown": false,
+      "dontShowStacked": false,
+      "animateOnMainAttackDisplay": false,
+      "restrictAbilityAfterMaxRoundTimer": false,
+      "CooldownSpeedScale": 0.0,
+      "AnimationOffset": 0.0,
+      "IsPassive": false,
+      "Cooldown": 55.0,
+      "name": "AbilityModel_DroneSwarmAbility",
+      "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.Abilities.Ability, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "display": "93e70367c5c8c134f893a0c856dd651d",
+      "layer": -1,
+      "positionOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 0.0,
+        "SimToDispRotation": 180.0
+      },
+      "scale": 1.0,
+      "ignoreRotation": false,
+      "animationChanges": null,
+      "delayedReveal": 0.0,
+      "name": "DisplayModel_TowerDisplay",
+      "ImplementationType": "Assets.Scripts.Simulation.Behaviors.DisplayBehavior, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "footprint": {
+    "radius": 7.0,
+    "doesntBlockTowerPlacement": false,
+    "ignoresPlacementCheck": false,
+    "ignoresTowerOverlap": false,
+    "name": "CircleFootprintModel_Circle Footprint",
+    "ImplementationType": "Assets.Scripts.Simulation.Towers.Behaviors.CircleFootprint, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+  },
+  "dontDisplayUpgrades": false,
+  "emoteSpriteSmall": {
+    "GUID": "UiEmoteIcons[EmoteEtienne]",
+    "IsValid": true
+  },
+  "emoteSpriteLarge": {
+    "GUID": "57dc679306cb24574b38811ccce74a6c",
+    "IsValid": true
+  },
+  "doesntRotate": false,
+  "upgrades": [
+    {
+      "tower": "Etienne 8",
+      "upgrade": "Etienne Upgrade 8"
+    }
+  ],
+  "appliedUpgrades": [
+    "Etienne Upgrade 2",
+    "Etienne Upgrade 3",
+    "Etienne Upgrade 4",
+    "Etienne Upgrade 5",
+    "Etienne Upgrade 6",
+    "Etienne Upgrade 7"
+  ],
+  "targetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "DivideAndConquer",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": -1
+    }
+  ],
+  "paragonUpgrade": null,
+  "isSubTower": false,
+  "isBakable": true,
+  "powerName": null,
+  "showPowerTowerBuffs": false,
+  "animationSpeed": 1.0,
+  "towerSelectionMenuThemeId": "Default",
+  "ignoreCoopAreas": false,
+  "canAlwaysBeSold": false,
+  "isParagon": false,
+  "sellbackModifierAdd": 0.0,
+  "isPowerTower": false,
+  "IsBaseTower": false,
+  "TargetTypes": [
+    {
+      "id": "First",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": 0
+    },
+    {
+      "id": "DivideAndConquer",
+      "isActionable": false,
+      "actionOnCreate": false,
+      "intID": -1
+    }
+  ],
+  "name": "Etienne 7",
+  "ImplementationType": "Assets.Scripts.Simulation.Towers.Tower, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
