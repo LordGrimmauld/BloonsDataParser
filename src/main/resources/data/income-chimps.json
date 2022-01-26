@@ -1,0 +1,480 @@
+{
+  "starting_cash": 650,
+  "rounds": [
+    {
+      "round": 6,
+      "rbe": 57,
+      "cashThisRound": 163
+    },
+    {
+      "round": 7,
+      "rbe": 75,
+      "cashThisRound": 182
+    },
+    {
+      "round": 8,
+      "rbe": 92,
+      "cashThisRound": 200
+    },
+    {
+      "round": 9,
+      "rbe": 90,
+      "cashThisRound": 199
+    },
+    {
+      "round": 10,
+      "rbe": 204,
+      "cashThisRound": 314
+    },
+    {
+      "round": 11,
+      "rbe": 78,
+      "cashThisRound": 189
+    },
+    {
+      "round": 12,
+      "rbe": 80,
+      "cashThisRound": 192
+    },
+    {
+      "round": 13,
+      "rbe": 169,
+      "cashThisRound": 282
+    },
+    {
+      "round": 14,
+      "rbe": 145,
+      "cashThisRound": 259
+    },
+    {
+      "round": 15,
+      "rbe": 151,
+      "cashThisRound": 266
+    },
+    {
+      "round": 16,
+      "rbe": 152,
+      "cashThisRound": 268
+    },
+    {
+      "round": 17,
+      "rbe": 48,
+      "cashThisRound": 165
+    },
+    {
+      "round": 18,
+      "rbe": 240,
+      "cashThisRound": 358
+    },
+    {
+      "round": 19,
+      "rbe": 141,
+      "cashThisRound": 260
+    },
+    {
+      "round": 20,
+      "rbe": 66,
+      "cashThisRound": 186
+    },
+    {
+      "round": 21,
+      "rbe": 230,
+      "cashThisRound": 351
+    },
+    {
+      "round": 22,
+      "rbe": 176,
+      "cashThisRound": 298
+    },
+    {
+      "round": 23,
+      "rbe": 154,
+      "cashThisRound": 277
+    },
+    {
+      "round": 24,
+      "rbe": 43,
+      "cashThisRound": 167
+    },
+    {
+      "round": 25,
+      "rbe": 210,
+      "cashThisRound": 335
+    },
+    {
+      "round": 26,
+      "rbe": 207,
+      "cashThisRound": 333
+    },
+    {
+      "round": 27,
+      "rbe": 535,
+      "cashThisRound": 662
+    },
+    {
+      "round": 28,
+      "rbe": 138,
+      "cashThisRound": 266
+    },
+    {
+      "round": 29,
+      "rbe": 260,
+      "cashThisRound": 389
+    },
+    {
+      "round": 30,
+      "rbe": 207,
+      "cashThisRound": 337
+    },
+    {
+      "round": 31,
+      "rbe": 406,
+      "cashThisRound": 537
+    },
+    {
+      "round": 32,
+      "rbe": 495,
+      "cashThisRound": 627
+    },
+    {
+      "round": 33,
+      "rbe": 72,
+      "cashThisRound": 205
+    },
+    {
+      "round": 34,
+      "rbe": 778,
+      "cashThisRound": 912
+    },
+    {
+      "round": 35,
+      "rbe": 1015,
+      "cashThisRound": 1150
+    },
+    {
+      "round": 36,
+      "rbe": 760,
+      "cashThisRound": 896
+    },
+    {
+      "round": 37,
+      "rbe": 1202,
+      "cashThisRound": 1339
+    },
+    {
+      "round": 38,
+      "rbe": 1157,
+      "cashThisRound": 1277
+    },
+    {
+      "round": 39,
+      "rbe": 1620,
+      "cashThisRound": 1759
+    },
+    {
+      "round": 40,
+      "rbe": 616,
+      "cashThisRound": 521
+    },
+    {
+      "round": 41,
+      "rbe": 2040,
+      "cashThisRound": 2181
+    },
+    {
+      "round": 42,
+      "rbe": 517,
+      "cashThisRound": 659
+    },
+    {
+      "round": 43,
+      "rbe": 1198,
+      "cashThisRound": 1278
+    },
+    {
+      "round": 44,
+      "rbe": 1150,
+      "cashThisRound": 1294
+    },
+    {
+      "round": 45,
+      "rbe": 2289,
+      "cashThisRound": 2422
+    },
+    {
+      "round": 46,
+      "rbe": 684,
+      "cashThisRound": 716
+    },
+    {
+      "round": 47,
+      "rbe": 1598,
+      "cashThisRound": 1637
+    },
+    {
+      "round": 48,
+      "rbe": 2752,
+      "cashThisRound": 2843
+    },
+    {
+      "round": 49,
+      "rbe": 4771,
+      "cashThisRound": 4758
+    },
+    {
+      "round": 50,
+      "rbe": 3540,
+      "cashThisRound": 3016
+    },
+    {
+      "round": 51,
+      "rbe": 2030,
+      "cashThisRound": 1098.5
+    },
+    {
+      "round": 52,
+      "rbe": 3447,
+      "cashThisRound": 1595.5
+    },
+    {
+      "round": 53,
+      "rbe": 2248,
+      "cashThisRound": 924.5
+    },
+    {
+      "round": 54,
+      "rbe": 4872,
+      "cashThisRound": 2197.5
+    },
+    {
+      "round": 55,
+      "rbe": 5296,
+      "cashThisRound": 2483
+    },
+    {
+      "round": 56,
+      "rbe": 2496,
+      "cashThisRound": 1286.5
+    },
+    {
+      "round": 57,
+      "rbe": 4344,
+      "cashThisRound": 1859
+    },
+    {
+      "round": 58,
+      "rbe": 5780,
+      "cashThisRound": 2298
+    },
+    {
+      "round": 59,
+      "rbe": 4270,
+      "cashThisRound": 2159
+    },
+    {
+      "round": 60,
+      "rbe": 3164,
+      "cashThisRound": 922.5
+    },
+    {
+      "round": 61,
+      "rbe": 6530,
+      "cashThisRound": 1232
+    },
+    {
+      "round": 62,
+      "rbe": 8247,
+      "cashThisRound": 1386.4
+    },
+    {
+      "round": 63,
+      "rbe": 14413,
+      "cashThisRound": 2826
+    },
+    {
+      "round": 64,
+      "rbe": 6264,
+      "cashThisRound": 849.8
+    },
+    {
+      "round": 65,
+      "rbe": 18966,
+      "cashThisRound": 3071.6
+    },
+    {
+      "round": 66,
+      "rbe": 7496,
+      "cashThisRound": 1004.2
+    },
+    {
+      "round": 67,
+      "rbe": 6410,
+      "cashThisRound": 1023.6
+    },
+    {
+      "round": 68,
+      "rbe": 5628,
+      "cashThisRound": 777.8
+    },
+    {
+      "round": 69,
+      "rbe": 6680,
+      "cashThisRound": 1391
+    },
+    {
+      "round": 70,
+      "rbe": 13184,
+      "cashThisRound": 2618.8
+    },
+    {
+      "round": 71,
+      "rbe": 9280,
+      "cashThisRound": 1503
+    },
+    {
+      "round": 72,
+      "rbe": 10280,
+      "cashThisRound": 1504
+    },
+    {
+      "round": 73,
+      "rbe": 11256,
+      "cashThisRound": 1392.6
+    },
+    {
+      "round": 74,
+      "rbe": 18054,
+      "cashThisRound": 3044
+    },
+    {
+      "round": 75,
+      "rbe": 25402,
+      "cashThisRound": 2667.4
+    },
+    {
+      "round": 76,
+      "rbe": 6240,
+      "cashThisRound": 1316
+    },
+    {
+      "round": 77,
+      "rbe": 22596,
+      "cashThisRound": 2540.2
+    },
+    {
+      "round": 78,
+      "rbe": 26382,
+      "cashThisRound": 4862
+    },
+    {
+      "round": 79,
+      "rbe": 45804,
+      "cashThisRound": 6709
+    },
+    {
+      "round": 80,
+      "rbe": 16656,
+      "cashThisRound": 1400.2
+    },
+    {
+      "round": 81,
+      "rbe": 44506,
+      "cashThisRound": 5366
+    },
+    {
+      "round": 82,
+      "rbe": 52320,
+      "cashThisRound": 4757
+    },
+    {
+      "round": 83,
+      "rbe": 25080,
+      "cashThisRound": 4749
+    },
+    {
+      "round": 84,
+      "rbe": 51480,
+      "cashThisRound": 7044
+    },
+    {
+      "round": 85,
+      "rbe": 30704,
+      "cashThisRound": 2625.4
+    },
+    {
+      "round": 86,
+      "rbe": 27040,
+      "cashThisRound": 948.5
+    },
+    {
+      "round": 87,
+      "rbe": 63008,
+      "cashThisRound": 2627.4
+    },
+    {
+      "round": 88,
+      "rbe": 63600,
+      "cashThisRound": 3314
+    },
+    {
+      "round": 89,
+      "rbe": 64384,
+      "cashThisRound": 2171
+    },
+    {
+      "round": 90,
+      "rbe": 2756,
+      "cashThisRound": 339.3
+    },
+    {
+      "round": 91,
+      "rbe": 71160,
+      "cashThisRound": 4191
+    },
+    {
+      "round": 92,
+      "rbe": 117408,
+      "cashThisRound": 4537.4
+    },
+    {
+      "round": 93,
+      "rbe": 62936,
+      "cashThisRound": 1946.6
+    },
+    {
+      "round": 94,
+      "rbe": 178112,
+      "cashThisRound": 7667.1
+    },
+    {
+      "round": 95,
+      "rbe": 80860,
+      "cashThisRound": 3718
+    },
+    {
+      "round": 96,
+      "rbe": 238952,
+      "cashThisRound": 9955.6
+    },
+    {
+      "round": 97,
+      "rbe": 69984,
+      "cashThisRound": 1417.2
+    },
+    {
+      "round": 98,
+      "rbe": 327456,
+      "cashThisRound": 9653.8
+    },
+    {
+      "round": 99,
+      "rbe": 47424,
+      "cashThisRound": 2827.9
+    },
+    {
+      "round": 100,
+      "rbe": 67200,
+      "cashThisRound": 1534.6
+    }
+  ]
+}

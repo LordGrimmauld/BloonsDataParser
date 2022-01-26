@@ -12,6 +12,7 @@ public class TowerManager {
 	private static final Gson gson = new Gson();
 	public final Set<Upgrade> upgrades;
 	public final Set<Tower> towers;
+	public final Set<TowerInstance> chimpsViable;
 
 
 	public TowerManager() {
@@ -24,6 +25,12 @@ public class TowerManager {
 			.collect(Collectors.toSet());
 		towers = FileManager.getResourceListing("data/Towers")
 			.map(Tower::new)
+			.collect(Collectors.toSet());
+		chimpsViable = towers.stream()
+			.map(Tower::getInstances)
+			.flatMap(Set::stream)
+			.filter(TowerInstance::isPurchasableTower)
+			.filter(TowerInstance::isChimpsViable)
 			.collect(Collectors.toSet());
 	}
 }
