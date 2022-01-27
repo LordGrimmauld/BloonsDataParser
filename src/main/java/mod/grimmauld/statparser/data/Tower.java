@@ -20,7 +20,7 @@ public class Tower {
 			.map(FileManager::getFileFromResourceAsStream)
 			.map(InputStreamReader::new)
 			.map(JsonParser::parseReader)
-			.map(je -> gson.fromJson(je, TowerInstance.class))
+			.map(je -> gson.fromJson(je, TowerInstance.class).withWeapons(je))
 			.filter(Objects::nonNull)
 			.collect(Collectors.toSet());
 	}

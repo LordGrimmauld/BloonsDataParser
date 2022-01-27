@@ -1,5 +1,6 @@
 package mod.grimmauld.statparser;
 
+import mod.grimmauld.statparser.data.Immunities;
 import mod.grimmauld.statparser.data.RoundManager;
 import mod.grimmauld.statparser.data.TowerInstance;
 import mod.grimmauld.statparser.data.TowerManager;
@@ -17,10 +18,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		LOGGER.info("loaded tower json");
-		generatePossibleCombos().forEach(Main::printCombo);
+		generatePossibleCombos()
+			.map(UnorderedPair.applyOnBoth(TowerInstance::getPath))
+			.distinct()
+			.forEach(Main::printCombo);
 	}
 
-	public static void printCombo(UnorderedPair<TowerInstance, TowerInstance> combo) {
+	public static void printCombo(UnorderedPair<?, ?> combo) {
 		LOGGER.info("{} + {}", combo.getFirst(), combo.getSecond());
 	}
 
@@ -30,7 +34,13 @@ public class Main {
 			.flatMap(towerOne -> TOWER_MANAGER.chimpsViable.stream()
 				.filter(towerOne::compatibleWith)
 				.filter(towerTwo -> towerOne.getPrice(TOWER_MANAGER) + towerTwo.getPrice(TOWER_MANAGER) < ROUND_MANAGER.totalCash)
+				.filter(towerTwo -> towerOne.getPrice(TOWER_MANAGER) + towerTwo.getPrice(TOWER_MANAGER) > 25000)
 				.map(towerTwo -> UnorderedPair.of(towerOne, towerTwo)))
-			.distinct();
+			.distinct()
+			.filter(UnorderedPair.matchesBoth(towerInstance -> towerInstance.ishero() || towerInstance.getPrice(TOWER_MANAGER) > 2000))
+			// .filter(UnorderedPair.matchesAtLeastOne(TowerInstance::canHitCamo))
+			.filter(UnorderedPair.matchesAtLeastOne(towerInstance -> towerInstance.canAttack(Immunities.LEAD | Immunities.BLACK)))
+			.filter(UnorderedPair.matchesAtLeastOne(towerInstance -> towerInstance.canAttack(Immunities.WHITE)))
+			.filter(UnorderedPair.matchesAtLeastOne(towerInstance -> towerInstance.canAttack(Immunities.PURPLE)));
 	}
 }

@@ -1,8 +1,10 @@
 package mod.grimmauld.statparser.util;
 
 import java.util.Objects;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
-public class UnorderedPair <F, S> {
+public class UnorderedPair<F, S> {
 
 	F first;
 	S second;
@@ -16,16 +18,28 @@ public class UnorderedPair <F, S> {
 		return new UnorderedPair<>(first, second);
 	}
 
+	public static <T> Predicate<UnorderedPair<T, T>> matchesAtLeastOne(Predicate<T> predicate) {
+		return ttUnorderedPair -> predicate.test(ttUnorderedPair.first) || predicate.test(ttUnorderedPair.second);
+	}
+
+	public static <T> Predicate<UnorderedPair<T, T>> matchesBoth(Predicate<T> predicate) {
+		return ttUnorderedPair -> predicate.test(ttUnorderedPair.first) && predicate.test(ttUnorderedPair.second);
+	}
+
+	public static <S, T> Function<UnorderedPair<S, S>, UnorderedPair<T, T>> applyOnBoth(Function<S, T> function) {
+		return ssUnorderedPair -> UnorderedPair.of(function.apply(ssUnorderedPair.first), function.apply(ssUnorderedPair.second));
+	}
+
 	public F getFirst() {
 		return first;
 	}
 
-	public S getSecond() {
-		return second;
-	}
-
 	public void setFirst(F first) {
 		this.first = first;
+	}
+
+	public S getSecond() {
+		return second;
 	}
 
 	public void setSecond(S second) {
